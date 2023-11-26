@@ -1,0 +1,70 @@
+2023-11-26 22:55:56,908 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 22:55:57,005 - WARNING - Updates were skipped successfully.
+2023-11-26 22:55:57,005 - INFO - Start polling.
+2023-11-26 22:56:21,353 - INFO - Stop polling...
+2023-11-26 22:56:21,353 - WARNING - Goodbye!
+2023-11-26 22:56:23,526 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 22:56:23,629 - WARNING - Updates were skipped successfully.
+2023-11-26 22:56:23,630 - INFO - Start polling.
+2023-11-26 22:57:35,636 - INFO - Stop polling...
+2023-11-26 22:57:35,636 - WARNING - Goodbye!
+2023-11-26 22:57:37,472 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 22:57:37,472 - INFO - Start polling.
+2023-11-26 22:57:52,509 - INFO - Stop polling...
+2023-11-26 22:57:52,510 - WARNING - Goodbye!
+2023-11-26 23:02:09,439 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 23:02:09,440 - INFO - Start polling.
+2023-11-26 23:02:30,372 - INFO - Stop polling...
+2023-11-26 23:02:30,373 - WARNING - Goodbye!
+2023-11-26 23:03:58,080 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 23:03:58,080 - INFO - Start polling.
+2023-11-26 23:04:30,731 - INFO - Stop polling...
+2023-11-26 23:04:30,732 - WARNING - Goodbye!
+2023-11-26 23:05:23,675 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 23:05:23,675 - INFO - Start polling.
+2023-11-26 23:10:54,099 - INFO - Stop polling...
+2023-11-26 23:10:54,099 - WARNING - Goodbye!
+2023-11-26 23:10:59,918 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 23:10:59,918 - INFO - Start polling.
+2023-11-26 23:11:47,191 - INFO - Stop polling...
+2023-11-26 23:11:47,192 - WARNING - Goodbye!
+2023-11-26 23:12:07,009 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 23:12:07,010 - INFO - Start polling.
+2023-11-26 23:12:23,165 - INFO - Stop polling...
+2023-11-26 23:12:23,165 - WARNING - Goodbye!
+2023-11-26 23:12:35,115 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 23:12:35,211 - WARNING - Updates were skipped successfully.
+2023-11-26 23:12:35,211 - INFO - Start polling.
+2023-11-26 23:12:45,392 - INFO - Stop polling...
+2023-11-26 23:12:45,392 - WARNING - Goodbye!
+2023-11-26 23:13:51,527 - INFO - Bot: ФОПФ.Знакомства [@fopf_dating_bot]
+2023-11-26 23:13:51,627 - WARNING - Updates were skipped successfully.
+2023-11-26 23:13:51,627 - INFO - Start polling.
+2023-11-26 23:14:01,992 - INFO - Stop polling...
+2023-11-26 23:14:01,993 - WARNING - Goodbye!
+2023-11-26 23:17:44,596 - INFO - Start polling.
+2023-11-26 23:18:11,161 - WARNING - Polling is stopped.
+2023-11-26 23:18:11,206 - INFO - Stop polling...
+2023-11-26 23:18:11,206 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fee4a37c590>
+2023-11-26 23:20:29,988 - INFO - Start polling.
+2023-11-26 23:20:42,623 - WARNING - Polling is stopped.
+2023-11-26 23:20:42,672 - INFO - Stop polling...
+2023-11-26 23:20:42,672 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f2d7d2c4c50>
+2023-11-26 23:20:42,672 - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f2d7b285be0>, 399411.501486829)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f2d7b2b4f90>
+2023-11-26 23:21:15,127 - INFO - Start polling.
+2023-11-26 23:21:27,722 - WARNING - Polling is stopped.
+2023-11-26 23:21:27,764 - INFO - Stop polling...
+2023-11-26 23:21:27,764 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fae98a90ad0>
+2023-11-26 23:27:30,603 - INFO - Start polling.
+2023-11-26 23:27:57,319 - WARNING - Polling is stopped.
+2023-11-26 23:27:57,359 - INFO - Stop polling...
+2023-11-26 23:27:57,359 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7efffb4cced0>
+2023-11-26 23:27:57,359 - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7efffa679a90>, 399846.238126882)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7efffa68fed0>
