@@ -1,70 +1,1966 @@
-2023-11-26 22:55:56,908 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 22:55:57,005 - WARNING - Updates were skipped successfully.
-2023-11-26 22:55:57,005 - INFO - Start polling.
-2023-11-26 22:56:21,353 - INFO - Stop polling...
-2023-11-26 22:56:21,353 - WARNING - Goodbye!
-2023-11-26 22:56:23,526 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 22:56:23,629 - WARNING - Updates were skipped successfully.
-2023-11-26 22:56:23,630 - INFO - Start polling.
-2023-11-26 22:57:35,636 - INFO - Stop polling...
-2023-11-26 22:57:35,636 - WARNING - Goodbye!
-2023-11-26 22:57:37,472 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 22:57:37,472 - INFO - Start polling.
-2023-11-26 22:57:52,509 - INFO - Stop polling...
-2023-11-26 22:57:52,510 - WARNING - Goodbye!
-2023-11-26 23:02:09,439 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 23:02:09,440 - INFO - Start polling.
-2023-11-26 23:02:30,372 - INFO - Stop polling...
-2023-11-26 23:02:30,373 - WARNING - Goodbye!
-2023-11-26 23:03:58,080 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 23:03:58,080 - INFO - Start polling.
-2023-11-26 23:04:30,731 - INFO - Stop polling...
-2023-11-26 23:04:30,732 - WARNING - Goodbye!
-2023-11-26 23:05:23,675 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 23:05:23,675 - INFO - Start polling.
-2023-11-26 23:10:54,099 - INFO - Stop polling...
-2023-11-26 23:10:54,099 - WARNING - Goodbye!
-2023-11-26 23:10:59,918 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 23:10:59,918 - INFO - Start polling.
-2023-11-26 23:11:47,191 - INFO - Stop polling...
-2023-11-26 23:11:47,192 - WARNING - Goodbye!
-2023-11-26 23:12:07,009 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 23:12:07,010 - INFO - Start polling.
-2023-11-26 23:12:23,165 - INFO - Stop polling...
-2023-11-26 23:12:23,165 - WARNING - Goodbye!
-2023-11-26 23:12:35,115 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 23:12:35,211 - WARNING - Updates were skipped successfully.
-2023-11-26 23:12:35,211 - INFO - Start polling.
-2023-11-26 23:12:45,392 - INFO - Stop polling...
-2023-11-26 23:12:45,392 - WARNING - Goodbye!
-2023-11-26 23:13:51,527 - INFO - Bot: –§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞ [@fopf_dating_bot]
-2023-11-26 23:13:51,627 - WARNING - Updates were skipped successfully.
-2023-11-26 23:13:51,627 - INFO - Start polling.
-2023-11-26 23:14:01,992 - INFO - Stop polling...
-2023-11-26 23:14:01,993 - WARNING - Goodbye!
-2023-11-26 23:17:44,596 - INFO - Start polling.
-2023-11-26 23:18:11,161 - WARNING - Polling is stopped.
-2023-11-26 23:18:11,206 - INFO - Stop polling...
-2023-11-26 23:18:11,206 - ERROR - Unclosed client session
-client_session: <aiohttp.client.ClientSession object at 0x7fee4a37c590>
-2023-11-26 23:20:29,988 - INFO - Start polling.
-2023-11-26 23:20:42,623 - WARNING - Polling is stopped.
-2023-11-26 23:20:42,672 - INFO - Stop polling...
-2023-11-26 23:20:42,672 - ERROR - Unclosed client session
-client_session: <aiohttp.client.ClientSession object at 0x7f2d7d2c4c50>
-2023-11-26 23:20:42,672 - ERROR - Unclosed connector
-connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f2d7b285be0>, 399411.501486829)]']
-connector: <aiohttp.connector.TCPConnector object at 0x7f2d7b2b4f90>
-2023-11-26 23:21:15,127 - INFO - Start polling.
-2023-11-26 23:21:27,722 - WARNING - Polling is stopped.
-2023-11-26 23:21:27,764 - INFO - Stop polling...
-2023-11-26 23:21:27,764 - ERROR - Unclosed client session
-client_session: <aiohttp.client.ClientSession object at 0x7fae98a90ad0>
-2023-11-26 23:27:30,603 - INFO - Start polling.
-2023-11-26 23:27:57,319 - WARNING - Polling is stopped.
-2023-11-26 23:27:57,359 - INFO - Stop polling...
-2023-11-26 23:27:57,359 - ERROR - Unclosed client session
-client_session: <aiohttp.client.ClientSession object at 0x7efffb4cced0>
-2023-11-26 23:27:57,359 - ERROR - Unclosed connector
-connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7efffa679a90>, 399846.238126882)]']
-connector: <aiohttp.connector.TCPConnector object at 0x7efffa68fed0>
+2023-12-03 18:24:18,505 - INFO - Start polling
+2023-12-03 18:24:18,786 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:24:21,028 - INFO - Update id=424430919 is handled. Duration 327 ms by bot id=6988902728
+2023-12-03 18:24:23,584 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:24:23,584 - INFO - Polling stopped
+2023-12-03 18:26:16,563 - INFO - Start polling
+2023-12-03 18:26:16,817 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:26:19,663 - INFO - Update id=424430920 is not handled. Duration 344 ms by bot id=6988902728
+2023-12-03 18:26:19,664 - ERROR - Cause exception while process update id=424430920 by bot id=6988902728
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 29, in cmd_dice
+    await bot.send_dice(-100123456789, emoji=DiceEmoji.DICE)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 2370, in send_dice
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 432, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2023-12-03 18:26:30,272 - INFO - Update id=424430921 is handled. Duration 217 ms by bot id=6988902728
+2023-12-03 18:26:33,010 - INFO - Update id=424430922 is not handled. Duration 108 ms by bot id=6988902728
+2023-12-03 18:26:33,010 - ERROR - Cause exception while process update id=424430922 by bot id=6988902728
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 29, in cmd_dice
+    await bot.send_dice(-100123456789, emoji=DiceEmoji.DICE)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 2370, in send_dice
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 432, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2023-12-03 18:26:50,038 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:26:50,038 - INFO - Polling stopped
+2023-12-03 18:26:53,674 - INFO - Start polling
+2023-12-03 18:26:53,959 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:26:54,329 - INFO - Update id=424430923 is not handled. Duration 250 ms by bot id=6988902728
+2023-12-03 18:26:54,329 - ERROR - Cause exception while process update id=424430923 by bot id=6988902728
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 29, in cmd_dice
+    await bot.send_dice(-100123456789, emoji=DiceEmoji.DICE)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 2370, in send_dice
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 432, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2023-12-03 18:28:39,044 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:28:39,044 - INFO - Polling stopped
+2023-12-03 18:28:42,549 - INFO - Start polling
+2023-12-03 18:28:42,801 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:28:45,214 - INFO - Update id=424430924 is handled. Duration 311 ms by bot id=6988902728
+2023-12-03 18:29:07,737 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:29:07,737 - INFO - Polling stopped
+2023-12-03 18:29:10,732 - INFO - Start polling
+2023-12-03 18:29:10,985 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:29:13,475 - INFO - Update id=424430925 is handled. Duration 280 ms by bot id=6988902728
+2023-12-03 18:29:42,425 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:29:42,425 - INFO - Polling stopped
+2023-12-03 18:29:45,967 - INFO - Start polling
+2023-12-03 18:29:46,205 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:29:46,972 - INFO - Update id=424430926 is handled. Duration 296 ms by bot id=6988902728
+2023-12-03 18:30:59,369 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:30:59,370 - INFO - Polling stopped
+2023-12-03 18:38:49,459 - INFO - Start polling
+2023-12-03 18:38:49,714 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:38:54,769 - INFO - Polling stopped
+2023-12-03 18:38:54,770 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:39:51,039 - INFO - Start polling
+2023-12-03 18:39:51,262 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:39:54,965 - INFO - Polling stopped
+2023-12-03 18:39:54,965 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:45:11,791 - INFO - Start polling
+2023-12-03 18:45:12,128 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 18:45:17,672 - INFO - Update id=424430927 is handled. Duration 296 ms by bot id=6988902728
+2023-12-03 18:45:22,224 - INFO - Polling stopped
+2023-12-03 18:45:22,225 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:06:32,952 - INFO - Start polling
+2023-12-03 19:06:33,227 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:06:39,606 - INFO - Update id=424430928 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 19:06:39,606 - ERROR - Cause exception while process update id=424430928 by bot id=6988902728
+TypeError: __init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 29, in start
+    button_start = KeyboardButton('–ù–∞–π—Ç–∏ —Å–µ–±–µ —á–µ–ª–æ–≤–µ—á–∫–∞')
+TypeError: __init__() takes 1 positional argument but 2 were given
+2023-12-03 19:07:50,956 - INFO - Polling stopped
+2023-12-03 19:07:50,956 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:07:54,861 - INFO - Start polling
+2023-12-03 19:07:55,137 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:07:57,416 - INFO - Update id=424430929 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 19:07:57,416 - ERROR - Cause exception while process update id=424430929 by bot id=6988902728
+TypeError: __init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 29, in start
+    button_start = KeyboardButton('–ù–∞–π—Ç–∏ —Å–µ–±–µ —á–µ–ª–æ–≤–µ—á–∫–∞')
+TypeError: __init__() takes 1 positional argument but 2 were given
+2023-12-03 19:11:00,836 - INFO - Polling stopped
+2023-12-03 19:11:00,836 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:11:04,265 - INFO - Start polling
+2023-12-03 19:11:04,518 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:11:08,536 - INFO - Update id=424430930 is handled. Duration 438 ms by bot id=6988902728
+2023-12-03 19:11:57,905 - INFO - Polling stopped
+2023-12-03 19:11:57,906 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:12:01,381 - INFO - Start polling
+2023-12-03 19:12:01,636 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:12:04,573 - INFO - Update id=424430931 is handled. Duration 546 ms by bot id=6988902728
+2023-12-03 19:12:06,956 - INFO - Update id=424430932 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 19:16:17,479 - INFO - Polling stopped
+2023-12-03 19:16:17,480 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:16:21,531 - INFO - Start polling
+2023-12-03 19:16:21,788 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:16:23,487 - INFO - Update id=424430933 is not handled. Duration 390 ms by bot id=6988902728
+2023-12-03 19:16:23,487 - ERROR - Cause exception while process update id=424430933 by bot id=6988902728
+TypeError: answer() missing 1 required positional argument: 'text'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 40, in start
+    await message.answer(emoji=":heart:")
+TypeError: answer() missing 1 required positional argument: 'text'
+2023-12-03 19:17:15,315 - INFO - Polling stopped
+2023-12-03 19:17:15,315 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:17:18,913 - INFO - Start polling
+2023-12-03 19:17:19,191 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:17:22,239 - INFO - Update id=424430934 is handled. Duration 469 ms by bot id=6988902728
+2023-12-03 19:17:25,383 - INFO - Update id=424430935 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 19:24:15,379 - INFO - Polling stopped
+2023-12-03 19:24:15,380 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '–§–û–ü–§.–ó–Ω–∞–∫–æ–º—Å—Ç–≤–∞'
+2023-12-03 19:30:56,495 - INFO - Start polling
+2023-12-03 19:30:56,788 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 19:30:57,295 - INFO - Update id=424430937 is handled. Duration 421 ms by bot id=6988902728
+2023-12-03 19:30:57,343 - INFO - Update id=424430936 is handled. Duration 467 ms by bot id=6988902728
+2023-12-03 19:31:13,657 - INFO - Update id=424430938 is handled. Duration 609 ms by bot id=6988902728
+2023-12-03 19:31:15,807 - INFO - Update id=424430939 is not handled. Duration 15 ms by bot id=6988902728
+2023-12-03 19:31:15,808 - ERROR - Cause exception while process update id=424430939 by bot id=6988902728
+OperationalError: no such table: profile_list
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 60, in magic_start
+    if not db.profile_exists(message.from_user.id):
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\database.py", line 32, in profile_exists
+    result = self.cursor.execute('SELECT * FROM `profile_list` WHERE `telegram_id` = ?', (user_id,)).fetchall()
+sqlite3.OperationalError: no such table: profile_list
+2023-12-03 19:31:23,256 - INFO - Update id=424430940 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 19:31:23,256 - ERROR - Cause exception while process update id=424430940 by bot id=6988902728
+OperationalError: no such table: profile_list
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 60, in magic_start
+    if not db.profile_exists(message.from_user.id):
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\database.py", line 32, in profile_exists
+    result = self.cursor.execute('SELECT * FROM `profile_list` WHERE `telegram_id` = ?', (user_id,)).fetchall()
+sqlite3.OperationalError: no such table: profile_list
+2023-12-03 19:31:24,403 - INFO - Update id=424430941 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 19:31:24,403 - ERROR - Cause exception while process update id=424430941 by bot id=6988902728
+OperationalError: no such table: profile_list
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 60, in magic_start
+    if not db.profile_exists(message.from_user.id):
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\database.py", line 32, in profile_exists
+    result = self.cursor.execute('SELECT * FROM `profile_list` WHERE `telegram_id` = ?', (user_id,)).fetchall()
+sqlite3.OperationalError: no such table: profile_list
+2023-12-03 19:38:25,784 - INFO - Polling stopped
+2023-12-03 19:38:25,785 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 19:38:29,724 - INFO - Start polling
+2023-12-03 19:38:29,996 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 19:38:31,839 - INFO - Update id=424430942 is handled. Duration 452 ms by bot id=6988902728
+2023-12-03 19:38:34,473 - INFO - Update id=424430943 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 19:38:34,473 - ERROR - Cause exception while process update id=424430943 by bot id=6988902728
+OperationalError: no such table: profile_list
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 59, in magic_start
+    if not db.profile_exists(message.from_user.id):
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\database.py", line 32, in profile_exists
+    result = self.cursor.execute('SELECT * FROM `profile_list` WHERE `telegram_id` = ?', (user_id,)).fetchall()
+sqlite3.OperationalError: no such table: profile_list
+2023-12-03 19:39:19,265 - INFO - Polling stopped
+2023-12-03 19:39:19,266 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 19:41:33,442 - INFO - Start polling
+2023-12-03 19:41:33,699 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 19:41:36,655 - INFO - Update id=424430944 is not handled. Duration 577 ms by bot id=6988902728
+2023-12-03 19:41:36,655 - ERROR - Cause exception while process update id=424430944 by bot id=6988902728
+OperationalError: no such table: users
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 41, in start
+    if not db.user_exists(message.from_user.id):
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\database.py", line 12, in user_exists
+    result = self.cursor.execute('SELECT * FROM `users` WHERE `telegram_id` = ?', (user_id,)).fetchall()
+sqlite3.OperationalError: no such table: users
+2023-12-03 19:41:38,881 - INFO - Update id=424430945 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 19:41:38,881 - ERROR - Cause exception while process update id=424430945 by bot id=6988902728
+OperationalError: no such table: profile_list
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 59, in magic_start
+    if not db.profile_exists(message.from_user.id):
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\database.py", line 32, in profile_exists
+    result = self.cursor.execute('SELECT * FROM `profile_list` WHERE `telegram_id` = ?', (user_id,)).fetchall()
+sqlite3.OperationalError: no such table: profile_list
+2023-12-03 19:44:42,894 - INFO - Polling stopped
+2023-12-03 19:44:42,894 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 19:49:34,709 - INFO - Start polling
+2023-12-03 19:49:35,026 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 19:49:37,486 - INFO - Update id=424430946 is handled. Duration 468 ms by bot id=6988902728
+2023-12-03 19:49:40,521 - INFO - Update id=424430947 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 19:49:57,236 - INFO - Update id=424430948 is handled. Duration 280 ms by bot id=6988902728
+2023-12-03 20:16:15,255 - INFO - Update id=424430949 is handled. Duration 656 ms by bot id=6988902728
+2023-12-03 20:16:19,008 - INFO - Update id=424430950 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 20:16:25,032 - INFO - Polling stopped
+2023-12-03 20:16:25,032 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:16:28,663 - INFO - Start polling
+2023-12-03 20:16:28,907 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:16:29,846 - INFO - Update id=424430951 is handled. Duration 406 ms by bot id=6988902728
+2023-12-03 20:16:32,524 - INFO - Update id=424430952 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 20:16:39,417 - INFO - Update id=424430953 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:25:18,886 - INFO - Polling stopped
+2023-12-03 20:25:18,886 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:25:22,511 - INFO - Start polling
+2023-12-03 20:25:22,781 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:25:26,171 - INFO - Update id=424430954 is handled. Duration 438 ms by bot id=6988902728
+2023-12-03 20:25:28,265 - INFO - Update id=424430955 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:25:33,553 - INFO - Update id=424430956 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:25:52,043 - INFO - Polling stopped
+2023-12-03 20:25:52,044 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:28:42,605 - INFO - Start polling
+2023-12-03 20:28:42,869 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:28:45,026 - INFO - Update id=424430957 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:28:54,219 - INFO - Polling stopped
+2023-12-03 20:28:54,220 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:29:13,006 - INFO - Start polling
+2023-12-03 20:29:13,257 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:29:13,965 - INFO - Update id=424430958 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:29:28,511 - INFO - Update id=424430959 is handled. Duration 640 ms by bot id=6988902728
+2023-12-03 20:29:30,342 - INFO - Update id=424430960 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:30:06,060 - INFO - Polling stopped
+2023-12-03 20:30:06,061 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:30:09,010 - INFO - Start polling
+2023-12-03 20:30:09,349 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:30:15,053 - INFO - Update id=424430961 is handled. Duration 781 ms by bot id=6988902728
+2023-12-03 20:30:16,376 - INFO - Update id=424430962 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 20:30:31,512 - INFO - Update id=424430963 is handled. Duration 203 ms by bot id=6988902728
+2023-12-03 20:30:43,841 - INFO - Polling stopped
+2023-12-03 20:30:43,842 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:35:44,311 - INFO - Start polling
+2023-12-03 20:35:44,616 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:35:48,119 - INFO - Update id=424430964 is handled. Duration 500 ms by bot id=6988902728
+2023-12-03 20:35:49,745 - INFO - Update id=424430965 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:35:49,745 - ERROR - Cause exception while process update id=424430965 by bot id=6988902728
+ValidationError: 7 validation errors for ReplyKeyboardMarkup
+keyboard.0.0
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('text', '/Õ‡ÈÚË Ô‡Ó˜ÍÛ\U0001f50d'), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.1
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_user', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.2
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_chat', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.3
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_contact', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.4
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_location', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.5
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_poll', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.6
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('web_app', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 67, in magic_start
+    keyboard = types.ReplyKeyboardMarkup(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 7 validation errors for ReplyKeyboardMarkup
+keyboard.0.0
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('text', '/Õ‡ÈÚË Ô‡Ó˜ÍÛ\U0001f50d'), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.1
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_user', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.2
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_chat', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.3
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_contact', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.4
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_location', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.5
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_poll', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.6
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('web_app', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+2023-12-03 20:35:58,563 - INFO - Polling stopped
+2023-12-03 20:35:58,564 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:36:25,648 - INFO - Start polling
+2023-12-03 20:36:25,963 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:36:26,731 - INFO - Update id=424430966 is handled. Duration 484 ms by bot id=6988902728
+2023-12-03 20:36:28,263 - INFO - Update id=424430967 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:36:28,264 - ERROR - Cause exception while process update id=424430967 by bot id=6988902728
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 62, in magic_start
+    kb[0].append(button1)
+IndexError: list index out of range
+2023-12-03 20:37:03,899 - INFO - Polling stopped
+2023-12-03 20:37:03,900 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:37:06,876 - INFO - Start polling
+2023-12-03 20:37:07,126 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:37:07,222 - INFO - Update id=424430968 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:37:07,222 - ERROR - Cause exception while process update id=424430968 by bot id=6988902728
+ValidationError: 7 validation errors for ReplyKeyboardMarkup
+keyboard.0.0
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('text', '/Õ‡ÈÚË Ô‡Ó˜ÍÛ\U0001f50d'), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.1
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_user', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.2
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_chat', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.3
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_contact', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.4
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_location', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.5
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_poll', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.6
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('web_app', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 65, in magic_start
+    keyboard = types.ReplyKeyboardMarkup(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 7 validation errors for ReplyKeyboardMarkup
+keyboard.0.0
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('text', '/Õ‡ÈÚË Ô‡Ó˜ÍÛ\U0001f50d'), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.1
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_user', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.2
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_chat', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.3
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_contact', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.4
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_location', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.5
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_poll', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.6
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('web_app', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+2023-12-03 20:37:09,585 - INFO - Update id=424430969 is handled. Duration 375 ms by bot id=6988902728
+2023-12-03 20:37:10,721 - INFO - Update id=424430970 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:37:10,721 - ERROR - Cause exception while process update id=424430970 by bot id=6988902728
+ValidationError: 7 validation errors for ReplyKeyboardMarkup
+keyboard.0.0
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('text', '/Õ‡ÈÚË Ô‡Ó˜ÍÛ\U0001f50d'), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.1
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_user', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.2
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_chat', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.3
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_contact', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.4
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_location', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.5
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_poll', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.6
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('web_app', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 65, in magic_start
+    keyboard = types.ReplyKeyboardMarkup(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 7 validation errors for ReplyKeyboardMarkup
+keyboard.0.0
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('text', '/Õ‡ÈÚË Ô‡Ó˜ÍÛ\U0001f50d'), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.1
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_user', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.2
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_chat', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.3
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_contact', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.4
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_location', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.5
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('request_poll', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+keyboard.0.6
+  Input should be a valid dictionary or instance of KeyboardButton [type=model_type, input_value=('web_app', None), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.5/v/model_type
+2023-12-03 20:37:25,742 - INFO - Polling stopped
+2023-12-03 20:37:25,743 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:39:21,592 - INFO - Start polling
+2023-12-03 20:39:21,853 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:39:23,934 - INFO - Update id=424430971 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:40:28,868 - INFO - Polling stopped
+2023-12-03 20:40:28,869 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:40:32,379 - INFO - Start polling
+2023-12-03 20:40:32,628 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:40:34,552 - INFO - Update id=424430972 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:40:44,519 - INFO - Polling stopped
+2023-12-03 20:40:44,519 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:40:47,254 - INFO - Start polling
+2023-12-03 20:40:47,503 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:40:55,882 - INFO - Update id=424430973 is handled. Duration 421 ms by bot id=6988902728
+2023-12-03 20:40:58,797 - INFO - Update id=424430974 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:47:32,744 - INFO - Polling stopped
+2023-12-03 20:47:32,744 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:55:39,647 - INFO - Start polling
+2023-12-03 20:55:39,929 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:55:40,561 - INFO - Update id=424430975 is handled. Duration 546 ms by bot id=6988902728
+2023-12-03 20:55:47,088 - INFO - Update id=424430976 is handled. Duration 234 ms by bot id=6988902728
+2023-12-03 20:55:50,131 - INFO - Update id=424430977 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:59:26,206 - INFO - Polling stopped
+2023-12-03 20:59:26,207 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:59:29,252 - INFO - Start polling
+2023-12-03 20:59:29,522 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:59:32,669 - INFO - Update id=424430978 is handled. Duration 531 ms by bot id=6988902728
+2023-12-03 20:59:34,445 - INFO - Update id=424430979 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 20:59:42,504 - INFO - Polling stopped
+2023-12-03 20:59:42,505 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:59:45,277 - INFO - Start polling
+2023-12-03 20:59:45,517 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 20:59:46,800 - INFO - Update id=424430980 is handled. Duration 515 ms by bot id=6988902728
+2023-12-03 20:59:47,810 - INFO - Update id=424430981 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:02:17,318 - INFO - Update id=424430982 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:02:20,110 - INFO - Polling stopped
+2023-12-03 21:02:20,111 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:02:22,940 - INFO - Start polling
+2023-12-03 21:02:23,208 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:02:23,625 - INFO - Update id=424430983 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:02:29,614 - INFO - Update id=424430984 is handled. Duration 452 ms by bot id=6988902728
+2023-12-03 21:02:31,896 - INFO - Update id=424430985 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:17:04,241 - INFO - Polling stopped
+2023-12-03 21:17:04,241 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:17:06,893 - INFO - Start polling
+2023-12-03 21:17:07,169 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:17:12,979 - INFO - Update id=424430986 is handled. Duration 484 ms by bot id=6988902728
+2023-12-03 21:17:15,688 - INFO - Update id=424430987 is handled. Duration 233 ms by bot id=6988902728
+2023-12-03 21:17:17,688 - INFO - Update id=424430988 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:17:42,807 - INFO - Polling stopped
+2023-12-03 21:17:42,807 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:17:45,683 - INFO - Start polling
+2023-12-03 21:17:45,950 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:17:46,472 - INFO - Update id=424430989 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:17:56,608 - INFO - Polling stopped
+2023-12-03 21:17:56,609 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:17:59,550 - INFO - Start polling
+2023-12-03 21:17:59,815 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:18:02,167 - INFO - Update id=424430990 is handled. Duration 563 ms by bot id=6988902728
+2023-12-03 21:18:03,619 - INFO - Update id=424430991 is handled. Duration 250 ms by bot id=6988902728
+2023-12-03 21:18:04,520 - INFO - Update id=424430992 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:18:49,821 - INFO - Update id=424430993 is not handled. Duration 16 ms by bot id=6988902728
+2023-12-03 21:19:51,521 - INFO - Polling stopped
+2023-12-03 21:19:51,521 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:28:34,291 - INFO - Start polling
+2023-12-03 21:28:34,564 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:28:34,662 - INFO - Update id=424430994 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:28:41,220 - INFO - Update id=424430995 is handled. Duration 421 ms by bot id=6988902728
+2023-12-03 21:28:43,222 - INFO - Update id=424430996 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 21:28:45,752 - INFO - Update id=424430997 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:31:19,950 - INFO - Polling stopped
+2023-12-03 21:31:19,951 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:31:23,085 - INFO - Start polling
+2023-12-03 21:31:23,461 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:31:23,836 - INFO - Update id=424430998 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:34:36,804 - INFO - Polling stopped
+2023-12-03 21:34:36,805 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:34:39,614 - INFO - Start polling
+2023-12-03 21:34:39,879 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:34:41,434 - INFO - Update id=424430999 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:34:52,246 - INFO - Polling stopped
+2023-12-03 21:34:52,246 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:34:55,262 - INFO - Start polling
+2023-12-03 21:34:55,519 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:34:55,615 - INFO - Update id=424431000 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:35:03,092 - INFO - Polling stopped
+2023-12-03 21:35:03,093 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:35:05,908 - INFO - Start polling
+2023-12-03 21:35:06,157 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:35:09,589 - INFO - Update id=424431001 is handled. Duration 625 ms by bot id=6988902728
+2023-12-03 21:35:13,818 - INFO - Update id=424431002 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 21:35:23,022 - INFO - Update id=424431003 is handled. Duration 218 ms by bot id=6988902728
+2023-12-03 21:35:35,640 - INFO - Update id=424431004 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 21:37:35,065 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] œÓ‰ÍÎ˛˜ÂÌËÂ Í ÒÂÚË ·˚ÎÓ ‡ÁÓ‚‡ÌÓ ÎÓÍ‡Î¸ÌÓÈ ÒËÒÚÂÏÓÈ
+2023-12-03 21:37:35,066 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6988902728)
+2023-12-03 21:37:46,596 - INFO - Connection established (tryings = 1, bot id = 6988902728)
+2023-12-03 21:38:05,797 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] œÓ‰ÍÎ˛˜ÂÌËÂ Í ÒÂÚË ·˚ÎÓ ‡ÁÓ‚‡ÌÓ ÎÓÍ‡Î¸ÌÓÈ ÒËÒÚÂÏÓÈ
+2023-12-03 21:38:05,797 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6988902728)
+2023-12-03 21:38:28,029 - INFO - Connection established (tryings = 1, bot id = 6988902728)
+2023-12-03 21:39:08,993 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] œÓ‰ÍÎ˛˜ÂÌËÂ Í ÒÂÚË ·˚ÎÓ ‡ÁÓ‚‡ÌÓ ÎÓÍ‡Î¸ÌÓÈ ÒËÒÚÂÏÓÈ
+2023-12-03 21:39:08,993 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6988902728)
+2023-12-03 21:39:20,431 - INFO - Connection established (tryings = 1, bot id = 6988902728)
+2023-12-03 21:41:13,972 - INFO - Polling stopped
+2023-12-03 21:41:13,973 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:41:17,096 - INFO - Start polling
+2023-12-03 21:41:17,382 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:41:22,286 - INFO - Update id=424431005 is handled. Duration 484 ms by bot id=6988902728
+2023-12-03 21:41:24,223 - INFO - Update id=424431006 is handled. Duration 156 ms by bot id=6988902728
+2023-12-03 21:41:26,284 - INFO - Update id=424431007 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:41:51,633 - INFO - Polling stopped
+2023-12-03 21:41:51,634 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:41:54,073 - INFO - Start polling
+2023-12-03 21:41:54,349 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:41:59,316 - INFO - Update id=424431008 is handled. Duration 421 ms by bot id=6988902728
+2023-12-03 21:42:01,256 - INFO - Update id=424431009 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 21:42:02,976 - INFO - Update id=424431010 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:42:13,746 - INFO - Polling stopped
+2023-12-03 21:42:13,747 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:42:16,532 - INFO - Start polling
+2023-12-03 21:42:16,780 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:42:17,027 - INFO - Update id=424431011 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:42:20,267 - INFO - Update id=424431012 is handled. Duration 453 ms by bot id=6988902728
+2023-12-03 21:42:22,805 - INFO - Update id=424431013 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 21:42:31,327 - INFO - Update id=424431014 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 21:42:41,828 - INFO - Update id=424431015 is handled. Duration 250 ms by bot id=6988902728
+2023-12-03 21:42:55,359 - INFO - Polling stopped
+2023-12-03 21:42:55,360 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:42:58,017 - INFO - Start polling
+2023-12-03 21:42:58,313 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:43:00,093 - INFO - Update id=424431016 is handled. Duration 375 ms by bot id=6988902728
+2023-12-03 21:49:54,190 - INFO - Polling stopped
+2023-12-03 21:49:54,191 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:49:56,904 - INFO - Start polling
+2023-12-03 21:49:57,180 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 21:49:59,725 - INFO - Update id=424431017 is handled. Duration 405 ms by bot id=6988902728
+2023-12-03 21:50:02,695 - INFO - Update id=424431018 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 21:50:05,574 - INFO - Update id=424431019 is handled. Duration 421 ms by bot id=6988902728
+2023-12-03 21:50:10,531 - INFO - Update id=424431020 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 21:50:13,631 - INFO - Update id=424431021 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:01:06,287 - INFO - Polling stopped
+2023-12-03 22:01:06,287 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:01:16,367 - INFO - Start polling
+2023-12-03 22:01:16,658 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:01:18,304 - INFO - Update id=424431022 is handled. Duration 454 ms by bot id=6988902728
+2023-12-03 22:01:19,944 - INFO - Update id=424431023 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 22:01:21,999 - INFO - Update id=424431024 is handled. Duration 172 ms by bot id=6988902728
+2023-12-03 22:01:37,657 - INFO - Update id=424431025 is handled. Duration 500 ms by bot id=6988902728
+2023-12-03 22:01:43,424 - INFO - Update id=424431026 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 22:02:05,214 - INFO - Update id=424431027 is handled. Duration 389 ms by bot id=6988902728
+2023-12-03 22:13:00,081 - INFO - Polling stopped
+2023-12-03 22:13:00,081 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:13:02,496 - INFO - Start polling
+2023-12-03 22:13:02,747 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:13:17,203 - INFO - Update id=424431028 is handled. Duration 750 ms by bot id=6988902728
+2023-12-03 22:13:19,523 - INFO - Update id=424431029 is handled. Duration 187 ms by bot id=6988902728
+2023-12-03 22:13:21,407 - INFO - Update id=424431030 is handled. Duration 188 ms by bot id=6988902728
+2023-12-03 22:13:26,403 - INFO - Update id=424431031 is handled. Duration 203 ms by bot id=6988902728
+2023-12-03 22:13:28,323 - INFO - Update id=424431032 is handled. Duration 280 ms by bot id=6988902728
+2023-12-03 22:13:32,683 - INFO - Update id=424431033 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:13:39,283 - INFO - Update id=424431034 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 22:13:42,823 - INFO - Update id=424431035 is handled. Duration 202 ms by bot id=6988902728
+2023-12-03 22:13:55,677 - INFO - Update id=424431036 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:13:55,677 - ERROR - Cause exception while process update id=424431036 by bot id=6988902728
+AttributeError: 'PhotoSize' object has no attribute 'download'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\pydantic\main.py", line 753, in __getattr__
+    return pydantic_extra[item]
+KeyError: 'download'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 157, in get_profile_photo
+    await message.photo[-1].download('photos/' + str(message.from_user.id) + '.jpg')
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\pydantic\main.py", line 755, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}') from exc
+AttributeError: 'PhotoSize' object has no attribute 'download'
+2023-12-03 22:14:45,725 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:14:45,725 - INFO - Polling stopped
+2023-12-03 22:14:48,177 - INFO - Start polling
+2023-12-03 22:14:48,478 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:14:55,594 - INFO - Update id=424431037 is handled. Duration 483 ms by bot id=6988902728
+2023-12-03 22:14:58,183 - INFO - Update id=424431038 is handled. Duration 186 ms by bot id=6988902728
+2023-12-03 22:15:00,103 - INFO - Update id=424431039 is handled. Duration 203 ms by bot id=6988902728
+2023-12-03 22:15:05,453 - INFO - Update id=424431040 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:15:07,793 - INFO - Update id=424431041 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:15:10,644 - INFO - Update id=424431042 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 22:15:16,184 - INFO - Update id=424431043 is handled. Duration 219 ms by bot id=6988902728
+2023-12-03 22:15:20,578 - INFO - Update id=424431044 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:15:26,126 - INFO - Update id=424431045 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:15:26,126 - ERROR - Cause exception while process update id=424431045 by bot id=6988902728
+AttributeError: 'PhotoSize' object has no attribute 'download'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\pydantic\main.py", line 753, in __getattr__
+    return pydantic_extra[item]
+KeyError: 'download'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 157, in get_profile_photo
+    await message.photo[-1].download('photos/' + str(message.from_user.id) + '.jpg')
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\pydantic\main.py", line 755, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}') from exc
+AttributeError: 'PhotoSize' object has no attribute 'download'
+2023-12-03 22:18:05,035 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:18:05,035 - INFO - Polling stopped
+2023-12-03 22:18:07,755 - INFO - Start polling
+2023-12-03 22:18:08,037 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:18:53,833 - INFO - Update id=424431046 is handled. Duration 390 ms by bot id=6988902728
+2023-12-03 22:18:55,157 - INFO - Update id=424431047 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:18:56,415 - INFO - Update id=424431048 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:18:59,243 - INFO - Update id=424431049 is handled. Duration 234 ms by bot id=6988902728
+2023-12-03 22:19:00,282 - INFO - Update id=424431050 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:19:04,511 - INFO - Update id=424431051 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:19:04,511 - ERROR - Cause exception while process update id=424431051 by bot id=6988902728
+ValueError: invalid literal for int() with base 10: 'Sheís'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 135, in get_profile_age
+    await state.update_data(profile_age=int(message.text))
+ValueError: invalid literal for int() with base 10: 'Sheís'
+2023-12-03 22:19:04,720 - INFO - Update id=424431052 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:19:12,843 - INFO - Update id=424431053 is handled. Duration 250 ms by bot id=6988902728
+2023-12-03 22:19:16,597 - INFO - Update id=424431054 is handled. Duration 217 ms by bot id=6988902728
+2023-12-03 22:19:21,823 - INFO - Update id=424431055 is not handled. Duration 77 ms by bot id=6988902728
+2023-12-03 22:19:21,823 - ERROR - Cause exception while process update id=424431055 by bot id=6988902728
+ClientResponseError: 404, message='Not Found', url=URL('https://api.telegram.org/file/bot6988902728:AAFloEdVRQe_pptszssonORpyuWEa9Fzfew/photos/')
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 157, in get_profile_photo
+    await bot.download_file('photos/', f"{message.from_user.id}.jpg")
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 374, in download_file
+    await self.__download_file(destination=destination, stream=stream)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 323, in __download_file
+    async for chunk in stream:
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\aiohttp.py", line 197, in stream_content
+    async with session.get(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 689, in _request
+    resp.raise_for_status()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 1059, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url=URL('https://api.telegram.org/file/bot6988902728:AAFloEdVRQe_pptszssonORpyuWEa9Fzfew/photos/')
+2023-12-03 22:20:47,876 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:20:47,876 - INFO - Polling stopped
+2023-12-03 22:21:27,239 - INFO - Start polling
+2023-12-03 22:21:27,506 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:21:33,278 - INFO - Update id=424431056 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:21:39,993 - INFO - Update id=424431057 is handled. Duration 437 ms by bot id=6988902728
+2023-12-03 22:21:40,862 - INFO - Update id=424431058 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:21:41,969 - INFO - Update id=424431059 is handled. Duration 108 ms by bot id=6988902728
+2023-12-03 22:21:44,532 - INFO - Update id=424431060 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:21:47,493 - INFO - Update id=424431061 is handled. Duration 250 ms by bot id=6988902728
+2023-12-03 22:21:49,910 - INFO - Update id=424431062 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:21:52,403 - INFO - Update id=424431063 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 22:21:55,202 - INFO - Update id=424431064 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 22:21:59,926 - INFO - Update id=424431065 is not handled. Duration 94 ms by bot id=6988902728
+2023-12-03 22:21:59,926 - ERROR - Cause exception while process update id=424431065 by bot id=6988902728
+TelegramBadRequest: Telegram server says - Bad Request: invalid file_id
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 157, in get_profile_photo
+    await bot.download('photos/', f"{message.from_user.id}.jpg")
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 412, in download
+    file_ = await self.get_file(file_id)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 1692, in get_file
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 432, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: invalid file_id
+2023-12-03 22:30:08,083 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:30:08,084 - INFO - Polling stopped
+2023-12-03 22:30:10,573 - INFO - Start polling
+2023-12-03 22:30:10,836 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:30:33,873 - INFO - Update id=424431066 is handled. Duration 594 ms by bot id=6988902728
+2023-12-03 22:30:34,862 - INFO - Update id=424431067 is handled. Duration 141 ms by bot id=6988902728
+2023-12-03 22:30:35,863 - INFO - Update id=424431068 is handled. Duration 141 ms by bot id=6988902728
+2023-12-03 22:30:41,053 - INFO - Update id=424431069 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 22:30:42,452 - INFO - Update id=424431070 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:30:44,606 - INFO - Update id=424431071 is handled. Duration 141 ms by bot id=6988902728
+2023-12-03 22:30:48,079 - INFO - Update id=424431072 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:30:50,841 - INFO - Update id=424431073 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:30:56,082 - INFO - Update id=424431074 is not handled. Duration 77 ms by bot id=6988902728
+2023-12-03 22:30:56,082 - ERROR - Cause exception while process update id=424431074 by bot id=6988902728
+ClientResponseError: 404, message='Not Found', url=URL('https://api.telegram.org/file/bot6988902728:AAFloEdVRQe_pptszssonORpyuWEa9Fzfew/AgACAgIAAxkBAAIBpGVs1x2f9tOXU2inwgosC3rQLSL0AAKYCzIbmS5oS-y3_ZkSrFYXAQADAgADeAADMwQ')
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 159, in get_profile_photo
+    file = await message.bot.download_file(file_id)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 376, in download_file
+    return await self.__download_file_binary_io(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 311, in __download_file_binary_io
+    async for chunk in stream:
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\aiohttp.py", line 197, in stream_content
+    async with session.get(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 689, in _request
+    resp.raise_for_status()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 1059, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url=URL('https://api.telegram.org/file/bot6988902728:AAFloEdVRQe_pptszssonORpyuWEa9Fzfew/AgACAgIAAxkBAAIBpGVs1x2f9tOXU2inwgosC3rQLSL0AAKYCzIbmS5oS-y3_ZkSrFYXAQADAgADeAADMwQ')
+2023-12-03 22:31:49,036 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:31:49,037 - INFO - Polling stopped
+2023-12-03 22:31:51,434 - INFO - Start polling
+2023-12-03 22:31:51,696 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:31:59,857 - INFO - Update id=424431075 is handled. Duration 656 ms by bot id=6988902728
+2023-12-03 22:32:00,552 - INFO - Update id=424431076 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 22:32:01,629 - INFO - Update id=424431077 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:32:10,563 - INFO - Update id=424431078 is handled. Duration 186 ms by bot id=6988902728
+2023-12-03 22:32:11,997 - INFO - Update id=424431079 is handled. Duration 250 ms by bot id=6988902728
+2023-12-03 22:32:14,298 - INFO - Update id=424431080 is handled. Duration 219 ms by bot id=6988902728
+2023-12-03 22:32:16,843 - INFO - Update id=424431081 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:32:19,712 - INFO - Update id=424431082 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:32:23,521 - INFO - Update id=424431083 is not handled. Duration 78 ms by bot id=6988902728
+2023-12-03 22:32:23,521 - ERROR - Cause exception while process update id=424431083 by bot id=6988902728
+ClientResponseError: 404, message='Not Found', url=URL('https://api.telegram.org/file/bot6988902728:AAFloEdVRQe_pptszssonORpyuWEa9Fzfew/AgACAgIAAxkBAAIBtmVs13R6qIli5YwNBJ0Ouud8eAABbQACmAsyG5kuaEvst_2ZEqxWFwEAAwIAA3gAAzME')
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 159, in get_profile_photo
+    file = await message.bot.download_file(file_id)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 376, in download_file
+    return await self.__download_file_binary_io(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 311, in __download_file_binary_io
+    async for chunk in stream:
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\session\aiohttp.py", line 197, in stream_content
+    async with session.get(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 689, in _request
+    resp.raise_for_status()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 1059, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url=URL('https://api.telegram.org/file/bot6988902728:AAFloEdVRQe_pptszssonORpyuWEa9Fzfew/AgACAgIAAxkBAAIBtmVs13R6qIli5YwNBJ0Ouud8eAABbQACmAsyG5kuaEvst_2ZEqxWFwEAAwIAA3gAAzME')
+2023-12-03 22:38:13,199 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:38:13,199 - INFO - Polling stopped
+2023-12-03 22:38:15,879 - INFO - Start polling
+2023-12-03 22:38:16,176 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:38:25,981 - INFO - Update id=424431084 is handled. Duration 406 ms by bot id=6988902728
+2023-12-03 22:38:27,001 - INFO - Update id=424431085 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:38:28,042 - INFO - Update id=424431086 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 22:38:30,562 - INFO - Update id=424431087 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:38:31,852 - INFO - Update id=424431088 is handled. Duration 170 ms by bot id=6988902728
+2023-12-03 22:38:32,854 - INFO - Update id=424431089 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:38:32,854 - ERROR - Cause exception while process update id=424431089 by bot id=6988902728
+ValueError: invalid literal for int() with base 10: 'Hahaha'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 135, in get_profile_age
+    await state.update_data(profile_age=int(message.text))
+ValueError: invalid literal for int() with base 10: 'Hahaha'
+2023-12-03 22:38:36,718 - INFO - Update id=424431090 is handled. Duration 108 ms by bot id=6988902728
+2023-12-03 22:38:40,242 - INFO - Update id=424431091 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:38:43,401 - INFO - Update id=424431092 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 22:38:49,281 - INFO - Update id=424431093 is not handled. Duration 313 ms by bot id=6988902728
+2023-12-03 22:38:49,281 - ERROR - Cause exception while process update id=424431093 by bot id=6988902728
+FileNotFoundError: [Errno 2] No such file or directory: 'photos/701459202.jpg'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 159, in get_profile_photo
+    with open(f"photos/{message.from_user.id}.jpg", 'wb') as new_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'photos/701459202.jpg'
+2023-12-03 22:40:12,846 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:40:12,847 - INFO - Polling stopped
+2023-12-03 22:40:15,289 - INFO - Start polling
+2023-12-03 22:40:15,585 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:40:23,332 - INFO - Update id=424431094 is handled. Duration 577 ms by bot id=6988902728
+2023-12-03 22:40:24,402 - INFO - Update id=424431095 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 22:40:25,581 - INFO - Update id=424431096 is handled. Duration 202 ms by bot id=6988902728
+2023-12-03 22:40:28,022 - INFO - Update id=424431097 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:40:29,202 - INFO - Update id=424431098 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:40:31,943 - INFO - Update id=424431099 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:40:35,155 - INFO - Update id=424431100 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:40:37,600 - INFO - Update id=424431101 is handled. Duration 186 ms by bot id=6988902728
+2023-12-03 22:40:41,937 - INFO - Update id=424431102 is not handled. Duration 421 ms by bot id=6988902728
+2023-12-03 22:40:41,937 - ERROR - Cause exception while process update id=424431102 by bot id=6988902728
+FileNotFoundError: [Errno 2] No such file or directory: 'photos/701459202.jpg'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 159, in get_profile_photo
+    with open(f"photos/{message.from_user.id}.jpg", 'wb+') as new_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'photos/701459202.jpg'
+2023-12-03 22:41:13,442 - INFO - Update id=424431103 is handled. Duration 452 ms by bot id=6988902728
+2023-12-03 22:41:55,784 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:41:55,785 - INFO - Polling stopped
+2023-12-03 22:41:58,241 - INFO - Start polling
+2023-12-03 22:41:58,526 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:41:59,648 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:41:59,648 - INFO - Polling stopped
+2023-12-03 22:42:02,033 - INFO - Start polling
+2023-12-03 22:42:02,266 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:42:06,071 - INFO - Update id=424431104 is handled. Duration 405 ms by bot id=6988902728
+2023-12-03 22:42:07,062 - INFO - Update id=424431105 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:42:08,091 - INFO - Update id=424431106 is handled. Duration 170 ms by bot id=6988902728
+2023-12-03 22:42:13,111 - INFO - Update id=424431107 is handled. Duration 172 ms by bot id=6988902728
+2023-12-03 22:42:14,702 - INFO - Update id=424431108 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:42:16,521 - INFO - Update id=424431109 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:42:17,760 - INFO - Update id=424431110 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 22:42:19,993 - INFO - Update id=424431111 is handled. Duration 157 ms by bot id=6988902728
+2023-12-03 22:42:23,891 - INFO - Update id=424431112 is handled. Duration 500 ms by bot id=6988902728
+2023-12-03 22:42:57,727 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:42:57,727 - INFO - Polling stopped
+2023-12-03 22:45:35,762 - INFO - Start polling
+2023-12-03 22:45:36,032 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:46:02,636 - INFO - Update id=424431113 is handled. Duration 655 ms by bot id=6988902728
+2023-12-03 22:46:04,524 - INFO - Update id=424431114 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:46:12,171 - INFO - Update id=424431115 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 22:46:25,241 - INFO - Update id=424431116 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:46:29,521 - INFO - Update id=424431117 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:46:31,746 - INFO - Update id=424431118 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:46:45,901 - INFO - Update id=424431119 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:46:53,682 - INFO - Update id=424431120 is handled. Duration 202 ms by bot id=6988902728
+2023-12-03 22:47:00,181 - INFO - Update id=424431121 is handled. Duration 485 ms by bot id=6988902728
+2023-12-03 22:47:06,431 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:47:06,431 - INFO - Polling stopped
+2023-12-03 22:47:09,319 - INFO - Start polling
+2023-12-03 22:47:09,587 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:47:16,141 - INFO - Update id=424431122 is handled. Duration 437 ms by bot id=6988902728
+2023-12-03 22:47:17,122 - INFO - Update id=424431123 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 22:47:18,361 - INFO - Update id=424431124 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:47:22,141 - INFO - Update id=424431125 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:47:23,141 - INFO - Update id=424431126 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:47:25,410 - INFO - Update id=424431127 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:47:29,911 - INFO - Update id=424431128 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 22:47:34,811 - INFO - Update id=424431129 is handled. Duration 202 ms by bot id=6988902728
+2023-12-03 22:47:55,501 - INFO - Update id=424431130 is handled. Duration 532 ms by bot id=6988902728
+2023-12-03 22:48:41,121 - INFO - Update id=424431131 is handled. Duration 282 ms by bot id=6988902728
+2023-12-03 22:48:43,041 - INFO - Update id=424431132 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 22:48:45,060 - INFO - Update id=424431133 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:48:49,641 - INFO - Update id=424431134 is handled. Duration 578 ms by bot id=6988902728
+2023-12-03 22:48:58,077 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:48:58,077 - INFO - Polling stopped
+2023-12-03 22:49:00,836 - INFO - Start polling
+2023-12-03 22:49:01,117 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:49:01,256 - INFO - Update id=424431135 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:49:03,394 - INFO - Update id=424431136 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:49:04,234 - INFO - Update id=424431137 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:49:04,594 - INFO - Update id=424431138 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:49:04,902 - INFO - Update id=424431139 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:49:05,233 - INFO - Update id=424431140 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:49:05,543 - INFO - Update id=424431141 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:49:05,793 - INFO - Update id=424431142 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:49:07,791 - INFO - Update id=424431143 is handled. Duration 704 ms by bot id=6988902728
+2023-12-03 22:49:08,621 - INFO - Update id=424431144 is handled. Duration 157 ms by bot id=6988902728
+2023-12-03 22:49:09,301 - INFO - Update id=424431145 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 22:49:11,200 - INFO - Update id=424431146 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:49:11,921 - INFO - Update id=424431147 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 22:49:13,119 - INFO - Update id=424431148 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 22:49:16,781 - INFO - Update id=424431149 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:49:32,111 - INFO - Update id=424431150 is handled. Duration 266 ms by bot id=6988902728
+2023-12-03 22:49:36,371 - INFO - Update id=424431151 is handled. Duration 453 ms by bot id=6988902728
+2023-12-03 22:50:32,896 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:50:32,896 - INFO - Polling stopped
+2023-12-03 22:50:35,584 - INFO - Start polling
+2023-12-03 22:50:35,853 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:50:44,519 - INFO - Update id=424431152 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:50:53,251 - INFO - Update id=424431153 is handled. Duration 438 ms by bot id=6988902728
+2023-12-03 22:50:54,368 - INFO - Update id=424431154 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:50:55,074 - INFO - Update id=424431155 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:50:56,579 - INFO - Update id=424431156 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:50:57,592 - INFO - Update id=424431157 is handled. Duration 108 ms by bot id=6988902728
+2023-12-03 22:50:58,571 - INFO - Update id=424431158 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:50:59,721 - INFO - Update id=424431159 is handled. Duration 108 ms by bot id=6988902728
+2023-12-03 22:51:01,662 - INFO - Update id=424431160 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:51:07,491 - INFO - Update id=424431161 is handled. Duration 437 ms by bot id=6988902728
+2023-12-03 22:51:31,005 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:51:31,006 - INFO - Polling stopped
+2023-12-03 22:52:48,334 - INFO - Start polling
+2023-12-03 22:52:48,595 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:52:49,310 - INFO - Update id=424431162 is handled. Duration 577 ms by bot id=6988902728
+2023-12-03 22:52:51,750 - INFO - Update id=424431163 is handled. Duration 172 ms by bot id=6988902728
+2023-12-03 22:52:52,941 - INFO - Update id=424431164 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 22:52:54,521 - INFO - Update id=424431165 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:52:55,226 - INFO - Update id=424431166 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 22:52:55,947 - INFO - Update id=424431167 is handled. Duration 218 ms by bot id=6988902728
+2023-12-03 22:52:56,513 - INFO - Update id=424431168 is handled. Duration 203 ms by bot id=6988902728
+2023-12-03 22:52:57,021 - INFO - Update id=424431169 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:52:57,891 - INFO - Update id=424431170 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:52:58,770 - INFO - Update id=424431171 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:52:59,771 - INFO - Update id=424431172 is handled. Duration 422 ms by bot id=6988902728
+2023-12-03 22:52:59,931 - INFO - Update id=424431173 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:53:06,900 - INFO - Update id=424431174 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 22:53:14,471 - INFO - Update id=424431175 is handled. Duration 389 ms by bot id=6988902728
+2023-12-03 22:53:15,122 - INFO - Update id=424431176 is handled. Duration 250 ms by bot id=6988902728
+2023-12-03 22:53:15,836 - INFO - Update id=424431177 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 22:53:16,201 - INFO - Update id=424431178 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:53:16,431 - INFO - Update id=424431179 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 22:53:16,772 - INFO - Update id=424431180 is handled. Duration 203 ms by bot id=6988902728
+2023-12-03 22:53:17,011 - INFO - Update id=424431181 is handled. Duration 203 ms by bot id=6988902728
+2023-12-03 22:53:23,991 - INFO - Update id=424431182 is handled. Duration 469 ms by bot id=6988902728
+2023-12-03 22:53:32,799 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:53:32,800 - INFO - Polling stopped
+2023-12-03 22:57:00,504 - INFO - Start polling
+2023-12-03 22:57:00,787 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:57:04,470 - INFO - Update id=424431183 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:05,750 - INFO - Update id=424431184 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:08,150 - INFO - Update id=424431185 is handled. Duration 563 ms by bot id=6988902728
+2023-12-03 22:57:08,875 - INFO - Update id=424431186 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:09,113 - INFO - Update id=424431187 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:09,352 - INFO - Update id=424431188 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:09,586 - INFO - Update id=424431189 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:10,024 - INFO - Update id=424431190 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:11,334 - INFO - Update id=424431191 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:13,245 - INFO - Update id=424431192 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:57:14,147 - INFO - Update id=424431193 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:14,718 - INFO - Update id=424431194 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:57:16,486 - INFO - Update id=424431195 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:57:17,602 - INFO - Update id=424431196 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 22:57:17,886 - INFO - Update id=424431197 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 22:57:18,225 - INFO - Update id=424431198 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:57:18,630 - INFO - Update id=424431199 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 22:57:18,981 - INFO - Update id=424431200 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:57:23,390 - INFO - Update id=424431201 is not handled. Duration 93 ms by bot id=6988902728
+2023-12-03 22:57:23,390 - ERROR - Cause exception while process update id=424431201 by bot id=6988902728
+FileNotFoundError: [Errno 2] No such file or directory: '/photos/747717908.jpg'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 158, in get_profile_photo
+    await bot.download(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 419, in download
+    return await self.download_file(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 374, in download_file
+    await self.__download_file(destination=destination, stream=stream)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\client\bot.py", line 322, in __download_file
+    async with aiofiles.open(destination, "wb") as f:
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiofiles\base.py", line 98, in __aenter__
+    self._obj = await self._coro
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiofiles\threadpool\__init__.py", line 94, in _open
+    f = yield from loop.run_in_executor(executor, cb)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/photos/747717908.jpg'
+2023-12-03 22:58:43,169 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:58:43,169 - INFO - Polling stopped
+2023-12-03 22:58:45,874 - INFO - Start polling
+2023-12-03 22:58:46,151 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 22:58:47,498 - INFO - Update id=424431202 is handled. Duration 438 ms by bot id=6988902728
+2023-12-03 22:58:48,420 - INFO - Update id=424431203 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:58:48,958 - INFO - Update id=424431204 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:58:50,240 - INFO - Update id=424431205 is handled. Duration 156 ms by bot id=6988902728
+2023-12-03 22:58:50,601 - INFO - Update id=424431206 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:58:50,747 - INFO - Update id=424431207 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 22:58:51,110 - INFO - Update id=424431208 is handled. Duration 172 ms by bot id=6988902728
+2023-12-03 22:58:51,339 - INFO - Update id=424431209 is handled. Duration 186 ms by bot id=6988902728
+2023-12-03 22:58:51,351 - INFO - Update id=424431210 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:58:51,568 - INFO - Update id=424431211 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:58:51,774 - INFO - Update id=424431212 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 22:58:55,771 - INFO - Update id=424431213 is handled. Duration 453 ms by bot id=6988902728
+2023-12-03 22:59:53,771 - INFO - Update id=424431214 is handled. Duration 530 ms by bot id=6988902728
+2023-12-03 22:59:54,957 - INFO - Update id=424431215 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 22:59:55,501 - INFO - Update id=424431216 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:59:56,938 - INFO - Update id=424431217 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 22:59:57,171 - INFO - Update id=424431218 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 22:59:57,451 - INFO - Update id=424431219 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 22:59:57,844 - INFO - Update id=424431220 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 22:59:58,020 - INFO - Update id=424431221 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 22:59:58,284 - INFO - Update id=424431222 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:00:03,343 - INFO - Update id=424431223 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:00:08,433 - INFO - Update id=424431224 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:01:46,808 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:01:46,808 - INFO - Polling stopped
+2023-12-03 23:01:49,679 - INFO - Start polling
+2023-12-03 23:01:49,955 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:01:51,154 - INFO - Update id=424431225 is handled. Duration 421 ms by bot id=6988902728
+2023-12-03 23:01:52,627 - INFO - Update id=424431226 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 23:01:53,109 - INFO - Update id=424431227 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:01:54,396 - INFO - Update id=424431228 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 23:01:54,746 - INFO - Update id=424431229 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:01:55,061 - INFO - Update id=424431230 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:01:55,352 - INFO - Update id=424431231 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:01:55,678 - INFO - Update id=424431232 is handled. Duration 156 ms by bot id=6988902728
+2023-12-03 23:02:07,050 - INFO - Update id=424431233 is handled. Duration 546 ms by bot id=6988902728
+2023-12-03 23:02:20,466 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:02:20,466 - INFO - Polling stopped
+2023-12-03 23:10:47,930 - INFO - Start polling
+2023-12-03 23:10:48,253 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:11:03,382 - INFO - Update id=424431234 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:11:06,135 - INFO - Update id=424431235 is handled. Duration 672 ms by bot id=6988902728
+2023-12-03 23:11:07,239 - INFO - Update id=424431236 is handled. Duration 156 ms by bot id=6988902728
+2023-12-03 23:11:07,713 - INFO - Update id=424431237 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 23:11:09,161 - INFO - Update id=424431238 is handled. Duration 188 ms by bot id=6988902728
+2023-12-03 23:11:09,611 - INFO - Update id=424431239 is handled. Duration 172 ms by bot id=6988902728
+2023-12-03 23:11:09,831 - INFO - Update id=424431240 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 23:11:10,191 - INFO - Update id=424431241 is handled. Duration 202 ms by bot id=6988902728
+2023-12-03 23:11:10,387 - INFO - Update id=424431242 is handled. Duration 187 ms by bot id=6988902728
+2023-12-03 23:11:10,580 - INFO - Update id=424431243 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:11:11,053 - INFO - Update id=424431244 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:11:19,596 - INFO - Update id=424431245 is handled. Duration 375 ms by bot id=6988902728
+2023-12-03 23:11:27,702 - INFO - Update id=424431246 is not handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:11:27,702 - ERROR - Cause exception while process update id=424431246 by bot id=6988902728
+OperationalError: table profile_list has no column named description
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 174, in get_profile_link
+    db.create_profile(message.from_user.id, message.from_user.username, str(user_data['profile_name']),
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\database.py", line 35, in create_profile
+    return self.cursor.execute(
+sqlite3.OperationalError: table profile_list has no column named description
+2023-12-03 23:12:51,331 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:12:51,331 - INFO - Polling stopped
+2023-12-03 23:13:38,725 - INFO - Start polling
+2023-12-03 23:13:39,028 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:13:39,590 - INFO - Update id=424431247 is handled. Duration 436 ms by bot id=6988902728
+2023-12-03 23:13:40,831 - INFO - Update id=424431248 is handled. Duration 202 ms by bot id=6988902728
+2023-12-03 23:13:41,526 - INFO - Update id=424431249 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 23:13:42,691 - INFO - Update id=424431250 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 23:13:43,070 - INFO - Update id=424431251 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:13:43,426 - INFO - Update id=424431252 is handled. Duration 156 ms by bot id=6988902728
+2023-12-03 23:13:43,800 - INFO - Update id=424431253 is handled. Duration 219 ms by bot id=6988902728
+2023-12-03 23:13:44,231 - INFO - Update id=424431254 is handled. Duration 219 ms by bot id=6988902728
+2023-12-03 23:13:45,512 - INFO - Update id=424431255 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:13:51,784 - INFO - Update id=424431256 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:13:52,665 - INFO - Update id=424431257 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:13:53,690 - INFO - Update id=424431258 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:13:56,731 - INFO - Update id=424431259 is handled. Duration 391 ms by bot id=6988902728
+2023-12-03 23:13:58,841 - INFO - Update id=424431260 is not handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:13:58,841 - ERROR - Cause exception while process update id=424431260 by bot id=6988902728
+TypeError: magic_start() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 179, in get_profile_link
+    await magic_start()
+TypeError: magic_start() missing 1 required positional argument: 'message'
+2023-12-03 23:14:33,844 - INFO - Update id=424431261 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:14:42,057 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:14:42,057 - INFO - Polling stopped
+2023-12-03 23:14:44,868 - INFO - Start polling
+2023-12-03 23:14:45,137 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:14:45,719 - INFO - Update id=424431262 is handled. Duration 452 ms by bot id=6988902728
+2023-12-03 23:14:47,171 - INFO - Update id=424431263 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:14:47,574 - INFO - Update id=424431264 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:14:53,611 - INFO - Update id=424431265 is handled. Duration 234 ms by bot id=6988902728
+2023-12-03 23:14:54,420 - INFO - Update id=424431266 is handled. Duration 171 ms by bot id=6988902728
+2023-12-03 23:14:59,563 - INFO - Update id=424431267 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:02,769 - INFO - Update id=424431268 is handled. Duration 375 ms by bot id=6988902728
+2023-12-03 23:15:03,407 - INFO - Update id=424431269 is handled. Duration 140 ms by bot id=6988902728
+2023-12-03 23:15:03,937 - INFO - Update id=424431270 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:06,320 - INFO - Update id=424431271 is handled. Duration 234 ms by bot id=6988902728
+2023-12-03 23:15:06,955 - INFO - Update id=424431272 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 23:15:07,322 - INFO - Update id=424431273 is not handled. Duration 15 ms by bot id=6988902728
+2023-12-03 23:15:09,833 - INFO - Update id=424431274 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:10,448 - INFO - Update id=424431275 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:10,894 - INFO - Update id=424431276 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:11,133 - INFO - Update id=424431277 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:11,344 - INFO - Update id=424431278 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:11,582 - INFO - Update id=424431279 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:11,807 - INFO - Update id=424431280 is not handled. Duration 14 ms by bot id=6988902728
+2023-12-03 23:15:12,440 - INFO - Update id=424431281 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:12,952 - INFO - Update id=424431282 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:15:13,995 - INFO - Update id=424431283 is not handled. Duration 15 ms by bot id=6988902728
+2023-12-03 23:15:23,769 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:15:23,769 - INFO - Polling stopped
+2023-12-03 23:16:44,013 - INFO - Start polling
+2023-12-03 23:16:44,265 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:16:58,443 - INFO - Update id=424431284 is handled. Duration 546 ms by bot id=6988902728
+2023-12-03 23:16:59,511 - INFO - Update id=424431285 is handled. Duration 468 ms by bot id=6988902728
+2023-12-03 23:16:59,691 - INFO - Update id=424431286 is handled. Duration 405 ms by bot id=6988902728
+2023-12-03 23:17:00,386 - INFO - Update id=424431287 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:17:00,704 - INFO - Update id=424431288 is handled. Duration 110 ms by bot id=6988902728
+2023-12-03 23:17:01,674 - INFO - Update id=424431289 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:17:05,761 - INFO - Update id=424431290 is handled. Duration 500 ms by bot id=6988902728
+2023-12-03 23:17:06,291 - INFO - Update id=424431291 is handled. Duration 187 ms by bot id=6988902728
+2023-12-03 23:17:06,882 - INFO - Update id=424431292 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:17:07,305 - INFO - Update id=424431293 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:17:10,559 - INFO - Update id=424431294 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 23:17:13,467 - INFO - Update id=424431295 is handled. Duration 139 ms by bot id=6988902728
+2023-12-03 23:17:18,054 - INFO - Update id=424431296 is handled. Duration 250 ms by bot id=6988902728
+2023-12-03 23:17:18,897 - INFO - Update id=424431297 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:17:21,071 - INFO - Update id=424431298 is handled. Duration 155 ms by bot id=6988902728
+2023-12-03 23:17:22,248 - INFO - Update id=424431299 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:17:22,480 - INFO - Update id=424431300 is handled. Duration 281 ms by bot id=6988902728
+2023-12-03 23:17:25,375 - INFO - Update id=424431301 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:17:26,571 - INFO - Update id=424431302 is handled. Duration 109 ms by bot id=6988902728
+2023-12-03 23:17:26,999 - INFO - Update id=424431303 is handled. Duration 469 ms by bot id=6988902728
+2023-12-03 23:17:30,242 - INFO - Update id=424431304 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:17:30,242 - ERROR - Cause exception while process update id=424431304 by bot id=6988902728
+ValueError: invalid literal for int() with base 10: '‚ÓÁ‡ÒÚ'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 136, in get_profile_age
+    await state.update_data(profile_age=int(message.text))
+ValueError: invalid literal for int() with base 10: '‚ÓÁ‡ÒÚ'
+2023-12-03 23:17:38,918 - INFO - Update id=424431305 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:17:43,468 - INFO - Update id=424431306 is handled. Duration 217 ms by bot id=6988902728
+2023-12-03 23:17:45,987 - INFO - Update id=424431307 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:17:47,811 - INFO - Update id=424431308 is not handled. Duration 171 ms by bot id=6988902728
+2023-12-03 23:17:47,812 - ERROR - Cause exception while process update id=424431308 by bot id=6988902728
+TypeError: magic_start() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 179, in get_profile_link
+    await magic_start()
+TypeError: magic_start() missing 1 required positional argument: 'message'
+2023-12-03 23:17:55,431 - INFO - Update id=424431309 is handled. Duration 452 ms by bot id=6988902728
+2023-12-03 23:17:57,718 - INFO - Update id=424431310 is handled. Duration 264 ms by bot id=6988902728
+2023-12-03 23:17:59,578 - INFO - Update id=424431311 is handled. Duration 125 ms by bot id=6988902728
+2023-12-03 23:17:59,841 - INFO - Update id=424431312 is not handled. Duration 311 ms by bot id=6988902728
+2023-12-03 23:17:59,841 - ERROR - Cause exception while process update id=424431312 by bot id=6988902728
+TypeError: magic_start() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\iiiva\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\iiiva\WSLData\git\new_fopf_dating\main.py", line 179, in get_profile_link
+    await magic_start()
+TypeError: magic_start() missing 1 required positional argument: 'message'
+2023-12-03 23:18:02,601 - INFO - Update id=424431313 is not handled. Duration 0 ms by bot id=6988902728
+2023-12-03 23:19:58,463 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:19:58,463 - INFO - Polling stopped
+2023-12-03 23:20:01,452 - INFO - Start polling
+2023-12-03 23:20:01,733 - INFO - Run polling for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:21:49,445 - INFO - Polling stopped for bot @fopf_dating_bot id=6988902728 - '‘Œœ‘.«Ì‡ÍÓÏÒÚ‚‡'
+2023-12-03 23:21:49,445 - INFO - Polling stopped
