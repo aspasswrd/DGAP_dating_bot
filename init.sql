@@ -1,8 +1,10 @@
 CREATE schema IF NOT EXISTS bot;
 
-CREATE EXTENSION postgis ;
+CREATE EXTENSION IF NOT EXISTS postgis ;
 
-CREATE TABLE bot.users (
+COMMIT;
+
+CREATE TABLE IF NOT EXISTS bot.users (
     user_id BIGINT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     is_male BOOLEAN NOT NULL,
@@ -11,7 +13,7 @@ CREATE TABLE bot.users (
 );
 
 
-CREATE TABLE bot.preferences (
+CREATE TABLE IF NOT EXISTS bot.preferences (
     user_id BIGINT PRIMARY KEY REFERENCES bot.users(user_id) ON DELETE CASCADE,
     min_age INT NOT NULL CHECK (min_age BETWEEN 14 AND 100),
     max_age INT NOT NULL CHECK (max_age BETWEEN 14 AND 100),
@@ -19,15 +21,17 @@ CREATE TABLE bot.preferences (
     CONSTRAINT age_range CHECK (min_age <= max_age)
 );
 
-CREATE TABLE bot.photos (
+CREATE TABLE IF NOT EXISTS bot.photos (
     photo_id SERIAL PRIMARY KEY,
     user_id BIGINT NOT NULL REFERENCES bot.users(user_id) ON DELETE CASCADE,
     photo BYTEA
 );
 
-CREATE TABLE bot.likes (
+CREATE TABLE IF NOT EXISTS bot.likes (
     like_id SERIAL PRIMARY KEY,
     from_user BIGINT REFERENCES bot.users(user_id) ON DELETE CASCADE,
     to_user BIGINT REFERENCES bot.users(user_id) ON DELETE CASCADE,
     UNIQUE(from_user, to_user)
 );
+
+COMMIT;
