@@ -1,2 +1,3 @@
 aiogram
-lxml
+python-dotenv
+asyncpg

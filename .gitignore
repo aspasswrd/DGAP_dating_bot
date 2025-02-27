@@ -1,5 +1,1 @@
-__pycache__/
-.idea/
-/src/photos/
-/src/database.db
-/src/settings.py
+.env
