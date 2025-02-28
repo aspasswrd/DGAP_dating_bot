@@ -8,7 +8,7 @@ from aiogram.utils import keyboard
 
 from ..config import get_db_connection
 from ..database.queries import SELECT_USER_QUERY, SELECT_USER_PHOTO_QUERY, DELETE_USER_QUERY, INSERT_USER_QUERY, \
-    INSERT_USER_PREFERENCES_QUERY
+    INSERT_USER_PREFERENCES_QUERY, INSERT_USER_PHOTO_QUERY
 from ..handlers.common import cmd_start
 from ..keyboards.builders import inline_edit_profile_keyboard
 from ..states.registration import Registration
@@ -68,8 +68,9 @@ async def show_profile(callback: CallbackQuery):
         if conn:
             await conn.close()
 
-@router.message(F.text == "❌ Удалить профиль")
-async def delete_profile(message: Message):
+@router.callback_query(F.data == 'delete_profile')
+async def delete_profile(callback: CallbackQuery):
+    await callback.answer()
     conn = None
     try:
         conn = await get_db_connection()
@@ -78,17 +79,16 @@ async def delete_profile(message: Message):
             # Каскадное удаление сработает благодаря REFERENCES CASCADE
             await conn.execute(
                 DELETE_USER_QUERY,
-                message.from_user.id
+                callback.from_user.id
             )
 
-        await message.answer(
+        await callback.message.answer(
             "Ваш профиль успешно удалён!",
             reply_markup=types.ReplyKeyboardRemove()
         )
-        await cmd_start(message, state=None)  # Показываем стартовое меню
 
     except Exception as e:
-        await message.answer("❌ Ошибка при удалении профиля")
+        await callback.message.answer("❌ Ошибка при удалении профиля")
         print(f"Error: {e}")
 
     finally:
@@ -187,7 +187,6 @@ async def process_photo(message: Message, state: FSMContext):
     try:
         conn = await get_db_connection()
 
-        # Начинаем транзакцию
         async with conn.transaction():
             # Сохраняем пользователя
             await conn.execute(INSERT_USER_QUERY,
@@ -198,7 +197,7 @@ async def process_photo(message: Message, state: FSMContext):
                                f"POINT({data['longitude']} {data['latitude']})")
 
             # Сохраняем фото
-            await conn.execute(INSERT_USER_QUERY,
+            await conn.execute(INSERT_USER_PHOTO_QUERY,
                                message.from_user.id,
                                photo_data)  # Передаем photo_data, который является типом bytes
 
@@ -215,13 +214,12 @@ async def process_photo(message: Message, state: FSMContext):
             f"Возраст: {data['age']}\n"
             f"Пол: {'Мужчина' if data['is_male'] else 'Женщина'}"
         )
-        await cmd_start(message, state=None)
-        #await state.set_state(MainMenu.main)
+        await state.clear()
+        await cmd_start(message, state)
 
     except Exception as e:
         await message.answer("❌ Ошибка при сохранении профиля. Попробуйте позже.")
         print(f"Database error: {e}")
-        #await state.set_state(MainMenu.main)
 
     finally:
         if conn:

@@ -4,14 +4,14 @@ from aiogram.types import Message, CallbackQuery, InputMediaPhoto, BufferedInput
 from aiogram.fsm.context import FSMContext
 from src.config import get_db_connection
 from ..database.queries import CHECK_USER_QUERY
-from ..keyboards.builders import main_menu_keyboard, create_new_profile_keyboard, inline_main_menu_keyboard
+from ..keyboards.builders import create_new_profile_keyboard, inline_main_menu_keyboard
 
 router = Router()
 
 dgap_photo = FSInputFile("dgap.jpg")
 
 @router.message(Command("start"))
-async def cmd_start(message: Message):
+async def cmd_start(message: Message, state: FSMContext):
     conn = None
     try:
         conn = await get_db_connection()
@@ -28,7 +28,8 @@ async def cmd_start(message: Message):
                 reply_markup=keyboard
             )
         else:
-            keyboard = create_new_profile_keyboard()
+            await state.clear()
+            keyboard = create_new_profile_keyboard
             await message.answer(
                 "Добро пожаловать! Для начала создайте профиль.",
                 reply_markup=keyboard
