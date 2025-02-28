@@ -1,23 +1,101 @@
-from aiogram import types, Router
+from aiogram import F, Router, types
 from aiogram.fsm.context import FSMContext
-from aiogram.fsm.state import StatesGroup, State
+from aiogram.types.message import Message
 from aiogram.filters import StateFilter
-from aiogram.types import Message
-from aiogram import F
-import asyncpg
+from aiogram.utils import keyboard
 
-from bot import get_db_connection, bot, MainMenu
+from ..config import get_db_connection
+from ..database.queries import SELECT_USER_QUERY, SELECT_USER_PHOTO_QUERY, DELETE_USER_QUERY, INSERT_USER_QUERY, \
+    INSERT_USER_PREFERENCES_QUERY
+from ..handlers.common import cmd_start
+from ..states.registration import Registration
+
+from ..handlers.common import cmd_start
 
 router = Router()
 
-class Registration(StatesGroup):
-    get_name = State()
-    get_age = State()
-    get_gender = State()
-    get_location = State()
-    get_photo = State()
+from bot import bot
 
-# Обработчик имени
+from aiogram.types import BufferedInputFile  # Добавить в импорты
+
+
+@router.message(F.text == "👤 Мой профиль")
+async def show_profile(message: Message, state: FSMContext):
+    conn = None
+    try:
+        conn = await get_db_connection()
+        user = await conn.fetchrow(SELECT_USER_QUERY, message.from_user.id)
+
+        if user:
+            photos = await conn.fetch(SELECT_USER_PHOTO_QUERY, message.from_user.id)
+            response = (
+                f"👤 Ваш профиль:\n"
+                f"Имя: {user['name']}\n"
+                f"Возраст: {user['age']}\n"
+                f"Пол: {'Мужчина' if user['is_male'] else 'Женщина'}\n"
+                f"Поиск: {user['min_age']}-{user['max_age']} лет, "
+                f"радиус {user['search_radius']} км\n"
+                f"Фотографий: {len(photos)}"
+            )
+
+            if photos:
+                await message.answer_photo(
+                    BufferedInputFile(
+                        photos[0]['photo'],
+                        filename="profile_photo.jpg"
+                    ),
+                    caption=response
+                )
+                await cmd_start(message, state=state)
+            else:
+                await message.answer(response)
+                await conn.close()
+                await cmd_start(message, state=state)
+
+    except Exception as e:
+        await message.answer("❌ Ошибка при загрузке профиля")
+        print(f"Error: {e}")
+        await conn.close()
+        await cmd_start(message, state=state)
+
+    finally:
+        if conn:
+            await conn.close()
+
+@router.message(F.text == "❌ Удалить профиль")
+async def delete_profile(message: Message):
+    conn = None
+    try:
+        conn = await get_db_connection()
+
+        async with conn.transaction():
+            # Каскадное удаление сработает благодаря REFERENCES CASCADE
+            await conn.execute(
+                DELETE_USER_QUERY,
+                message.from_user.id
+            )
+
+        await message.answer(
+            "Ваш профиль успешно удалён!",
+            reply_markup=types.ReplyKeyboardRemove()
+        )
+        await cmd_start(message, state=None)  # Показываем стартовое меню
+
+    except Exception as e:
+        await message.answer("❌ Ошибка при удалении профиля")
+        print(f"Error: {e}")
+
+    finally:
+        if conn:
+            await conn.close()
+
+
+@router.message(F.text == "Создать профиль")
+async def create_profile(message: Message, state: FSMContext):
+    await message.answer("Давайте создадим ваш профиль.\nВведите ваше имя:", reply_markup=types.ReplyKeyboardRemove())
+    await state.set_state(Registration.get_name)
+
+
 @router.message(StateFilter(Registration.get_name))
 async def process_name(message: Message, state: FSMContext):
     if len(message.text) > 50:
@@ -106,10 +184,7 @@ async def process_photo(message: Message, state: FSMContext):
         # Начинаем транзакцию
         async with conn.transaction():
             # Сохраняем пользователя
-            await conn.execute('''
-                INSERT INTO bot.users(user_id, name, is_male, age, location)
-                VALUES($1, $2, $3, $4, ST_GeogFromText($5))
-            ''',
+            await conn.execute(INSERT_USER_QUERY,
                                message.from_user.id,
                                data["name"],
                                data["is_male"],
@@ -117,18 +192,12 @@ async def process_photo(message: Message, state: FSMContext):
                                f"POINT({data['longitude']} {data['latitude']})")
 
             # Сохраняем фото
-            await conn.execute('''
-                INSERT INTO bot.photos(user_id, photo)
-                VALUES($1, $2)
-            ''',
+            await conn.execute(INSERT_USER_QUERY,
                                message.from_user.id,
                                photo_data)  # Передаем photo_data, который является типом bytes
 
             # Устанавливаем дефолтные предпочтения
-            await conn.execute('''
-                INSERT INTO bot.preferences(user_id, min_age, max_age, search_radius)
-                VALUES($1, $2, $3, $4)
-            ''',
+            await conn.execute(INSERT_USER_PREFERENCES_QUERY,
                                message.from_user.id,
                                data["age"] - 2 if data["age"] > 16 else 14,
                                data["age"] + 2,
@@ -140,44 +209,15 @@ async def process_photo(message: Message, state: FSMContext):
             f"Возраст: {data['age']}\n"
             f"Пол: {'Мужчина' if data['is_male'] else 'Женщина'}"
         )
-        await state.set_state(MainMenu.main)
+        await cmd_start(message, state=None)
+        #await state.set_state(MainMenu.main)
 
     except Exception as e:
         await message.answer("❌ Ошибка при сохранении профиля. Попробуйте позже.")
         print(f"Database error: {e}")
-        await state.set_state(MainMenu.main)
+        #await state.set_state(MainMenu.main)
 
     finally:
         if conn:
             await conn.close()
         await state.clear()
-
-
-# Добавим новые состояния
-
-
-# Добавим обработку лайков
-@router.callback_query(F.data.startswith("like_") | F.data.startswith("dislike_"))
-async def handle_like(callback: types.CallbackQuery):
-    action, target_id = callback.data.split("_")
-    conn = None
-    try:
-        conn = await get_db_connection()
-        if action == "like":
-            await conn.execute(
-                "INSERT INTO bot.likes(from_user, to_user) VALUES($1, $2)",
-                callback.from_user.id,
-                int(target_id)
-            )
-            await callback.answer("❤️ Вы понравились пользователю!")
-        else:
-            await callback.answer("👎 Вы пропустили анкету")
-
-    except asyncpg.exceptions.UniqueViolationError:
-        await callback.answer("Вы уже лайкали этого пользователя")
-    except Exception as e:
-        await callback.answer("❌ Ошибка обработки")
-        print(f"Error: {e}")
-    finally:
-        if conn:
-            await conn.close()
