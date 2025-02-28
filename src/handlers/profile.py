@@ -1,3 +1,5 @@
+from fileinput import filename
+
 from aiogram import F, Router, types
 from aiogram.fsm.context import FSMContext
 from aiogram.types.message import Message
@@ -8,6 +10,7 @@ from ..config import get_db_connection
 from ..database.queries import SELECT_USER_QUERY, SELECT_USER_PHOTO_QUERY, DELETE_USER_QUERY, INSERT_USER_QUERY, \
     INSERT_USER_PREFERENCES_QUERY
 from ..handlers.common import cmd_start
+from ..keyboards.builders import inline_edit_profile_keyboard
 from ..states.registration import Registration
 
 from ..handlers.common import cmd_start
@@ -16,18 +19,19 @@ router = Router()
 
 from bot import bot
 
-from aiogram.types import BufferedInputFile  # Добавить в импорты
+from aiogram.types import BufferedInputFile, CallbackQuery, InputMediaPhoto, InlineKeyboardMarkup
 
 
-@router.message(F.text == "👤 Мой профиль")
-async def show_profile(message: Message, state: FSMContext):
+@router.callback_query(F.data == 'profile')
+async def show_profile(callback: CallbackQuery):
+    await callback.answer()
     conn = None
     try:
         conn = await get_db_connection()
-        user = await conn.fetchrow(SELECT_USER_QUERY, message.from_user.id)
+        user = await conn.fetchrow(SELECT_USER_QUERY, callback.from_user.id)
 
         if user:
-            photos = await conn.fetch(SELECT_USER_PHOTO_QUERY, message.from_user.id)
+            photos = await conn.fetch(SELECT_USER_PHOTO_QUERY, callback.from_user.id)
             response = (
                 f"👤 Ваш профиль:\n"
                 f"Имя: {user['name']}\n"
@@ -39,24 +43,26 @@ async def show_profile(message: Message, state: FSMContext):
             )
 
             if photos:
-                await message.answer_photo(
-                    BufferedInputFile(
+                media = InputMediaPhoto(
+                    media=BufferedInputFile(
                         photos[0]['photo'],
-                        filename="profile_photo.jpg"
+                        filename='profile_photo.jpg'
                     ),
                     caption=response
                 )
-                await cmd_start(message, state=state)
+
+                await callback.message.edit_media(
+                    media=media,
+                    reply_markup=inline_edit_profile_keyboard
+                )
             else:
-                await message.answer(response)
+                await callback.message.answer(response)
                 await conn.close()
-                await cmd_start(message, state=state)
 
     except Exception as e:
-        await message.answer("❌ Ошибка при загрузке профиля")
+        await callback.answer("❌ Ошибка при загрузке профиля")
         print(f"Error: {e}")
         await conn.close()
-        await cmd_start(message, state=state)
 
     finally:
         if conn:

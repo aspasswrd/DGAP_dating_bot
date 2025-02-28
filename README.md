@@ -6,6 +6,8 @@
 [![Aiogram](https://img.shields.io/badge/Aiogram-3.18-green)](https://aiogram.dev)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-blue)](https://postgresql.org)
 
+![dgap_cat](dgap.jpg)
+
 ## 📌 Особенности
 - Асинхронная архитектура
 - Геопоиск с использованием PostGIS

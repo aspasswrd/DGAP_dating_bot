@@ -15,6 +15,7 @@ bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
 
 async def main():
+    dgap_photo = open('dgap.jpg')
     dp.include_routers(
         common_router,
         profiles_router,
