@@ -8,22 +8,23 @@ from aiogram.utils import keyboard
 
 from ..config import get_db_connection
 from ..database.queries import SELECT_USER_QUERY, SELECT_USER_PHOTO_QUERY, DELETE_USER_QUERY, INSERT_USER_QUERY, \
-    INSERT_USER_PREFERENCES_QUERY, INSERT_USER_PHOTO_QUERY
+    INSERT_USER_PREFERENCES_QUERY, INSERT_USER_PHOTO_QUERY, UPDATE_USER_PREFERENCES_QUERY
 from ..handlers.common import cmd_start
-from ..keyboards.builders import inline_edit_profile_keyboard
+from ..keyboards.builders import inline_edit_profile_keyboard, edit_preferences_keyboard
 from ..states.registration import Registration
+from ..states.preferences import Preferences
 
 from ..handlers.common import cmd_start
 
 router = Router()
 
-from bot import bot
+from ..config import bot
 
 from aiogram.types import BufferedInputFile, CallbackQuery, InputMediaPhoto, InlineKeyboardMarkup
 
-
 @router.callback_query(F.data == 'profile')
-async def show_profile(callback: CallbackQuery):
+async def show_profile(callback: CallbackQuery, state: FSMContext):
+    await state.clear()
     await callback.answer()
     conn = None
     try:
@@ -175,6 +176,7 @@ async def process_photo(message: Message, state: FSMContext):
     # Берем последнюю (наибольшего размера) версию фото
     photo = message.photo[-1]
 
+
     # Скачиваем фото в бинарном виде
     photo_file = await bot.get_file(photo.file_id)
     photo_bytes = await bot.download_file(photo_file.file_path)
@@ -191,6 +193,7 @@ async def process_photo(message: Message, state: FSMContext):
             # Сохраняем пользователя
             await conn.execute(INSERT_USER_QUERY,
                                message.from_user.id,
+                               message.from_user.username,
                                data["name"],
                                data["is_male"],
                                data["age"],
@@ -225,3 +228,70 @@ async def process_photo(message: Message, state: FSMContext):
         if conn:
             await conn.close()
         await state.clear()
+
+
+@router.callback_query(F.data == "edit_preferences")
+async def edit_preferences(callback: CallbackQuery, state: FSMContext):
+    await callback.answer()
+    await state.set_state(Preferences.get_min_age)  # Сразу переходим к первому шагу
+    await callback.message.answer("Введите минимальный возраст партнера (не менее 14):")
+
+
+@router.message(StateFilter(Preferences.get_min_age))
+async def process_min_age(message: Message, state: FSMContext):
+    try:
+        min_age = int(message.text)
+        if not 14 <= min_age <= 100:
+            raise ValueError
+        await state.update_data(min_age=min_age)
+        await message.answer("Теперь введите максимальный возраст (до 100 лет):")
+        await state.set_state(Preferences.get_max_age)
+    except ValueError:
+        await message.answer("❌ Некорректный возраст. Введите число от 14 до 100.")
+
+
+@router.message(StateFilter(Preferences.get_max_age))
+async def process_max_age(message: Message, state: FSMContext):
+    data = await state.get_data()
+    try:
+        max_age = int(message.text)
+        if max_age < data["min_age"] or max_age > 100:
+            raise ValueError
+        await state.update_data(max_age=max_age)
+        await message.answer("Теперь введите радиус поиска (в километрах) от 0 до 999:")
+        await state.set_state(Preferences.get_radius)
+    except ValueError:
+        await message.answer(f"❌ Некорректный возраст. Введите число от {data['min_age']} до 100.")
+
+
+@router.message(StateFilter(Preferences.get_radius))
+async def process_radius(message: Message, state: FSMContext):
+    try:
+        radius = int(message.text)
+        if radius < 1 or radius >= 1000:
+            raise ValueError
+
+        data = await state.get_data()
+        conn = await get_db_connection()
+
+        async with conn.transaction():
+            await conn.execute(
+                UPDATE_USER_PREFERENCES_QUERY,
+                message.from_user.id,
+                data["min_age"],
+                data["max_age"],
+                radius
+            )
+
+        await message.answer("✅ Настройки поиска успешно обновлены!")
+        await cmd_start(message, state)
+
+    except ValueError:
+        await message.answer("❌ Некорректное значение. Введите целое число от 0 до 999.")
+    except Exception as e:
+        await message.answer("❌ Ошибка при сохранении настроек")
+        print(f"Error: {e}")
+    finally:
+        await state.clear()
+        if conn:
+            await conn.close()

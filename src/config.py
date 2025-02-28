@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 import asyncpg
+from aiogram import Bot
 
 load_dotenv()
 
@@ -11,6 +12,7 @@ DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_NAME = os.getenv("DB_NAME")
 
+bot = Bot(token=os.getenv("BOT_TOKEN"))
 
 async def get_db_connection():
     return await asyncpg.connect(

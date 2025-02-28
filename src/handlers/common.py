@@ -25,7 +25,7 @@ async def cmd_start(message: Message, state: FSMContext):
             await message.answer_photo(
                 photo=dgap_photo,
                 caption='Главное меню',
-                reply_markup=keyboard
+                reply_markup=keyboard,
             )
         else:
             await state.clear()
@@ -45,8 +45,9 @@ async def cmd_start(message: Message, state: FSMContext):
 
 
 @router.callback_query(F.data == 'main_menu')
-async def cmd_main_menu(callback: CallbackQuery):
-    await callback.answer()
+async def cmd_main_menu(callback: CallbackQuery, state: FSMContext):
+    await state.clear()
+    await callback.answer(reply_markup=types.ReplyKeyboardRemove())
     conn = None
     try:
         conn = await get_db_connection()
