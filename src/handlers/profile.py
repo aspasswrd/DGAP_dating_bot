@@ -122,7 +122,6 @@ async def process_age(message: Message, state: FSMContext):
             raise ValueError
     except ValueError:
         await message.answer("Некорректный возраст. Введите число от 14 до 100.")
-        await process_age(message, state)
         return
 
     await state.update_data(age=age)
@@ -243,29 +242,29 @@ async def edit_preferences(callback: CallbackQuery, state: FSMContext):
 
 @router.message(StateFilter(Preferences.get_min_age))
 async def process_min_age(message: Message, state: FSMContext):
-    try:
-        min_age = int(message.text)
-        if not 14 <= min_age <= 100:
-            raise ValueError
-        await state.update_data(min_age=min_age)
-        await message.answer("Теперь введите максимальный возраст (до 100 лет):")
-        await state.set_state(Preferences.get_max_age)
-    except ValueError:
-        await message.answer("❌ Некорректный возраст. Введите число от 14 до 100.")
+    min_age = int(message.text)
+    if min_age < 14:
+        min_age = 14
+        await message.answer("Мало. Поставил 14")
+    if min_age > 100:
+        min_age = 18
+        await message.answer("Много. Поставил 18")
+    await state.update_data(min_age=min_age)
+    await message.answer("Теперь введите максимальный возраст (до 100 лет):")
+    await state.set_state(Preferences.get_max_age)
 
 
 @router.message(StateFilter(Preferences.get_max_age))
 async def process_max_age(message: Message, state: FSMContext):
     data = await state.get_data()
-    try:
-        max_age = int(message.text)
-        if max_age < data["min_age"] or max_age > 100:
-            raise ValueError
-        await state.update_data(max_age=max_age)
-        await message.answer("Теперь введите радиус поиска (в километрах):")
-        await state.set_state(Preferences.get_radius)
-    except ValueError:
-        await message.answer(f"❌ Некорректный возраст. Введите число от {data['min_age']} до 100.")
+
+    max_age = int(message.text)
+    if max_age < data["min_age"] or max_age > 100:
+        max_age = 100
+        await message.answer("Поставил 100")
+    await state.update_data(max_age=max_age)
+    await message.answer("Теперь введите радиус поиска (в километрах):")
+    await state.set_state(Preferences.get_radius)
 
 
 @router.message(StateFilter(Preferences.get_radius))
