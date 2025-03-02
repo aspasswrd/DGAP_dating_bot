@@ -15,28 +15,40 @@ SELECT_USER_PHOTO_QUERY = '''
                 '''
 
 FIND_MATCH_QUERY = '''
-SELECT 
-    u.*,
-    ST_Distance(
-        u.location::geography, 
-        (SELECT location::geography FROM bot.users WHERE user_id = $1)
-    ) / 1000 AS distance_km
-FROM bot.users u
-JOIN bot.preferences p ON u.user_id = p.user_id
-LEFT JOIN bot.match m ON 
-    (u.user_id = m.user_id_1 AND m.user_id_2 = $1) OR 
-    (u.user_id = m.user_id_2 AND m.user_id_1 = $1)
-WHERE 
-    u.user_id != $1 AND
-    u.age BETWEEN (SELECT min_age FROM bot.preferences WHERE user_id = $1) AND 
-                   (SELECT max_age FROM bot.preferences WHERE user_id = $1) AND
-    ST_DWithin(
-        u.location::geography,
-        (SELECT location::geography FROM bot.users WHERE user_id = $1),
-        (SELECT search_radius * 1000 FROM bot.preferences WHERE user_id = $1)
-    )
-ORDER BY RANDOM()
-LIMIT 10;
+WITH user_preferences AS (
+    SELECT
+        p.min_age,
+        p.max_age,
+        p.search_radius,
+        u.location AS user_location
+    FROM bot.preferences p
+    JOIN bot.users u USING(user_id)
+    WHERE p.user_id = $1
+),
+matching_users AS (
+    SELECT
+        u.user_id,
+        u.username,
+        u.name,
+        u.is_male,
+        u.age,
+        ST_Distance(up.user_location, u.location) / 1000 AS distance_km
+    FROM bot.users u
+    JOIN user_preferences up
+    ON u.age BETWEEN up.min_age AND up.max_age
+    AND ST_DWithin(up.user_location, u.location, up.search_radius * 1000)
+    AND u.user_id != $1
+)
+SELECT
+    mu.user_id,
+    mu.username,
+    mu.name,
+    mu.is_male,
+    mu.age,
+    mu.distance_km
+FROM matching_users mu
+ORDER BY random()
+LIMIT 10
 '''
 
 DELETE_USER_QUERY = '''

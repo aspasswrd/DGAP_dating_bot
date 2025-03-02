@@ -28,6 +28,6 @@ edit_preferences_keyboard = types.ReplyKeyboardMarkup(
 
 match_keyboard = types.InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='❤️ Лайк', callback_data='like'),
-     InlineKeyboardButton(text='➡️ Следующий', callback_data='next_match')],
+     InlineKeyboardButton(text='➡️ Следующий', callback_data='next_profile')],
     [InlineKeyboardButton(text='🚫 Закрыть', callback_data='main_menu')]
 ])

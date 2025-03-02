@@ -6,6 +6,7 @@ from aiogram.types.message import Message
 from aiogram.filters import StateFilter
 from aiogram.utils import keyboard
 
+from .common import cmd_main_menu
 from ..config import get_db_connection
 from ..database.queries import SELECT_USER_QUERY, SELECT_USER_PHOTO_QUERY, DELETE_USER_QUERY, INSERT_USER_QUERY, \
     INSERT_USER_PREFERENCES_QUERY, INSERT_USER_PHOTO_QUERY, UPDATE_USER_PREFERENCES_QUERY
@@ -84,8 +85,8 @@ async def delete_profile(callback: CallbackQuery):
             )
 
         await callback.message.answer(
-            "Ваш профиль успешно удалён!",
-            reply_markup=types.ReplyKeyboardRemove()
+            "Ваш профиль успешно удалён!\n Если хочешь создать новый профиль напиши /start",
+            reply_markup=types.ReplyKeyboardRemove(),
         )
 
     except Exception as e:

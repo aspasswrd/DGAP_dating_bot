@@ -39,6 +39,7 @@ async def find_match(callback: CallbackQuery, state: FSMContext):
         await conn.close()
 
 
+@router.callback_query(F.data == 'next_profile')
 async def show_next_profile(callback: CallbackQuery, state: FSMContext):
     conn = await get_db_connection()
     data = await state.get_data()
@@ -53,17 +54,19 @@ async def show_next_profile(callback: CallbackQuery, state: FSMContext):
     user = matches[index]
     photos = await conn.fetch(SELECT_USER_PHOTO_QUERY, user['user_id'])
 
-    # Формирование сообщения с медиагруппой
-    media = MediaGroupBuilder(caption=(
+    caption = (
         f"👤 {user['name']}, {user['age']}\n"
         f"📍 {round(user['distance_km'])} км от вас"
-    ))
+    )
 
-    for photo in photos:
-        media.add_photo(media=BufferedInputFile(photo['photo'], filename='photo.jpg'))
+    media = InputMediaPhoto(
+        media=BufferedInputFile(
+            photos[0]['photo'],
+            filename='profile_photo.jpg'
+        )
+    )
 
-    await callback.message.answer_media_group(media.build())
-    await callback.message.answer("Выберите действие:", reply_markup=match_keyboard)
+    await callback.message.edit_media(media=media, caption=caption, reply_markup=match_keyboard)
     await state.update_data(current_index=index + 1)
 
 
