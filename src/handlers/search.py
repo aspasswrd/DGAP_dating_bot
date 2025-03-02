@@ -20,10 +20,10 @@ async def find_match(callback: CallbackQuery, state: FSMContext):
 
     try:
         matches = await conn.fetch(FIND_MATCH_QUERY, callback.from_user.id)
+        await conn.close()
         if not matches:
             media = InputMediaPhoto(
                 media=dgap_photo,
-                filename='profile.png',
                 caption="😔 Нет подходящих пользователей. Попробуйте позже."
             )
             await callback.message.edit_media(media=media, reply_markup=inline_main_menu_keyboard)
@@ -47,7 +47,11 @@ async def show_next_profile(callback: CallbackQuery, state: FSMContext):
     matches = data['matches']
 
     if index >= len(matches):
-        await callback.message.answer("💔 Больше нет пользователей в поиске")
+        media = InputMediaPhoto(
+            media=dgap_photo,
+            caption="💔 Эта стопка кончилась(\nМожешь создать новую"
+        )
+        await callback.message.edit_media(media=media, reply_markup=inline_main_menu_keyboard)
         await state.clear()
         return
 
