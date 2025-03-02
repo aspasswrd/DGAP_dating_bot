@@ -1,3 +1,6 @@
-aiogram
-python-dotenv
-asyncpg
+aiogram~=3.18.0
+python-dotenv~=1.0.1
+asyncpg~=0.30.0
+faker~=36.1.1
+pillow~=11.1.0
+aiohttp~=3.11.13

@@ -55,18 +55,17 @@ async def show_next_profile(callback: CallbackQuery, state: FSMContext):
     photos = await conn.fetch(SELECT_USER_PHOTO_QUERY, user['user_id'])
 
     caption = (
+        f"[{index + 1}/{len(matches)}]\n"
         f"👤 {user['name']}, {user['age']}\n"
         f"📍 {round(user['distance_km'])} км от вас"
     )
 
     media = InputMediaPhoto(
-        media=BufferedInputFile(
-            photos[0]['photo'],
-            filename='profile_photo.jpg'
-        )
+        media=photos[0]['photo'],
+        caption=caption
     )
 
-    await callback.message.edit_media(media=media, caption=caption, reply_markup=match_keyboard)
+    await callback.message.edit_media(media=media, reply_markup=match_keyboard)
     await state.update_data(current_index=index + 1)
 
 

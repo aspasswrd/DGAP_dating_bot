@@ -3,9 +3,9 @@ CREATE schema IF NOT EXISTS bot;
 CREATE EXTENSION IF NOT EXISTS postgis ;
 
 DROP TABLE IF EXISTS bot.users CASCADE;
-DROP TABLE IF EXISTS bot.preferences CASCADE;
-DROP TABLE IF EXISTS bot.photos CASCADE;
-DROP TABLE IF EXISTS bot.match CASCADE;
+DROP TABLE IF EXISTS bot.preferences;
+DROP TABLE IF EXISTS bot.photos;
+DROP TABLE IF EXISTS bot.match;
 
 TRUNCATE bot.users CASCADE;
 
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS bot.preferences (
 CREATE TABLE IF NOT EXISTS bot.photos (
     photo_id SERIAL PRIMARY KEY,
     user_id BIGINT NOT NULL REFERENCES bot.users(user_id) ON DELETE CASCADE,
-    photo BYTEA
+    photo VARCHAR(2048) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS bot.match (

@@ -1,11 +1,10 @@
 import random
 import string
 import asyncio
-from faker import Faker
+import aiohttp
 from PIL import Image
-import io
 
-from src.config import get_db_connection
+from src.config import get_db_connection, upload_image
 
 
 # Генерация случайного имени пользователя
@@ -13,25 +12,12 @@ def generate_random_username():
     return ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
 
 
-# Генерация случайного имени
-def generate_random_name():
-    fake = Faker()
-    return fake.name()
-
-
 # Генерация случайного возраста
 def generate_random_age():
     return random.randint(14, 30)
 
-
-# Генерация случайного пола
-def generate_random_is_male():
-    return random.choice([True, False])
-
-
 # Генерация случайной географической точки (широта, долгота)
 def generate_random_location():
-    # Параметры случайного места
     lat = random.uniform(55.9, 56)
     lon = random.uniform(37.5, 37.55)
     return f"POINT({lon} {lat})"
@@ -41,21 +27,25 @@ def generate_random_location():
 def generate_random_preferences():
     min_age = 14
     max_age = random.randint(min_age, 30)
-    search_radius = random.randint(1, 50)  # В радиусе 1-50 км
+    search_radius = random.randint(1, 50)
     return min_age, max_age, search_radius
 
-
-# Генерация случайных фото (создаем случайное изображение с использованием Pillow)
-def generate_random_photo():
-    # Создаем изображение 100x100 пикселей с случайными цветами
-    img = Image.new('RGB', (300, 300), color=(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
-
-    # Сохраняем изображение в байтовый поток
-    byte_io = io.BytesIO()
-    img.save(byte_io, 'PNG')
-
-    # Возвращаем байты изображения
-    return byte_io.getvalue()
+# Асинхронная функция для получения случайного имени и фото из API RandomUser.me
+async def get_random_user():
+    async with aiohttp.ClientSession() as session:
+        async with session.get('https://randomuser.me/api/') as response:
+            if response.status == 200:
+                data = await response.json()
+                user = data['results'][0]
+                name = user['name']['first']
+                photo_url = user['picture']['large']
+                gender = user['gender']
+                is_male = False
+                if gender == "male":
+                    is_male = True
+                return name, photo_url, is_male
+            else:
+                return None, None
 
 
 # Асинхронное подключение и вставка пользователя в базу данных
@@ -84,48 +74,29 @@ async def insert_photo(conn, user_id, photo):
 
 # Генерация и вставка случайных пользователей
 async def generate_and_insert_users(n):
-    # Подключаемся к базе данных
     conn = await get_db_connection()
 
     for _ in range(n):
         user_id = random.randint(1000000000, 9999999999)
         username = generate_random_username()
-        name = generate_random_name()
-        is_male = generate_random_is_male()
+        name, photo_url, is_male = await get_random_user()
         age = generate_random_age()
         location = generate_random_location()
 
-        # Вставка пользователя в таблицу
         await insert_user(conn, user_id, username, name, is_male, age, location)
 
-        # Генерация и вставка предпочтений
         min_age, max_age, search_radius = generate_random_preferences()
         await insert_preferences(conn, user_id, min_age, max_age, search_radius)
 
-        # Вставка случайного фото
-        photo = generate_random_photo()
-        await insert_photo(conn, user_id, photo)
+        await insert_photo(conn, user_id, photo_url)
 
     # Закрытие соединения с базой данных
-    user_id = 701459202
-    username = 'aspasswrd'
-    name = 'Ванек2005'
-    is_male = True
-    age = 20
-    location = generate_random_location()
-    photo = generate_random_photo()
-
-    min_age, max_age, search_radius = generate_random_preferences()
-
-    await insert_user(conn, user_id, username, name, is_male, age, location)
-    await insert_preferences(conn, user_id, min_age, max_age, search_radius)
-    await insert_photo(conn, user_id, photo)
     await conn.close()
 
 
-# Запуск генерации 10 пользователей
+# Запуск генерации пользователей
 async def main():
-    await generate_and_insert_users(1500)
+    await generate_and_insert_users(500)
 
 
 # Запуск асинхронного кода

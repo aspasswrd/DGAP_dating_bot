@@ -8,7 +8,7 @@ from ..keyboards.builders import create_new_profile_keyboard, inline_main_menu_k
 
 router = Router()
 
-dgap_photo = FSInputFile("dgap.jpg")
+dgap_photo = 'https://i.imgur.com/NX2BCna.jpeg'
 
 @router.message(Command("start"))
 async def cmd_start(message: Message, state: FSMContext):
@@ -60,7 +60,6 @@ async def cmd_main_menu(callback: CallbackQuery, state: FSMContext):
             keyboard = inline_main_menu_keyboard
             media = InputMediaPhoto(
                 media=dgap_photo,
-                filename='profile.png',
                 caption='Главное меню'
             )
             await callback.message.edit_media(

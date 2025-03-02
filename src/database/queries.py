@@ -20,6 +20,7 @@ WITH user_preferences AS (
         p.min_age,
         p.max_age,
         p.search_radius,
+        u.is_male,
         u.location AS user_location
     FROM bot.preferences p
     JOIN bot.users u USING(user_id)
@@ -38,6 +39,7 @@ matching_users AS (
     ON u.age BETWEEN up.min_age AND up.max_age
     AND ST_DWithin(up.user_location, u.location, up.search_radius * 1000)
     AND u.user_id != $1
+    AND u.is_male != up.is_male
 )
 SELECT
     mu.user_id,

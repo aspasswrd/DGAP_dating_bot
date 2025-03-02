@@ -19,14 +19,13 @@ from ..handlers.common import cmd_start
 
 router = Router()
 
-from ..config import bot
+from ..config import bot, upload_image
 
 from aiogram.types import BufferedInputFile, CallbackQuery, InputMediaPhoto, InlineKeyboardMarkup
 
 @router.callback_query(F.data == 'profile')
 async def show_profile(callback: CallbackQuery, state: FSMContext):
     await state.clear()
-    await callback.answer()
     conn = None
     try:
         conn = await get_db_connection()
@@ -34,6 +33,7 @@ async def show_profile(callback: CallbackQuery, state: FSMContext):
 
         if user:
             photos = await conn.fetch(SELECT_USER_PHOTO_QUERY, callback.from_user.id)
+
             response = (
                 f"👤 Ваш профиль:\n"
                 f"Имя: {user['name']}\n"
@@ -41,25 +41,24 @@ async def show_profile(callback: CallbackQuery, state: FSMContext):
                 f"Пол: {'Мужчина' if user['is_male'] else 'Женщина'}\n"
                 f"Поиск: {user['min_age']}-{user['max_age']} лет, "
                 f"радиус {user['search_radius']} км\n"
-                f"Фотографий: {len(photos)}"
             )
 
             if photos:
                 media = InputMediaPhoto(
-                    media=BufferedInputFile(
-                        photos[0]['photo'],
-                        filename='profile_photo.jpg'
-                    ),
-                    caption=response
+                    media=photos[0]['photo'],
+                    caption=response,
                 )
 
-                await callback.message.edit_media(
+                await callback.message.edit_reply_markup(
                     media=media,
                     reply_markup=inline_edit_profile_keyboard
                 )
+
+                await callback.answer()
             else:
                 await callback.message.answer(response)
                 await conn.close()
+                await callback.answer()
 
     except Exception as e:
         await callback.answer("❌ Ошибка при загрузке профиля")
@@ -177,12 +176,16 @@ async def process_photo(message: Message, state: FSMContext):
     # Берем последнюю (наибольшего размера) версию фото
     photo = message.photo[-1]
 
-
     # Скачиваем фото в бинарном виде
     photo_file = await bot.get_file(photo.file_id)
     photo_bytes = await bot.download_file(photo_file.file_path)
 
-    photo_data = photo_bytes.getvalue()
+    image_url = await upload_image(photo_bytes)
+
+    if image_url:
+        await message.answer(f"Фото успешно загружено! Ссылка на изображение: {image_url}")
+    else:
+        await message.answer("Не удалось загрузить фото.")
 
     # Получаем все данные
     data = await state.get_data()
@@ -203,7 +206,7 @@ async def process_photo(message: Message, state: FSMContext):
             # Сохраняем фото
             await conn.execute(INSERT_USER_PHOTO_QUERY,
                                message.from_user.id,
-                               photo_data)  # Передаем photo_data, который является типом bytes
+                               image_url)
 
             # Устанавливаем дефолтные предпочтения
             await conn.execute(INSERT_USER_PREFERENCES_QUERY,
