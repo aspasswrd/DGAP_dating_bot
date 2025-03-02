@@ -1,5 +1,4 @@
 import random
-import string
 import asyncio
 import aiohttp
 
@@ -7,20 +6,20 @@ from src.config import get_db_connection, upload_image
 
 # Генерация случайного возраста
 def generate_random_age():
-    return random.randint(14, 30)
+    return random.randint(14, 100)
 
 # Генерация случайной географической точки (широта, долгота)
 def generate_random_location():
-    lat = random.uniform(55.9, 56)
-    lon = random.uniform(37.5, 37.55)
+    lat = random.uniform(55.7, 56)
+    lon = random.uniform(37.5, 37.7)
     return f"POINT({lon} {lat})"
 
 
 # Генерация случайных предпочтений
 def generate_random_preferences():
-    min_age = 14
-    max_age = random.randint(20, 30)
-    search_radius = random.randint(1, 50)
+    min_age = random.randint(14, 20)
+    max_age = random.randint(45, 100)
+    search_radius = 1000
     return min_age, max_age, search_radius
 
 # Асинхронная функция для получения случайного имени и фото из API RandomUser.me

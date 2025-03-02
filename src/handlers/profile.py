@@ -8,8 +8,7 @@ from aiogram.utils import keyboard
 
 from .common import cmd_main_menu
 from ..config import get_db_connection
-from ..database.queries import SELECT_USER_QUERY, SELECT_USER_PHOTO_QUERY, DELETE_USER_QUERY, INSERT_USER_QUERY, \
-    INSERT_USER_PREFERENCES_QUERY, INSERT_USER_PHOTO_QUERY, UPDATE_USER_PREFERENCES_QUERY
+from ..database.queries import *
 from ..handlers.common import cmd_start
 from ..keyboards.builders import inline_edit_profile_keyboard, edit_preferences_keyboard
 from ..states.registration import Registration
@@ -49,7 +48,7 @@ async def show_profile(callback: CallbackQuery, state: FSMContext):
                     caption=response,
                 )
 
-                await callback.message.edit_reply_markup(
+                await callback.message.edit_media(
                     media=media,
                     reply_markup=inline_edit_profile_keyboard
                 )
@@ -84,7 +83,7 @@ async def delete_profile(callback: CallbackQuery):
             )
 
         await callback.message.answer(
-            "Ваш профиль успешно удалён!\n Если хочешь создать новый профиль напиши /start",
+            "Ваш профиль успешно удалён!\nЕсли хочешь создать новый профиль напиши /start",
             reply_markup=types.ReplyKeyboardRemove(),
         )
 
@@ -123,6 +122,7 @@ async def process_age(message: Message, state: FSMContext):
             raise ValueError
     except ValueError:
         await message.answer("Некорректный возраст. Введите число от 14 до 100.")
+        await process_age(message, state)
         return
 
     await state.update_data(age=age)
@@ -173,7 +173,7 @@ async def process_location(message: Message, state: FSMContext):
 # Обработчик фото
 @router.message(StateFilter(Registration.get_photo), F.photo)
 async def process_photo(message: Message, state: FSMContext):
-    # Берем последнюю (наибольшего размера) версию фото
+    await message.answer("Я использую бесплатный хост фоток, так что придется подождать(")
     photo = message.photo[-1]
 
     # Скачиваем фото в бинарном виде
@@ -183,9 +183,9 @@ async def process_photo(message: Message, state: FSMContext):
     image_url = await upload_image(photo_bytes)
 
     if image_url:
-        await message.answer(f"Фото успешно загружено! Ссылка на изображение: {image_url}")
+        await message.answer(f"Фото успешно загружено!")
     else:
-        await message.answer("Не удалось загрузить фото.")
+        await message.answer("Не удалось загрузить фото.\nImgur говно.")
 
     # Получаем все данные
     data = await state.get_data()
@@ -262,7 +262,7 @@ async def process_max_age(message: Message, state: FSMContext):
         if max_age < data["min_age"] or max_age > 100:
             raise ValueError
         await state.update_data(max_age=max_age)
-        await message.answer("Теперь введите радиус поиска (в километрах) от 0 до 999:")
+        await message.answer("Теперь введите радиус поиска (в километрах):")
         await state.set_state(Preferences.get_radius)
     except ValueError:
         await message.answer(f"❌ Некорректный возраст. Введите число от {data['min_age']} до 100.")
@@ -272,8 +272,7 @@ async def process_max_age(message: Message, state: FSMContext):
 async def process_radius(message: Message, state: FSMContext):
     try:
         radius = int(message.text)
-        if radius < 1 or radius >= 1000:
-            raise ValueError
+        radius = min(radius, 20000)
 
         data = await state.get_data()
         conn = await get_db_connection()
@@ -290,8 +289,6 @@ async def process_radius(message: Message, state: FSMContext):
         await message.answer("✅ Настройки поиска успешно обновлены!")
         await cmd_start(message, state)
 
-    except ValueError:
-        await message.answer("❌ Некорректное значение. Введите целое число от 0 до 999.")
     except Exception as e:
         await message.answer("❌ Ошибка при сохранении настроек")
         print(f"Error: {e}")

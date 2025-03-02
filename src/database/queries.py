@@ -40,6 +40,20 @@ matching_users AS (
     AND ST_DWithin(up.user_location, u.location, up.search_radius * 1000)
     AND u.user_id != $1
     AND u.is_male != up.is_male
+    AND NOT EXISTS (
+        -- Исключаем пользователей, которым текущий пользователь уже поставил лайк или дизлайк
+        SELECT 1
+        FROM bot.match m
+        WHERE (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND (m.first_to_second IS NOT NULL OR m.second_to_first IS NOT NULL))
+        OR (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND (m.first_to_second IS NOT NULL OR m.second_to_first IS NOT NULL))
+    )
+    AND NOT EXISTS (
+        -- Исключаем пользователей, которые поставили дизлайк текущему пользователю
+        SELECT 1
+        FROM bot.match m
+        WHERE (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND m.first_to_second = false)
+        OR (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND m.second_to_first = false)
+    )
 )
 SELECT
     mu.user_id,
@@ -50,7 +64,7 @@ SELECT
     mu.distance_km
 FROM matching_users mu
 ORDER BY random()
-LIMIT 10
+LIMIT 10;
 '''
 
 DELETE_USER_QUERY = '''

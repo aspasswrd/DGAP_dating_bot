@@ -1,4 +1,3 @@
-
 from aiogram.utils.media_group import MediaGroupBuilder
 from aiogram import F, Router
 from aiogram.types import CallbackQuery, BufferedInputFile, InputMediaPhoto
@@ -10,8 +9,6 @@ from ..database.queries import FIND_MATCH_QUERY, SELECT_USER_PHOTO_QUERY
 from ..keyboards.builders import match_keyboard, inline_main_menu_keyboard
 
 router = Router()
-
-from ..config import bot
 
 @router.callback_query(F.data == 'find_match')
 async def find_match(callback: CallbackQuery, state: FSMContext):
@@ -73,6 +70,27 @@ async def show_next_profile(callback: CallbackQuery, state: FSMContext):
     await state.update_data(current_index=index + 1)
 
 
+async def update_match_status(conn, current_user_id, user1, user2, is_like):
+    record = await conn.fetchrow(
+        "SELECT * FROM bot.match WHERE user_id_1 = $1 AND user_id_2 = $2",
+        user1, user2
+    )
+
+    if record:
+        if is_like:
+            column = 'first_to_second' if current_user_id == user1 else 'second_to_first'
+            await conn.execute(
+                f"UPDATE bot.match SET {column} = true WHERE user_id_1 = $1 AND user_id_2 = $2",
+                user1, user2
+            )
+    else:
+        column = 'first_to_second' if current_user_id == user1 else 'second_to_first'
+        await conn.execute(
+            f"INSERT INTO bot.match (user_id_1, user_id_2, {column}) "
+            f"VALUES ($1, $2, $3)",
+            user1, user2, is_like
+        )
+
 @router.callback_query(F.data == 'like')
 async def process_like(callback: CallbackQuery, state: FSMContext):
     data = await state.get_data()
@@ -84,45 +102,31 @@ async def process_like(callback: CallbackQuery, state: FSMContext):
         user1 = min(current_user_id, target_user['user_id'])
         user2 = max(current_user_id, target_user['user_id'])
 
-        # Обновляем запись в таблице match
-        record = await conn.fetchrow(
-            "SELECT * FROM bot.match WHERE user_id_1 = $1 AND user_id_2 = $2",
-            user1, user2
-        )
+        await update_match_status(conn, current_user_id, user1, user2, is_like=True)
 
-        if record:
-            if current_user_id == user1:
-                await conn.execute(
-                    "UPDATE bot.match SET first_to_second = true WHERE user_id_1 = $1 AND user_id_2 = $2",
-                    user1, user2
-                )
-            else:
-                await conn.execute(
-                    "UPDATE bot.match SET second_to_first = true WHERE user_id_1 = $1 AND user_id_2 = $2",
-                    user1, user2
-                )
-        else:
-            await conn.execute(
-                "INSERT INTO bot.match (user_id_1, user_id_2, first_to_second, second_to_first) "
-                "VALUES ($1, $2, $3, $4)",
-                user1, user2,
-                current_user_id == user1,
-                current_user_id == user2
-            )
+        await callback.answer(text="Лайк отправлен", show_alert=True)
+        await show_next_profile(callback, state)
 
-        # Проверка на мэтч
-        if (current_user_id == user1 and record and record['second_to_first']) or \
-                (current_user_id == user2 and record and record['first_to_second']):
-            await bot.send_message(
-                current_user_id,
-                f"💌 У вас мэтч с {target_user['name']}! Напишите: @{target_user['username']}"
-            )
-            await bot.send_message(
-                target_user['user_id'],
-                f"💌 У вас мэтч с {callback.from_user.full_name}! Напишите: @{callback.from_user.username}"
-            )
+    except Exception as e:
+        print(f"Error: {e}")
+        await callback.answer("❌ Ошибка")
+    finally:
+        await conn.close()
 
-        await callback.answer("❤️ Лайк отправлен!")
+@router.callback_query(F.data == 'dislike')
+async def process_dislike(callback: CallbackQuery, state: FSMContext):
+    data = await state.get_data()
+    current_user_id = callback.from_user.id
+    target_user = data['matches'][data['current_index'] - 1]
+
+    conn = await get_db_connection()
+    try:
+        user1 = min(current_user_id, target_user['user_id'])
+        user2 = max(current_user_id, target_user['user_id'])
+
+        await update_match_status(conn, current_user_id, user1, user2, is_like=False)
+
+        await callback.answer(text="Больше не показываем", show_alert=True)
         await show_next_profile(callback, state)
 
     except Exception as e:
