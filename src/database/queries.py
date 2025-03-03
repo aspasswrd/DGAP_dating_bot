@@ -69,8 +69,8 @@ GET_MATCHES_QUERY = '''
 SELECT 
     u.user_id, 
     u.username, 
-    u.name, 
-    u.age, 
+    mu.name, 
+    mu.age, 
     dm.user_id_with AS matched_user_id,
     mu.username AS matched_username
 FROM bot.done_match dm
