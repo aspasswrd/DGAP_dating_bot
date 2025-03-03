@@ -43,8 +43,8 @@ matching_users AS (
     AND NOT EXISTS (
         SELECT 1
         FROM bot.match m
-        WHERE (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND (m.first_to_second IS NOT NULL OR m.second_to_first IS NOT NULL))
-        OR (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND (m.first_to_second IS NOT NULL OR m.second_to_first IS NOT NULL))
+        WHERE (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND m.first_to_second IS NOT NULL)
+        OR (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND m.second_to_first IS NOT NULL)
     )
     AND NOT EXISTS (
         SELECT 1
