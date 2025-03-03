@@ -1,14 +1,12 @@
 from aiogram import types, Router, F
 from aiogram.filters import Command
-from aiogram.types import Message, CallbackQuery, InputMediaPhoto, BufferedInputFile, FSInputFile
+from aiogram.types import Message, CallbackQuery, InputMediaPhoto
 from aiogram.fsm.context import FSMContext
-from src.config import get_db_connection
+from src.config import get_db_connection, dgap_photo
 from ..database.queries import CHECK_USER_QUERY, GET_USERS_COUNT_QUERY
 from ..keyboards.builders import create_new_profile_keyboard, inline_main_menu_keyboard
 
 router = Router()
-
-dgap_photo = 'https://i.imgur.com/NX2BCna.jpeg'
 
 @router.message(Command("start"))
 async def cmd_start(message: Message, state: FSMContext):
@@ -19,7 +17,6 @@ async def cmd_start(message: Message, state: FSMContext):
             CHECK_USER_QUERY,
             message.from_user.id
         )
-        print("ok")
 
         if user_exists:
             users_count = await conn.fetchval(GET_USERS_COUNT_QUERY)

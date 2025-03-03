@@ -16,6 +16,8 @@ IMGUR_CLIENT_ID = os.getenv("IMGUR_CLIENT_ID")
 
 bot = Bot(BOT_TOKEN)
 
+dgap_photo = 'https://i.imgur.com/NX2BCna.jpeg'
+
 async def get_db_connection():
     return await asyncpg.connect(
         host=DB_HOST,
