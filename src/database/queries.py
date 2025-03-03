@@ -11,7 +11,6 @@ CHECK_USER_QUERY = '''
                 WHERE user_id = $1
                 '''
 
-
 SELECT_USER_PHOTO_QUERY = '''
                 SELECT photo
                 FROM bot.photos 
