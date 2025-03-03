@@ -91,7 +91,7 @@ async def delete_profile(callback: CallbackQuery):
             await conn.close()
 
 
-@router.message(F.text == "Создать профиль")
+@router.message(F.text == "✨ Создать профиль")
 async def create_profile(message: Message, state: FSMContext):
     await message.answer("Давайте создадим ваш профиль.\nВведите ваше имя:", reply_markup=types.ReplyKeyboardRemove())
     await state.set_state(Registration.get_name)

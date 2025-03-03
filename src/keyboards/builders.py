@@ -20,12 +20,13 @@ create_new_profile_keyboard = types.ReplyKeyboardMarkup(
     resize_keyboard=True
 )
 
+"""
 edit_preferences_keyboard = types.ReplyKeyboardMarkup(
     keyboard=[
         [types.KeyboardButton(text="⚙️ Изменить предпочтения")]
     ],
     resize_keyboard=True
-)
+)"""
 
 match_keyboard = types.InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='🙈 Больше не показывать', callback_data='dislike')],
