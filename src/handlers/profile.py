@@ -147,7 +147,7 @@ async def process_gender(message: Message, state: FSMContext):
         return
 
     await state.update_data(is_male=is_male)
-    await message.answer("Отправьте вашу геолокацию:",
+    await message.answer("Отправьте вашу геопозицию:",
                          reply_markup=types.ReplyKeyboardRemove())
     await state.set_state(Registration.get_location)
 
@@ -167,7 +167,7 @@ async def process_location(message: Message, state: FSMContext):
 # Обработчик фото
 @router.message(StateFilter(Registration.get_photo), F.photo)
 async def process_photo(message: Message, state: FSMContext):
-    await message.answer("Я использую бесплатный хост фоток, так что придется подождать(")
+    await message.answer("Фото грузится на хост, чуток надо подождать")
     photo = message.photo[-1]
 
     # Скачиваем фото в бинарном виде
