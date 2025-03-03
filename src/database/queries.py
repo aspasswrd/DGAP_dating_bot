@@ -46,12 +46,6 @@ matching_users AS (
         WHERE (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND m.first_to_second IS NULL)
         OR (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND m.second_to_first IS NULL)
     )
-    AND NOT EXISTS (
-        SELECT 1
-        FROM bot.match m
-        WHERE (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND m.first_to_second = false)
-        OR (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND m.second_to_first = false)
-    )
 )
 SELECT
     mu.user_id,
