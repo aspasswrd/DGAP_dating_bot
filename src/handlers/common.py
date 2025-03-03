@@ -19,12 +19,15 @@ async def cmd_start(message: Message, state: FSMContext):
             CHECK_USER_QUERY,
             message.from_user.id
         )
+        print("ok")
 
         if user_exists:
+            users_count = await conn.fetchval(GET_USERS_COUNT_QUERY)
+
             keyboard = inline_main_menu_keyboard
             await message.answer_photo(
                 photo=dgap_photo,
-                caption='Главное меню',
+                caption=f"😮‍💨 Главное меню\nКоличество зарегистрированных пользователей: {int(users_count)}",
                 reply_markup=keyboard,
             )
         else:
@@ -58,12 +61,12 @@ async def cmd_main_menu(callback: CallbackQuery, state: FSMContext):
 
         if user_exists:
             users_count = await conn.fetch(GET_USERS_COUNT_QUERY)
-            users_count = int(users_count['count'])
+            count = users_count['count']
 
             keyboard = inline_main_menu_keyboard
             media = InputMediaPhoto(
                 media=dgap_photo,
-                caption=f'😮‍💨 Главное меню\nКоличество зарегистрированных пользователей: {users_count}'
+                caption=f"😮‍💨 Главное меню\nКоличество зарегистрированных пользователей: {count}"
             )
             await callback.message.edit_media(
                 media=media,
