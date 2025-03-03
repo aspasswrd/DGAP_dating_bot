@@ -5,7 +5,8 @@ from aiogram.types import InlineKeyboardButton
 
 from .common import dgap_photo
 from ..config import get_db_connection
-from ..database.queries import GET_STACK_QUERY, SELECT_USER_PHOTO_QUERY, GET_MATCHES_QUERY
+from ..database.queries import GET_STACK_QUERY, SELECT_USER_PHOTO_QUERY, GET_MATCHES_QUERY, RECORD_MATCH_QUERY, \
+    GET_MATCH_STATUS_QUERY
 from ..keyboards.builders import match_keyboard, inline_main_menu_keyboard
 
 router = Router()
@@ -80,27 +81,19 @@ async def update_match_status(conn, current_user_id, user1, user2, is_like):
         VALUES ($1, $2, $3)
         ON CONFLICT (user_id_1, user_id_2) 
         DO UPDATE SET {column} = EXCLUDED.{column}
-    """, user1, user2, is_like)
+        """,
+        user1, user2, is_like)
 
     # Проверяем статус после обновления
     match_record = await conn.fetchrow(
-        "SELECT first_to_second, second_to_first FROM bot.match WHERE user_id_1 = $1 AND user_id_2 = $2",
+        GET_MATCH_STATUS_QUERY,
         user1, user2
     )
 
     if match_record and match_record['first_to_second'] and match_record['second_to_first']:
         # Вставляем для обоих пользователей
-        await conn.execute("""
-            INSERT INTO bot.done_match (user_id, user_id_with)
-            VALUES ($1, $2), ($2, $1)
-            ON CONFLICT DO NOTHING
-        """, user1, user2)
+        await conn.execute(RECORD_MATCH_QUERY, user1, user2)
 
-        # Удаляем из таблицы match (опционально)
-        await conn.execute(
-            "DELETE FROM bot.match WHERE user_id_1 = $1 AND user_id_2 = $2",
-            user1, user2
-        )
 
 @router.callback_query(F.data == 'like')
 async def process_like(callback: CallbackQuery, state: FSMContext):

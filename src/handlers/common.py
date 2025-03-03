@@ -3,7 +3,7 @@ from aiogram.filters import Command
 from aiogram.types import Message, CallbackQuery, InputMediaPhoto, BufferedInputFile, FSInputFile
 from aiogram.fsm.context import FSMContext
 from src.config import get_db_connection
-from ..database.queries import CHECK_USER_QUERY
+from ..database.queries import CHECK_USER_QUERY, GET_USERS_COUNT_QUERY
 from ..keyboards.builders import create_new_profile_keyboard, inline_main_menu_keyboard
 
 router = Router()
@@ -57,10 +57,13 @@ async def cmd_main_menu(callback: CallbackQuery, state: FSMContext):
         )
 
         if user_exists:
+            users_count = await conn.fetch(GET_USERS_COUNT_QUERY)
+            users_count = int(users_count['count'])
+
             keyboard = inline_main_menu_keyboard
             media = InputMediaPhoto(
                 media=dgap_photo,
-                caption='Главное меню'
+                caption=f'😮‍💨 Главное меню\nКоличество зарегистрированных пользователей: {users_count}'
             )
             await callback.message.edit_media(
                 media=media,
