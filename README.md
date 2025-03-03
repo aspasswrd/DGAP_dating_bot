@@ -2,7 +2,12 @@
 
 Телеграм-бот для знакомств на базе aiogram 3.18 с использованием PostgreSQL и PostGIS.
 
-![dgap_cat](dgap.jpg)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://python.org)
+[![Aiogram](https://img.shields.io/badge/Aiogram-3.18-green)](https://aiogram.dev)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-blue)](https://postgresql.org)
+
+
+![dgap_cat](https://i.imgur.com/NX2BCna.jpeg)
 
 ## 📌 Особенности
 - Асинхронная архитектура
