@@ -14,7 +14,7 @@ SELECT_USER_PHOTO_QUERY = '''
                 SELECT photo FROM bot.photos WHERE user_id = $1
                 '''
 
-FIND_MATCH_QUERY = '''
+GET_STACK_QUERY = '''
 WITH user_preferences AS (
     SELECT
         p.min_age,
@@ -41,14 +41,12 @@ matching_users AS (
     AND u.user_id != $1
     AND u.is_male != up.is_male
     AND NOT EXISTS (
-        -- Исключаем пользователей, которым текущий пользователь уже поставил лайк или дизлайк
         SELECT 1
         FROM bot.match m
         WHERE (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND (m.first_to_second IS NOT NULL OR m.second_to_first IS NOT NULL))
         OR (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND (m.first_to_second IS NOT NULL OR m.second_to_first IS NOT NULL))
     )
     AND NOT EXISTS (
-        -- Исключаем пользователей, которые поставили дизлайк текущему пользователю
         SELECT 1
         FROM bot.match m
         WHERE (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND m.first_to_second = false)
@@ -65,6 +63,21 @@ SELECT
 FROM matching_users mu
 ORDER BY random()
 LIMIT 10;
+'''
+
+GET_MATCHES_QUERY = '''
+SELECT 
+    u.user_id, 
+    u.username, 
+    u.name, 
+    u.age, 
+    dm.user_id_with AS matched_user_id,
+    mu.username AS matched_username
+FROM bot.done_match dm
+JOIN bot.users u ON dm.user_id = u.user_id
+JOIN bot.users mu ON dm.user_id_with = mu.user_id
+WHERE dm.user_id = $1
+ORDER BY u.user_id
 '''
 
 DELETE_USER_QUERY = '''

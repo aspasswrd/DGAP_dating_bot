@@ -1,16 +1,11 @@
-from fileinput import filename
-
 from aiogram import F, Router, types
 from aiogram.fsm.context import FSMContext
 from aiogram.types.message import Message
 from aiogram.filters import StateFilter
-from aiogram.utils import keyboard
 
-from .common import cmd_main_menu
 from ..config import get_db_connection
 from ..database.queries import *
-from ..handlers.common import cmd_start
-from ..keyboards.builders import inline_edit_profile_keyboard, edit_preferences_keyboard
+from ..keyboards.builders import inline_edit_profile_keyboard
 from ..states.registration import Registration
 from ..states.preferences import Preferences
 
@@ -20,7 +15,7 @@ router = Router()
 
 from ..config import bot, upload_image
 
-from aiogram.types import BufferedInputFile, CallbackQuery, InputMediaPhoto, InlineKeyboardMarkup
+from aiogram.types import CallbackQuery, InputMediaPhoto
 
 @router.callback_query(F.data == 'profile')
 async def show_profile(callback: CallbackQuery, state: FSMContext):
@@ -212,7 +207,7 @@ async def process_photo(message: Message, state: FSMContext):
                                message.from_user.id,
                                data["age"] - 2 if data["age"] > 16 else 14,
                                data["age"] + 2,
-                               10)
+                               100)
 
         await message.answer(
             "✅ Профиль успешно создан!\n"

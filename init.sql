@@ -6,6 +6,7 @@ DROP TABLE IF EXISTS bot.users CASCADE;
 DROP TABLE IF EXISTS bot.preferences;
 DROP TABLE IF EXISTS bot.photos;
 DROP TABLE IF EXISTS bot.match;
+DROP TABLE IF EXISTS bot.done_match;
 
 TRUNCATE bot.users CASCADE;
 
@@ -39,6 +40,12 @@ CREATE TABLE IF NOT EXISTS bot.match (
     second_to_first BOOLEAN,
     PRIMARY KEY (user_id_1, user_id_2),
     CHECK (user_id_1 < user_id_2)
+);
+
+CREATE TABLE IF NOT EXISTS bot.done_match (
+    match_id SERIAL PRIMARY KEY,
+    user_id BIGINT NOT NULL REFERENCES bot.users(user_id) ON DELETE CASCADE,
+    user_id_with BIGINT NOT NULL
 );
 
 CREATE INDEX users_location_gix ON bot.users USING GIST (location);
