@@ -22,7 +22,7 @@ async def find_match(callback: CallbackQuery, state: FSMContext):
         if not stack:
             media = InputMediaPhoto(
                 media=dgap_photo,
-                caption="😔 Нет подходящих пользователей. Попробуй позже или поменяй радиус поиска."
+                caption="😔 Нет подходящих пользователей. Можешь увеличить радиус поиска в настройках профиля"
             )
             await callback.message.edit_media(media=media, reply_markup=inline_main_menu_keyboard)
             return
@@ -47,7 +47,7 @@ async def show_next_profile(callback: CallbackQuery, state: FSMContext):
     if index >= len(matches):
         media = InputMediaPhoto(
             media=dgap_photo,
-            caption="💔 Эта стопка кончилась(\nМожешь создать новую"
+            caption="💔 Эта стопка кончилась(\nМожешь создать новую\nP.S. Если стопка слишком маленькая можешь увеличить радиус поиска в настройках профиля"
         )
         await callback.message.edit_media(media=media, reply_markup=inline_main_menu_keyboard)
         await state.clear()

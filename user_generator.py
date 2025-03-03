@@ -97,9 +97,9 @@ async def generate_and_insert_users(n):
 
     await asyncio.gather(*tasks)
 
-
+#Пытаемся сгенерить 200 юзеров, но из-за ошибок API получится меньше
 async def main():
-    for i in range(20):
+    for i in range(40):
         await generate_and_insert_users(5)
 
 
