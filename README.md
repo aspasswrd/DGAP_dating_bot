@@ -2,6 +2,7 @@
 
 Телеграм-бот для знакомств на базе aiogram 3.18 с использованием PostgreSQL и PostGIS.
 
+[![Alpha Version](https://img.shields.io/badge/version-0.1.0--alpha-orange)](https://github.com/aspasswrd/DGAP_dating_bot/releases/tag/v0.1.0-alpha)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://python.org)
 [![Aiogram](https://img.shields.io/badge/Aiogram-3.18-green)](https://aiogram.dev)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-blue)](https://postgresql.org)
