@@ -71,6 +71,10 @@ async def generate_and_insert_user():
     name, photo_url, is_male, username = await get_random_user()
     age = generate_random_age()
     location = generate_random_location()
+
+    if not photo_url:
+        return
+
     print(name, username)
 
     await insert_user(conn, user_id, username, name, is_male, age, location)
@@ -94,7 +98,6 @@ async def generate_and_insert_users(n):
     await asyncio.gather(*tasks)
 
 
-# Запуск генерации пользователей
 async def main():
     for i in range(20):
         await generate_and_insert_users(5)
