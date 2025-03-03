@@ -60,13 +60,12 @@ async def cmd_main_menu(callback: CallbackQuery, state: FSMContext):
         )
 
         if user_exists:
-            users_count = await conn.fetch(GET_USERS_COUNT_QUERY)
-            count = users_count['count']
+            users_count = await conn.fetchval(GET_USERS_COUNT_QUERY)
 
             keyboard = inline_main_menu_keyboard
             media = InputMediaPhoto(
                 media=dgap_photo,
-                caption=f"😮‍💨 Главное меню\nКоличество зарегистрированных пользователей: {count}"
+                caption=f"😮‍💨 Главное меню\nКоличество зарегистрированных пользователей: {users_count}"
             )
             await callback.message.edit_media(
                 media=media,
