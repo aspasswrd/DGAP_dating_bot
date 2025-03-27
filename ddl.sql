@@ -68,19 +68,6 @@ CREATE INDEX idx_match_user1 ON bot.match(user_id_1);
 CREATE INDEX idx_match_user2 ON bot.match(user_id_2);
 CREATE INDEX idx_done_match_pairs ON bot.done_match(user_id, user_id_with);
 
-INSERT INTO bot.interests (name) VALUES
-('Футбол'),
-('Баскетбол'),
-('Хоккей'),
-('Рок-музыка'),
-('Поп-музыка'),
-('Электронная музыка'),
-('Кино'),
-('Аниме'),
-('Сова'),
-('Жаворонок')
-ON CONFLICT (name) DO NOTHING;
-
 ANALYZE VERBOSE bot.users;
 ANALYZE VERBOSE bot.preferences;
 ANALYZE VERBOSE bot.photos;
