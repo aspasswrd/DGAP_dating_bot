@@ -2,13 +2,13 @@ SELECT_USER_QUERY = '''
                 SELECT u.*, p.min_age, p.max_age, p.search_radius
                 FROM bot.users u
                 JOIN bot.preferences p ON u.user_id = p.user_id
-                WHERE u.user_id = $1
+                WHERE u.user_id = $1 AND is_current = TRUE
                 '''
 
 CHECK_USER_QUERY = '''
                 SELECT 1
                 FROM bot.users 
-                WHERE user_id = $1
+                WHERE user_id = $1 AND is_current = TRUE
                 '''
 
 SELECT_USER_PHOTO_QUERY = '''
@@ -19,7 +19,8 @@ SELECT_USER_PHOTO_QUERY = '''
 
 GET_USERS_COUNT_QUERY = '''
                 SELECT COUNT(*) AS count
-                FROM bot.users;
+                FROM bot.users
+                WHERE is_current = TRUE;
                 '''
 
 GET_STACK_QUERY = '''
@@ -85,7 +86,9 @@ GET_MATCHES_QUERY = '''
                 '''
 
 DELETE_USER_QUERY = '''
-                DELETE FROM bot.users WHERE user_id = $1
+                UPDATE bot.users
+                SET valid_to = CURRENT_TIMESTAMP, is_current = FALSE
+                WHERE user_id = $1 AND is_current = TRUE
                 '''
 
 INSERT_USER_QUERY = '''

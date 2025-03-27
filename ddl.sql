@@ -9,12 +9,16 @@ CREATE EXTENSION IF NOT EXISTS postgis;
 --DROP TABLE IF EXISTS bot.done_match;
 
 CREATE TABLE IF NOT EXISTS bot.users (
-    user_id BIGINT PRIMARY KEY,
+    user_id BIGINT NOT NULL,
     username VARCHAR(32),
     name VARCHAR(50) NOT NULL,
     is_male BOOLEAN NOT NULL,
     age INT NOT NULL CHECK (age BETWEEN 14 AND 100),
-    location geography(Point, 4326) NOT NULL
+    location geography(Point, 4326) NOT NULL,
+    valid_from TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    valid_to TIMESTAMP NOT NULL DEFAULT '9999-12-31 23:59:59',
+    is_current BOOLEAN NOT NULL DEFAULT TRUE,
+    PRIMARY KEY (user_id, valid_from)
 );
 
 CREATE TABLE IF NOT EXISTS bot.preferences (
