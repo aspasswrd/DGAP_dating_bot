@@ -46,6 +46,17 @@ CREATE TABLE IF NOT EXISTS bot.done_match (
     user_id_with BIGINT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS bot.interests (
+    interest_id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS bot.user_interests (
+    user_id BIGINT NOT NULL REFERENCES bot.users(user_id) ON DELETE CASCADE,
+    interest_id INT NOT NULL REFERENCES bot.interests(interest_id) ON DELETE CASCADE,
+    PRIMARY KEY (user_id, interest_id)
+);
+
 -- Индексы
 CREATE INDEX users_location_gix ON bot.users USING GIST (location);
 CREATE INDEX idx_preferences_user_id ON bot.preferences(user_id);
@@ -57,9 +68,22 @@ CREATE INDEX idx_match_user1 ON bot.match(user_id_1);
 CREATE INDEX idx_match_user2 ON bot.match(user_id_2);
 CREATE INDEX idx_done_match_pairs ON bot.done_match(user_id, user_id_with);
 
-CLUSTER bot.users USING users_location_gix;
+INSERT INTO bot.interests (name) VALUES
+('Футбол'),
+('Баскетбол'),
+('Хоккей'),
+('Рок-музыка'),
+('Поп-музыка'),
+('Электронная музыка'),
+('Кино'),
+('Аниме'),
+('Сова'),
+('Жаворонок')
+ON CONFLICT (name) DO NOTHING;
+
 ANALYZE VERBOSE bot.users;
 ANALYZE VERBOSE bot.preferences;
 ANALYZE VERBOSE bot.photos;
 ANALYZE VERBOSE bot.match;
 ANALYZE VERBOSE bot.done_match;
+

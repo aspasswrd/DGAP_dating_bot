@@ -120,3 +120,23 @@ GET_MATCH_STATUS_QUERY = '''
                 FROM bot.match 
                 WHERE user_id_1 = $1 AND user_id_2 = $2
                 '''
+
+INSERT_INTEREST_QUERY = '''
+INSERT INTO bot.interests (name)
+VALUES ($1)
+ON CONFLICT (name) DO NOTHING
+RETURNING interest_id
+'''
+
+SELECT_INTEREST_BY_NAME_QUERY = '''
+SELECT interest_id
+FROM bot.interests
+WHERE name = $1
+'''
+
+INSERT_USER_INTEREST_QUERY = '''
+INSERT INTO bot.user_interests (user_id, interest_id)
+VALUES ($1, $2)
+ON CONFLICT DO NOTHING
+'''
+
