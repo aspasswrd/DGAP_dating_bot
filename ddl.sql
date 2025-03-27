@@ -67,10 +67,11 @@ CREATE INDEX idx_users_age_gender ON bot.users(age, is_male);
 CREATE INDEX idx_match_user1 ON bot.match(user_id_1);
 CREATE INDEX idx_match_user2 ON bot.match(user_id_2);
 CREATE INDEX idx_done_match_pairs ON bot.done_match(user_id, user_id_with);
+CREATE INDEX idx_interests_name ON bot.interests(name);
+CREATE INDEX idx_user_interests_interest_id ON bot.user_interests(interest_id);
 
 ANALYZE VERBOSE bot.users;
 ANALYZE VERBOSE bot.preferences;
 ANALYZE VERBOSE bot.photos;
 ANALYZE VERBOSE bot.match;
 ANALYZE VERBOSE bot.done_match;
-
