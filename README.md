@@ -49,7 +49,7 @@ IMGUR_CLIENT_ID=
 ## 🏃 Запуск
 1. Инициализация БД:
 ```bash
-psql -U postgres -f init.sql
+psql -U postgres -f ddl.sql
 ```
 
 2. Запуск бота:
@@ -76,8 +76,11 @@ python3 fake_likes.py
 ├── bot.py
 ├── user_generator.py         # Скрипт для генерации фейковых пользователей
 ├── fake_likes.py             # Скрипт для лайков от всех пользователей противоположного пола
-├── init.sql
+├── ddl.sql
 ├── requirements.txt
+├── documentation/            # Документация
+├── dml/                      # DML-запросы
+├── csv/                      # CSV-файлы с данными аналогичными DML
 └── src/
     ├── handlers/      # Обработчики сообщений
     ├── keyboards/     # Клавиатуры
