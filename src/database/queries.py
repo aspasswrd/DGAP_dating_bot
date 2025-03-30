@@ -53,8 +53,8 @@ GET_STACK_QUERY = '''
                         FROM bot.match m
                         WHERE ((m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND m.first_to_second IS NULL)
                         OR (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND m.second_to_first IS NULL))
-                        AND (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND m.second_to_first != false)
-                        AND (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND m.first_to_second != false)
+                        AND (m.user_id_1 = $1 AND m.user_id_2 = u.user_id AND m.second_to_first <> false AND m.second_to_first IS NOT NULL)
+                        AND (m.user_id_1 = u.user_id AND m.user_id_2 = $1 AND m.first_to_second <> false AND m.first_to_second IS NOT NULL)
                     )
                 )
                 SELECT
@@ -127,21 +127,19 @@ GET_MATCH_STATUS_QUERY = '''
                 '''
 
 INSERT_INTEREST_QUERY = '''
-INSERT INTO bot.interests (name)
-VALUES ($1)
-ON CONFLICT (name) DO NOTHING
-RETURNING interest_id
-'''
+                INSERT INTO bot.interests (name)
+                VALUES ($1)
+                ON CONFLICT (name) DO NOTHING
+                '''
 
 SELECT_INTEREST_BY_NAME_QUERY = '''
-SELECT interest_id
-FROM bot.interests
-WHERE name = $1
-'''
+                SELECT interest_id
+                FROM bot.interests
+                WHERE name = $1
+                '''
 
 INSERT_USER_INTEREST_QUERY = '''
-INSERT INTO bot.user_interests (user_id, interest_id)
-VALUES ($1, $2)
-ON CONFLICT DO NOTHING
-'''
-
+                INSERT INTO bot.user_interests (user_id, interest_id)
+                VALUES ($1, $2)
+                ON CONFLICT DO NOTHING
+                '''
