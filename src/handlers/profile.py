@@ -71,7 +71,6 @@ async def delete_profile(callback: CallbackQuery):
         conn = await get_db_connection()
 
         async with conn.transaction():
-            # Каскадное удаление сработает благодаря REFERENCES CASCADE
             await conn.execute(
                 DELETE_USER_QUERY,
                 callback.from_user.id
@@ -107,8 +106,6 @@ async def process_name(message: Message, state: FSMContext):
     await message.answer("Введите ваш возраст (14-100 лет):")
     await state.set_state(Registration.get_age)
 
-
-# Обработчик возраста
 @router.message(StateFilter(Registration.get_age))
 async def process_age(message: Message, state: FSMContext):
     try:
@@ -121,7 +118,6 @@ async def process_age(message: Message, state: FSMContext):
 
     await state.update_data(age=age)
 
-    # Создаем клавиатуру для выбора пола
     keyboard = types.ReplyKeyboardMarkup(
         keyboard=[
             [types.KeyboardButton(text="Мужчина")],
@@ -133,7 +129,6 @@ async def process_age(message: Message, state: FSMContext):
     await state.set_state(Registration.get_gender)
 
 
-# Обработчик пола
 @router.message(StateFilter(Registration.get_gender))
 async def process_gender(message: Message, state: FSMContext):
     gender_mapping = {
@@ -152,7 +147,6 @@ async def process_gender(message: Message, state: FSMContext):
     await state.set_state(Registration.get_location)
 
 
-# Обработчик геолокации
 @router.message(StateFilter(Registration.get_location), F.location)
 async def process_location(message: Message, state: FSMContext):
     location = message.location
@@ -164,13 +158,11 @@ async def process_location(message: Message, state: FSMContext):
     await state.set_state(Registration.get_photo)
 
 
-# Обработчик фото
 @router.message(StateFilter(Registration.get_photo), F.photo)
 async def process_photo(message: Message, state: FSMContext):
     await message.answer("Фото грузится на хост, чуток надо подождать")
     photo = message.photo[-1]
 
-    # Скачиваем фото в бинарном виде
     photo_file = await bot.get_file(photo.file_id)
     photo_bytes = await bot.download_file(photo_file.file_path)
 
@@ -181,14 +173,12 @@ async def process_photo(message: Message, state: FSMContext):
     else:
         await message.answer("Не удалось загрузить фото.\nImgur говно.")
 
-    # Получаем все данные
     data = await state.get_data()
 
     try:
         conn = await get_db_connection()
 
         async with conn.transaction():
-            # Сохраняем пользователя
             await conn.execute(INSERT_USER_QUERY,
                                message.from_user.id,
                                message.from_user.username,
@@ -197,12 +187,10 @@ async def process_photo(message: Message, state: FSMContext):
                                data["age"],
                                f"POINT({data['longitude']} {data['latitude']})")
 
-            # Сохраняем фото
             await conn.execute(INSERT_USER_PHOTO_QUERY,
                                message.from_user.id,
                                image_url)
 
-            # Устанавливаем дефолтные предпочтения
             await conn.execute(INSERT_USER_PREFERENCES_QUERY,
                                message.from_user.id,
                                data["age"] - 2 if data["age"] > 16 else 14,
@@ -231,7 +219,7 @@ async def process_photo(message: Message, state: FSMContext):
 @router.callback_query(F.data == "edit_preferences")
 async def edit_preferences(callback: CallbackQuery, state: FSMContext):
     await callback.answer()
-    await state.set_state(Preferences.get_min_age)  # Сразу переходим к первому шагу
+    await state.set_state(Preferences.get_min_age)
     await callback.message.answer("Введите минимальный возраст партнера (не менее 14):")
 
 

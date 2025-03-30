@@ -143,3 +143,10 @@ INSERT_USER_INTEREST_QUERY = '''
                 VALUES ($1, $2)
                 ON CONFLICT DO NOTHING
                 '''
+
+GET_USER_INTERESTS_QUERY = '''
+                SELECT i.name
+                FROM bot.user_interests ui
+                INNER JOIN bot.interests i USING (interest_id)
+                WHERE ui.user_id = $1; 
+                '''

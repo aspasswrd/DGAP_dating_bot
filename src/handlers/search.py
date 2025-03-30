@@ -6,7 +6,7 @@ from aiogram.types import InlineKeyboardButton
 from .common import dgap_photo
 from ..config import get_db_connection
 from ..database.queries import GET_STACK_QUERY, SELECT_USER_PHOTO_QUERY, GET_MATCHES_QUERY, RECORD_MATCH_QUERY, \
-    GET_MATCH_STATUS_QUERY
+    GET_MATCH_STATUS_QUERY, GET_USER_INTERESTS_QUERY
 from ..keyboards.builders import match_keyboard, inline_main_menu_keyboard
 
 router = Router()
@@ -54,12 +54,26 @@ async def show_next_profile(callback: CallbackQuery, state: FSMContext):
         return
 
     user = matches[index]
+
+    # Получаем фото и интересы пользователя
     photos = await conn.fetch(SELECT_USER_PHOTO_QUERY, user['user_id'])
+    interests = await conn.fetch(
+        GET_USER_INTERESTS_QUERY,
+        user['user_id']
+    )
+
+    # Формируем список интересов
+    interests_text = "\n🎯 Интересы: "
+    if interests:
+        interests_text += ", ".join([i['name'] for i in interests])
+    else:
+        interests_text += "не указаны"
 
     caption = (
         f"[{index + 1}/{len(matches)}]\n"
         f"👤 {user['name']}, {user['age']}\n"
         f"📍 {round(user['distance_km'])} км от вас"
+        f"{interests_text}"
     )
 
     media = InputMediaPhoto(
@@ -69,13 +83,12 @@ async def show_next_profile(callback: CallbackQuery, state: FSMContext):
 
     await callback.message.edit_media(media=media, reply_markup=match_keyboard)
     await state.update_data(current_index=index + 1)
+    await conn.close()
 
 
 async def update_match_status(conn, current_user_id, user1, user2, is_like):
-    # Определяем, какой столбец обновлять
     column = 'first_to_second' if current_user_id == user1 else 'second_to_first'
 
-    # Обновляем или вставляем запись
     await conn.execute(f"""
         INSERT INTO bot.match (user_id_1, user_id_2, {column})
         VALUES ($1, $2, $3)
@@ -84,14 +97,12 @@ async def update_match_status(conn, current_user_id, user1, user2, is_like):
         """,
         user1, user2, is_like)
 
-    # Проверяем статус после обновления
     match_record = await conn.fetchrow(
         GET_MATCH_STATUS_QUERY,
         user1, user2
     )
 
     if match_record and match_record['first_to_second'] and match_record['second_to_first']:
-        # Вставляем для обоих пользователей
         await conn.execute(RECORD_MATCH_QUERY, user1, user2)
 
 
@@ -139,15 +150,12 @@ async def process_dislike(callback: CallbackQuery, state: FSMContext):
     finally:
         await conn.close()
 
-
-# Добавить в файл search.py
 @router.callback_query(F.data == 'get_match')
 async def get_matches(callback: CallbackQuery, state: FSMContext):
     await callback.answer()
     conn = await get_db_connection()
 
     try:
-        # Получаем список мэтчей
         matches = await conn.fetch(GET_MATCHES_QUERY, callback.from_user.id)
         await conn.close()
 
@@ -169,8 +177,6 @@ async def get_matches(callback: CallbackQuery, state: FSMContext):
     finally:
         await conn.close()
 
-
-# Добавить в файл search.py
 @router.callback_query(F.data == 'next_match')
 async def next_match_handler(callback: CallbackQuery, state: FSMContext):
     await show_next_match(callback, state)
@@ -194,7 +200,6 @@ async def show_next_match(callback: CallbackQuery, state: FSMContext):
     match = matches[index]
     photos = await conn.fetch(SELECT_USER_PHOTO_QUERY, match['matched_user_id'])
 
-    # Формируем сообщение
     caption = (
         f"[{index + 1}/{len(matches)}]\n"
         f"👤 {match['name']}, {match['age']}\n"
