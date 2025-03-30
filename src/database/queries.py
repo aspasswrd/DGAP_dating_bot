@@ -14,7 +14,7 @@ CHECK_USER_QUERY = '''
 SELECT_USER_PHOTO_QUERY = '''
                 SELECT photo
                 FROM bot.photos 
-                WHERE user_id = $1
+                WHERE user_id = $1 AND valid_to IS NULL
                 '''
 
 GET_USERS_COUNT_QUERY = '''
@@ -94,8 +94,13 @@ INSERT_USER_QUERY = '''
                 '''
 
 INSERT_USER_PHOTO_QUERY = '''
-                INSERT INTO bot.photos(user_id, photo)
-                VALUES($1, $2)
+                WITH close_previous AS (
+                    UPDATE bot.photos
+                    SET valid_to = CURRENT_TIMESTAMP
+                    WHERE user_id = $1 AND valid_to IS NULL
+                )
+                INSERT INTO bot.photos (user_id, photo, valid_from, valid_to)
+                VALUES ($1, $2, CURRENT_TIMESTAMP, NULL)
                 '''
 
 INSERT_USER_PREFERENCES_QUERY = '''
