@@ -1,3 +1,5 @@
+DROP SCHEMA IF EXISTS bot CASCADE;
+
 CREATE SCHEMA IF NOT EXISTS bot;
 
 CREATE EXTENSION IF NOT EXISTS postgis;
@@ -25,7 +27,7 @@ CREATE TABLE IF NOT EXISTS bot.photos (
     photo VARCHAR(2048) NOT NULL,
     valid_from TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     valid_to TIMESTAMP DEFAULT NULL,
-    CONSTRAINT back_to_the_future CHECK (valid_from < valid_to OR valid_to IS NULL)
+    CONSTRAINT back_to_the_future CHECK (valid_from <= valid_to OR valid_to IS NULL)
 );
 
 CREATE TABLE IF NOT EXISTS bot.match (
