@@ -1,1079 +1,1053 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 16.8 (Ubuntu 16.8-0ubuntu0.24.10.1)
--- Dumped by pg_dump version 16.8 (Ubuntu 16.8-0ubuntu0.24.10.1)
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
-
---
--- Data for Name: user_interests; Type: TABLE DATA; Schema: bot; Owner: bot_user
---
-
-INSERT INTO bot.user_interests VALUES (1369549308, 7);
-INSERT INTO bot.user_interests VALUES (1369549308, 15);
-INSERT INTO bot.user_interests VALUES (1369549308, 8);
-INSERT INTO bot.user_interests VALUES (1369549308, 12);
-INSERT INTO bot.user_interests VALUES (4936774336, 3);
-INSERT INTO bot.user_interests VALUES (4936774336, 6);
-INSERT INTO bot.user_interests VALUES (4936774336, 5);
-INSERT INTO bot.user_interests VALUES (2626802877, 3);
-INSERT INTO bot.user_interests VALUES (7621332780, 8);
-INSERT INTO bot.user_interests VALUES (9260406384, 2);
-INSERT INTO bot.user_interests VALUES (9260406384, 8);
-INSERT INTO bot.user_interests VALUES (9260406384, 5);
-INSERT INTO bot.user_interests VALUES (9280371169, 9);
-INSERT INTO bot.user_interests VALUES (9280371169, 7);
-INSERT INTO bot.user_interests VALUES (7403234810, 7);
-INSERT INTO bot.user_interests VALUES (7403234810, 4);
-INSERT INTO bot.user_interests VALUES (3093948027, 9);
-INSERT INTO bot.user_interests VALUES (3093948027, 15);
-INSERT INTO bot.user_interests VALUES (7616235328, 10);
-INSERT INTO bot.user_interests VALUES (7616235328, 14);
-INSERT INTO bot.user_interests VALUES (4469036397, 3);
-INSERT INTO bot.user_interests VALUES (4469036397, 2);
-INSERT INTO bot.user_interests VALUES (8030907648, 7);
-INSERT INTO bot.user_interests VALUES (8030907648, 14);
-INSERT INTO bot.user_interests VALUES (8030907648, 6);
-INSERT INTO bot.user_interests VALUES (8030907648, 15);
-INSERT INTO bot.user_interests VALUES (5093472206, 14);
-INSERT INTO bot.user_interests VALUES (5093472206, 2);
-INSERT INTO bot.user_interests VALUES (5093472206, 3);
-INSERT INTO bot.user_interests VALUES (3330024028, 9);
-INSERT INTO bot.user_interests VALUES (3330024028, 15);
-INSERT INTO bot.user_interests VALUES (2281765150, 15);
-INSERT INTO bot.user_interests VALUES (2281765150, 13);
-INSERT INTO bot.user_interests VALUES (2259132307, 2);
-INSERT INTO bot.user_interests VALUES (1388985119, 9);
-INSERT INTO bot.user_interests VALUES (1388985119, 10);
-INSERT INTO bot.user_interests VALUES (1388985119, 11);
-INSERT INTO bot.user_interests VALUES (1388985119, 14);
-INSERT INTO bot.user_interests VALUES (1263007192, 3);
-INSERT INTO bot.user_interests VALUES (1263007192, 7);
-INSERT INTO bot.user_interests VALUES (9882932850, 3);
-INSERT INTO bot.user_interests VALUES (9882932850, 8);
-INSERT INTO bot.user_interests VALUES (9650408206, 4);
-INSERT INTO bot.user_interests VALUES (5071181711, 14);
-INSERT INTO bot.user_interests VALUES (5071181711, 4);
-INSERT INTO bot.user_interests VALUES (5071181711, 7);
-INSERT INTO bot.user_interests VALUES (5071181711, 3);
-INSERT INTO bot.user_interests VALUES (4681786413, 5);
-INSERT INTO bot.user_interests VALUES (4681786413, 12);
-INSERT INTO bot.user_interests VALUES (4681786413, 14);
-INSERT INTO bot.user_interests VALUES (4681786413, 3);
-INSERT INTO bot.user_interests VALUES (7213524247, 6);
-INSERT INTO bot.user_interests VALUES (7213524247, 15);
-INSERT INTO bot.user_interests VALUES (7213524247, 7);
-INSERT INTO bot.user_interests VALUES (7213524247, 1);
-INSERT INTO bot.user_interests VALUES (6146960085, 6);
-INSERT INTO bot.user_interests VALUES (7093590506, 10);
-INSERT INTO bot.user_interests VALUES (7093590506, 3);
-INSERT INTO bot.user_interests VALUES (7093590506, 4);
-INSERT INTO bot.user_interests VALUES (7093590506, 7);
-INSERT INTO bot.user_interests VALUES (6970910606, 9);
-INSERT INTO bot.user_interests VALUES (6970910606, 12);
-INSERT INTO bot.user_interests VALUES (6970910606, 13);
-INSERT INTO bot.user_interests VALUES (6970910606, 6);
-INSERT INTO bot.user_interests VALUES (2872558100, 3);
-INSERT INTO bot.user_interests VALUES (8157897742, 12);
-INSERT INTO bot.user_interests VALUES (8157897742, 6);
-INSERT INTO bot.user_interests VALUES (2872558100, 11);
-INSERT INTO bot.user_interests VALUES (2872558100, 10);
-INSERT INTO bot.user_interests VALUES (2872558100, 9);
-INSERT INTO bot.user_interests VALUES (3642398996, 8);
-INSERT INTO bot.user_interests VALUES (4244621254, 14);
-INSERT INTO bot.user_interests VALUES (4244621254, 3);
-INSERT INTO bot.user_interests VALUES (4244621254, 15);
-INSERT INTO bot.user_interests VALUES (8868098007, 3);
-INSERT INTO bot.user_interests VALUES (8868098007, 14);
-INSERT INTO bot.user_interests VALUES (8868098007, 9);
-INSERT INTO bot.user_interests VALUES (8878519034, 13);
-INSERT INTO bot.user_interests VALUES (8878519034, 12);
-INSERT INTO bot.user_interests VALUES (8878519034, 8);
-INSERT INTO bot.user_interests VALUES (6005716433, 15);
-INSERT INTO bot.user_interests VALUES (6005716433, 7);
-INSERT INTO bot.user_interests VALUES (4057876490, 14);
-INSERT INTO bot.user_interests VALUES (4057876490, 12);
-INSERT INTO bot.user_interests VALUES (4057876490, 11);
-INSERT INTO bot.user_interests VALUES (4282737898, 2);
-INSERT INTO bot.user_interests VALUES (4282737898, 3);
-INSERT INTO bot.user_interests VALUES (4282737898, 7);
-INSERT INTO bot.user_interests VALUES (2937336703, 13);
-INSERT INTO bot.user_interests VALUES (5808668224, 12);
-INSERT INTO bot.user_interests VALUES (2937336703, 10);
-INSERT INTO bot.user_interests VALUES (2937336703, 9);
-INSERT INTO bot.user_interests VALUES (7244130409, 10);
-INSERT INTO bot.user_interests VALUES (7244130409, 2);
-INSERT INTO bot.user_interests VALUES (3629238939, 8);
-INSERT INTO bot.user_interests VALUES (8927291458, 1);
-INSERT INTO bot.user_interests VALUES (8927291458, 8);
-INSERT INTO bot.user_interests VALUES (5173575472, 11);
-INSERT INTO bot.user_interests VALUES (5173575472, 10);
-INSERT INTO bot.user_interests VALUES (5173575472, 13);
-INSERT INTO bot.user_interests VALUES (4982563399, 7);
-INSERT INTO bot.user_interests VALUES (4982563399, 9);
-INSERT INTO bot.user_interests VALUES (2295092171, 3);
-INSERT INTO bot.user_interests VALUES (2295092171, 6);
-INSERT INTO bot.user_interests VALUES (2295092171, 7);
-INSERT INTO bot.user_interests VALUES (6593689816, 14);
-INSERT INTO bot.user_interests VALUES (6593689816, 11);
-INSERT INTO bot.user_interests VALUES (9532182905, 11);
-INSERT INTO bot.user_interests VALUES (9532182905, 2);
-INSERT INTO bot.user_interests VALUES (9532182905, 14);
-INSERT INTO bot.user_interests VALUES (9532182905, 13);
-INSERT INTO bot.user_interests VALUES (1477294101, 4);
-INSERT INTO bot.user_interests VALUES (1477294101, 6);
-INSERT INTO bot.user_interests VALUES (1477294101, 11);
-INSERT INTO bot.user_interests VALUES (1477294101, 9);
-INSERT INTO bot.user_interests VALUES (8075513254, 1);
-INSERT INTO bot.user_interests VALUES (9910196736, 4);
-INSERT INTO bot.user_interests VALUES (9910196736, 1);
-INSERT INTO bot.user_interests VALUES (8913954593, 3);
-INSERT INTO bot.user_interests VALUES (2548124444, 4);
-INSERT INTO bot.user_interests VALUES (2548124444, 10);
-INSERT INTO bot.user_interests VALUES (2548124444, 3);
-INSERT INTO bot.user_interests VALUES (6003153741, 14);
-INSERT INTO bot.user_interests VALUES (6003153741, 1);
-INSERT INTO bot.user_interests VALUES (2985998846, 15);
-INSERT INTO bot.user_interests VALUES (7361679535, 2);
-INSERT INTO bot.user_interests VALUES (7361679535, 9);
-INSERT INTO bot.user_interests VALUES (1400481944, 6);
-INSERT INTO bot.user_interests VALUES (1400481944, 1);
-INSERT INTO bot.user_interests VALUES (1400481944, 10);
-INSERT INTO bot.user_interests VALUES (4577335855, 3);
-INSERT INTO bot.user_interests VALUES (4577335855, 6);
-INSERT INTO bot.user_interests VALUES (4577335855, 9);
-INSERT INTO bot.user_interests VALUES (9687721250, 4);
-INSERT INTO bot.user_interests VALUES (9687721250, 14);
-INSERT INTO bot.user_interests VALUES (9687721250, 15);
-INSERT INTO bot.user_interests VALUES (5304060038, 15);
-INSERT INTO bot.user_interests VALUES (5304060038, 7);
-INSERT INTO bot.user_interests VALUES (5304060038, 11);
-INSERT INTO bot.user_interests VALUES (5304060038, 12);
-INSERT INTO bot.user_interests VALUES (4727686681, 14);
-INSERT INTO bot.user_interests VALUES (4727686681, 7);
-INSERT INTO bot.user_interests VALUES (4727686681, 4);
-INSERT INTO bot.user_interests VALUES (4727686681, 11);
-INSERT INTO bot.user_interests VALUES (7858182002, 14);
-INSERT INTO bot.user_interests VALUES (7858182002, 2);
-INSERT INTO bot.user_interests VALUES (7988522015, 8);
-INSERT INTO bot.user_interests VALUES (7988522015, 2);
-INSERT INTO bot.user_interests VALUES (6767106805, 2);
-INSERT INTO bot.user_interests VALUES (6767106805, 6);
-INSERT INTO bot.user_interests VALUES (6767106805, 1);
-INSERT INTO bot.user_interests VALUES (2273970933, 1);
-INSERT INTO bot.user_interests VALUES (2273970933, 3);
-INSERT INTO bot.user_interests VALUES (2273970933, 2);
-INSERT INTO bot.user_interests VALUES (2273970933, 8);
-INSERT INTO bot.user_interests VALUES (5107453279, 11);
-INSERT INTO bot.user_interests VALUES (5107453279, 5);
-INSERT INTO bot.user_interests VALUES (5107453279, 3);
-INSERT INTO bot.user_interests VALUES (8030079252, 1);
-INSERT INTO bot.user_interests VALUES (8023297802, 10);
-INSERT INTO bot.user_interests VALUES (8023297802, 5);
-INSERT INTO bot.user_interests VALUES (8023297802, 4);
-INSERT INTO bot.user_interests VALUES (8023297802, 8);
-INSERT INTO bot.user_interests VALUES (1177752456, 13);
-INSERT INTO bot.user_interests VALUES (1177752456, 5);
-INSERT INTO bot.user_interests VALUES (1177752456, 11);
-INSERT INTO bot.user_interests VALUES (1177752456, 14);
-INSERT INTO bot.user_interests VALUES (1236493036, 2);
-INSERT INTO bot.user_interests VALUES (1236493036, 5);
-INSERT INTO bot.user_interests VALUES (1236493036, 7);
-INSERT INTO bot.user_interests VALUES (8032151043, 10);
-INSERT INTO bot.user_interests VALUES (8032151043, 14);
-INSERT INTO bot.user_interests VALUES (8032151043, 2);
-INSERT INTO bot.user_interests VALUES (8032151043, 7);
-INSERT INTO bot.user_interests VALUES (5342461202, 7);
-INSERT INTO bot.user_interests VALUES (6814441672, 1);
-INSERT INTO bot.user_interests VALUES (6814441672, 11);
-INSERT INTO bot.user_interests VALUES (7276991182, 12);
-INSERT INTO bot.user_interests VALUES (7276991182, 2);
-INSERT INTO bot.user_interests VALUES (7276991182, 8);
-INSERT INTO bot.user_interests VALUES (7276991182, 13);
-INSERT INTO bot.user_interests VALUES (3344261962, 7);
-INSERT INTO bot.user_interests VALUES (4070108166, 11);
-INSERT INTO bot.user_interests VALUES (8492091970, 13);
-INSERT INTO bot.user_interests VALUES (1004313255, 10);
-INSERT INTO bot.user_interests VALUES (1004313255, 14);
-INSERT INTO bot.user_interests VALUES (1004313255, 9);
-INSERT INTO bot.user_interests VALUES (1004313255, 11);
-INSERT INTO bot.user_interests VALUES (4448066543, 9);
-INSERT INTO bot.user_interests VALUES (4448066543, 11);
-INSERT INTO bot.user_interests VALUES (4448066543, 13);
-INSERT INTO bot.user_interests VALUES (4448066543, 12);
-INSERT INTO bot.user_interests VALUES (9655681941, 4);
-INSERT INTO bot.user_interests VALUES (9655681941, 11);
-INSERT INTO bot.user_interests VALUES (9655681941, 8);
-INSERT INTO bot.user_interests VALUES (9054199639, 15);
-INSERT INTO bot.user_interests VALUES (9054199639, 9);
-INSERT INTO bot.user_interests VALUES (5415284367, 9);
-INSERT INTO bot.user_interests VALUES (5415284367, 15);
-INSERT INTO bot.user_interests VALUES (9534896712, 15);
-INSERT INTO bot.user_interests VALUES (9534896712, 5);
-INSERT INTO bot.user_interests VALUES (6425881586, 11);
-INSERT INTO bot.user_interests VALUES (6425881586, 9);
-INSERT INTO bot.user_interests VALUES (6425881586, 1);
-INSERT INTO bot.user_interests VALUES (6425881586, 10);
-INSERT INTO bot.user_interests VALUES (4223072503, 14);
-INSERT INTO bot.user_interests VALUES (4223072503, 4);
-INSERT INTO bot.user_interests VALUES (4223072503, 3);
-INSERT INTO bot.user_interests VALUES (4223072503, 6);
-INSERT INTO bot.user_interests VALUES (1782397443, 15);
-INSERT INTO bot.user_interests VALUES (1782397443, 10);
-INSERT INTO bot.user_interests VALUES (9040599665, 1);
-INSERT INTO bot.user_interests VALUES (5221322684, 11);
-INSERT INTO bot.user_interests VALUES (5221322684, 7);
-INSERT INTO bot.user_interests VALUES (1497153094, 12);
-INSERT INTO bot.user_interests VALUES (6097182805, 10);
-INSERT INTO bot.user_interests VALUES (6097182805, 13);
-INSERT INTO bot.user_interests VALUES (6097182805, 1);
-INSERT INTO bot.user_interests VALUES (2857685350, 11);
-INSERT INTO bot.user_interests VALUES (2857685350, 1);
-INSERT INTO bot.user_interests VALUES (2857685350, 4);
-INSERT INTO bot.user_interests VALUES (2857685350, 14);
-INSERT INTO bot.user_interests VALUES (6743327849, 9);
-INSERT INTO bot.user_interests VALUES (6743327849, 2);
-INSERT INTO bot.user_interests VALUES (6743327849, 3);
-INSERT INTO bot.user_interests VALUES (1175327524, 13);
-INSERT INTO bot.user_interests VALUES (1175327524, 1);
-INSERT INTO bot.user_interests VALUES (1175327524, 7);
-INSERT INTO bot.user_interests VALUES (1175327524, 4);
-INSERT INTO bot.user_interests VALUES (7663221112, 8);
-INSERT INTO bot.user_interests VALUES (7663221112, 3);
-INSERT INTO bot.user_interests VALUES (7663221112, 5);
-INSERT INTO bot.user_interests VALUES (7663221112, 10);
-INSERT INTO bot.user_interests VALUES (5935547685, 9);
-INSERT INTO bot.user_interests VALUES (5935547685, 13);
-INSERT INTO bot.user_interests VALUES (5935547685, 5);
-INSERT INTO bot.user_interests VALUES (8216480566, 6);
-INSERT INTO bot.user_interests VALUES (8216480566, 14);
-INSERT INTO bot.user_interests VALUES (8216480566, 2);
-INSERT INTO bot.user_interests VALUES (8216480566, 3);
-INSERT INTO bot.user_interests VALUES (5308091117, 14);
-INSERT INTO bot.user_interests VALUES (5308091117, 4);
-INSERT INTO bot.user_interests VALUES (6618115967, 8);
-INSERT INTO bot.user_interests VALUES (6618115967, 2);
-INSERT INTO bot.user_interests VALUES (6618115967, 15);
-INSERT INTO bot.user_interests VALUES (6618115967, 13);
-INSERT INTO bot.user_interests VALUES (6691107529, 8);
-INSERT INTO bot.user_interests VALUES (4511131935, 7);
-INSERT INTO bot.user_interests VALUES (4511131935, 8);
-INSERT INTO bot.user_interests VALUES (4511131935, 4);
-INSERT INTO bot.user_interests VALUES (4511131935, 10);
-INSERT INTO bot.user_interests VALUES (8930022840, 14);
-INSERT INTO bot.user_interests VALUES (1932907778, 8);
-INSERT INTO bot.user_interests VALUES (4554219460, 2);
-INSERT INTO bot.user_interests VALUES (5278117735, 13);
-INSERT INTO bot.user_interests VALUES (1932907778, 3);
-INSERT INTO bot.user_interests VALUES (8930022840, 13);
-INSERT INTO bot.user_interests VALUES (5278117735, 2);
-INSERT INTO bot.user_interests VALUES (8930022840, 6);
-INSERT INTO bot.user_interests VALUES (8930022840, 12);
-INSERT INTO bot.user_interests VALUES (7752680503, 13);
-INSERT INTO bot.user_interests VALUES (2861189320, 8);
-INSERT INTO bot.user_interests VALUES (4515015439, 1);
-INSERT INTO bot.user_interests VALUES (4515015439, 7);
-INSERT INTO bot.user_interests VALUES (2861189320, 14);
-INSERT INTO bot.user_interests VALUES (2861189320, 13);
-INSERT INTO bot.user_interests VALUES (4148890554, 13);
-INSERT INTO bot.user_interests VALUES (4148890554, 5);
-INSERT INTO bot.user_interests VALUES (4148890554, 11);
-INSERT INTO bot.user_interests VALUES (6564276753, 12);
-INSERT INTO bot.user_interests VALUES (7710109967, 14);
-INSERT INTO bot.user_interests VALUES (7710109967, 6);
-INSERT INTO bot.user_interests VALUES (7710109967, 12);
-INSERT INTO bot.user_interests VALUES (1669360283, 13);
-INSERT INTO bot.user_interests VALUES (1669360283, 12);
-INSERT INTO bot.user_interests VALUES (1669360283, 7);
-INSERT INTO bot.user_interests VALUES (1669360283, 1);
-INSERT INTO bot.user_interests VALUES (1830190085, 14);
-INSERT INTO bot.user_interests VALUES (1830190085, 7);
-INSERT INTO bot.user_interests VALUES (5777512180, 2);
-INSERT INTO bot.user_interests VALUES (8332318827, 5);
-INSERT INTO bot.user_interests VALUES (8332318827, 15);
-INSERT INTO bot.user_interests VALUES (5777512180, 6);
-INSERT INTO bot.user_interests VALUES (8332318827, 9);
-INSERT INTO bot.user_interests VALUES (5777512180, 4);
-INSERT INTO bot.user_interests VALUES (8332318827, 1);
-INSERT INTO bot.user_interests VALUES (5777512180, 5);
-INSERT INTO bot.user_interests VALUES (6004185793, 1);
-INSERT INTO bot.user_interests VALUES (6004185793, 7);
-INSERT INTO bot.user_interests VALUES (2554872748, 10);
-INSERT INTO bot.user_interests VALUES (2554872748, 6);
-INSERT INTO bot.user_interests VALUES (2554872748, 11);
-INSERT INTO bot.user_interests VALUES (2554872748, 1);
-INSERT INTO bot.user_interests VALUES (5086175609, 15);
-INSERT INTO bot.user_interests VALUES (6760410591, 7);
-INSERT INTO bot.user_interests VALUES (6760410591, 13);
-INSERT INTO bot.user_interests VALUES (3204006708, 8);
-INSERT INTO bot.user_interests VALUES (3204006708, 3);
-INSERT INTO bot.user_interests VALUES (3204006708, 12);
-INSERT INTO bot.user_interests VALUES (1409110017, 9);
-INSERT INTO bot.user_interests VALUES (4729296278, 4);
-INSERT INTO bot.user_interests VALUES (5153593406, 9);
-INSERT INTO bot.user_interests VALUES (9248891743, 8);
-INSERT INTO bot.user_interests VALUES (4098427029, 15);
-INSERT INTO bot.user_interests VALUES (4172865830, 5);
-INSERT INTO bot.user_interests VALUES (4172865830, 9);
-INSERT INTO bot.user_interests VALUES (4172865830, 2);
-INSERT INTO bot.user_interests VALUES (4172865830, 3);
-INSERT INTO bot.user_interests VALUES (2040739814, 2);
-INSERT INTO bot.user_interests VALUES (2040739814, 1);
-INSERT INTO bot.user_interests VALUES (2040739814, 6);
-INSERT INTO bot.user_interests VALUES (5496405226, 7);
-INSERT INTO bot.user_interests VALUES (5496405226, 6);
-INSERT INTO bot.user_interests VALUES (5496405226, 3);
-INSERT INTO bot.user_interests VALUES (5496405226, 11);
-INSERT INTO bot.user_interests VALUES (5953512340, 3);
-INSERT INTO bot.user_interests VALUES (5953512340, 4);
-INSERT INTO bot.user_interests VALUES (5953512340, 15);
-INSERT INTO bot.user_interests VALUES (5953512340, 2);
-INSERT INTO bot.user_interests VALUES (7751921629, 6);
-INSERT INTO bot.user_interests VALUES (6425435009, 12);
-INSERT INTO bot.user_interests VALUES (7751921629, 5);
-INSERT INTO bot.user_interests VALUES (6425435009, 7);
-INSERT INTO bot.user_interests VALUES (7751921629, 14);
-INSERT INTO bot.user_interests VALUES (6425435009, 3);
-INSERT INTO bot.user_interests VALUES (7751921629, 15);
-INSERT INTO bot.user_interests VALUES (6425435009, 14);
-INSERT INTO bot.user_interests VALUES (6377893809, 4);
-INSERT INTO bot.user_interests VALUES (6377893809, 1);
-INSERT INTO bot.user_interests VALUES (6377893809, 7);
-INSERT INTO bot.user_interests VALUES (6377893809, 10);
-INSERT INTO bot.user_interests VALUES (9266690152, 1);
-INSERT INTO bot.user_interests VALUES (7421501808, 14);
-INSERT INTO bot.user_interests VALUES (7421501808, 13);
-INSERT INTO bot.user_interests VALUES (8130181489, 2);
-INSERT INTO bot.user_interests VALUES (9346990760, 1);
-INSERT INTO bot.user_interests VALUES (9346990760, 14);
-INSERT INTO bot.user_interests VALUES (9346990760, 11);
-INSERT INTO bot.user_interests VALUES (4819471073, 7);
-INSERT INTO bot.user_interests VALUES (3751014200, 9);
-INSERT INTO bot.user_interests VALUES (9551111053, 5);
-INSERT INTO bot.user_interests VALUES (9551111053, 4);
-INSERT INTO bot.user_interests VALUES (1913673781, 13);
-INSERT INTO bot.user_interests VALUES (1244541951, 11);
-INSERT INTO bot.user_interests VALUES (2245713719, 3);
-INSERT INTO bot.user_interests VALUES (2245713719, 14);
-INSERT INTO bot.user_interests VALUES (7922936021, 3);
-INSERT INTO bot.user_interests VALUES (2574636155, 2);
-INSERT INTO bot.user_interests VALUES (2574636155, 1);
-INSERT INTO bot.user_interests VALUES (3932003363, 7);
-INSERT INTO bot.user_interests VALUES (3932003363, 1);
-INSERT INTO bot.user_interests VALUES (3932003363, 8);
-INSERT INTO bot.user_interests VALUES (2883588122, 12);
-INSERT INTO bot.user_interests VALUES (2883588122, 14);
-INSERT INTO bot.user_interests VALUES (2883588122, 3);
-INSERT INTO bot.user_interests VALUES (6327598152, 9);
-INSERT INTO bot.user_interests VALUES (6364389413, 1);
-INSERT INTO bot.user_interests VALUES (6364389413, 15);
-INSERT INTO bot.user_interests VALUES (6364389413, 4);
-INSERT INTO bot.user_interests VALUES (6364389413, 7);
-INSERT INTO bot.user_interests VALUES (6989582658, 4);
-INSERT INTO bot.user_interests VALUES (6989582658, 14);
-INSERT INTO bot.user_interests VALUES (6989582658, 8);
-INSERT INTO bot.user_interests VALUES (6989582658, 6);
-INSERT INTO bot.user_interests VALUES (8995425717, 11);
-INSERT INTO bot.user_interests VALUES (5358903837, 10);
-INSERT INTO bot.user_interests VALUES (5358903837, 9);
-INSERT INTO bot.user_interests VALUES (5358903837, 2);
-INSERT INTO bot.user_interests VALUES (5358903837, 8);
-INSERT INTO bot.user_interests VALUES (9410015393, 4);
-INSERT INTO bot.user_interests VALUES (9410015393, 11);
-INSERT INTO bot.user_interests VALUES (9410015393, 1);
-INSERT INTO bot.user_interests VALUES (6862598476, 11);
-INSERT INTO bot.user_interests VALUES (6862598476, 8);
-INSERT INTO bot.user_interests VALUES (6862598476, 2);
-INSERT INTO bot.user_interests VALUES (7465729496, 15);
-INSERT INTO bot.user_interests VALUES (7465729496, 6);
-INSERT INTO bot.user_interests VALUES (7465729496, 8);
-INSERT INTO bot.user_interests VALUES (8492481661, 10);
-INSERT INTO bot.user_interests VALUES (8381569562, 4);
-INSERT INTO bot.user_interests VALUES (8381569562, 5);
-INSERT INTO bot.user_interests VALUES (8381569562, 3);
-INSERT INTO bot.user_interests VALUES (8987455646, 1);
-INSERT INTO bot.user_interests VALUES (8987455646, 8);
-INSERT INTO bot.user_interests VALUES (5026916727, 9);
-INSERT INTO bot.user_interests VALUES (5026916727, 4);
-INSERT INTO bot.user_interests VALUES (5026916727, 6);
-INSERT INTO bot.user_interests VALUES (2667475900, 4);
-INSERT INTO bot.user_interests VALUES (2667475900, 2);
-INSERT INTO bot.user_interests VALUES (5698476834, 14);
-INSERT INTO bot.user_interests VALUES (5698476834, 5);
-INSERT INTO bot.user_interests VALUES (5698476834, 10);
-INSERT INTO bot.user_interests VALUES (3891494303, 10);
-INSERT INTO bot.user_interests VALUES (3891494303, 4);
-INSERT INTO bot.user_interests VALUES (3891494303, 1);
-INSERT INTO bot.user_interests VALUES (5038500391, 12);
-INSERT INTO bot.user_interests VALUES (3189345505, 8);
-INSERT INTO bot.user_interests VALUES (3189345505, 15);
-INSERT INTO bot.user_interests VALUES (3189345505, 4);
-INSERT INTO bot.user_interests VALUES (3189345505, 12);
-INSERT INTO bot.user_interests VALUES (7685505595, 5);
-INSERT INTO bot.user_interests VALUES (7685505595, 4);
-INSERT INTO bot.user_interests VALUES (9182802958, 15);
-INSERT INTO bot.user_interests VALUES (9182802958, 1);
-INSERT INTO bot.user_interests VALUES (9182802958, 14);
-INSERT INTO bot.user_interests VALUES (9182802958, 9);
-INSERT INTO bot.user_interests VALUES (6425234034, 13);
-INSERT INTO bot.user_interests VALUES (6425234034, 2);
-INSERT INTO bot.user_interests VALUES (6425234034, 11);
-INSERT INTO bot.user_interests VALUES (4655361624, 5);
-INSERT INTO bot.user_interests VALUES (4655361624, 2);
-INSERT INTO bot.user_interests VALUES (4655361624, 10);
-INSERT INTO bot.user_interests VALUES (4655361624, 4);
-INSERT INTO bot.user_interests VALUES (7548992554, 15);
-INSERT INTO bot.user_interests VALUES (7548992554, 5);
-INSERT INTO bot.user_interests VALUES (1001152900, 12);
-INSERT INTO bot.user_interests VALUES (1001152900, 6);
-INSERT INTO bot.user_interests VALUES (1001152900, 10);
-INSERT INTO bot.user_interests VALUES (1001152900, 2);
-INSERT INTO bot.user_interests VALUES (5000892866, 5);
-INSERT INTO bot.user_interests VALUES (7678612595, 15);
-INSERT INTO bot.user_interests VALUES (7678612595, 6);
-INSERT INTO bot.user_interests VALUES (7678612595, 9);
-INSERT INTO bot.user_interests VALUES (6232323411, 8);
-INSERT INTO bot.user_interests VALUES (6232323411, 1);
-INSERT INTO bot.user_interests VALUES (6232323411, 10);
-INSERT INTO bot.user_interests VALUES (7670539728, 8);
-INSERT INTO bot.user_interests VALUES (7670539728, 3);
-INSERT INTO bot.user_interests VALUES (3749676975, 2);
-INSERT INTO bot.user_interests VALUES (3749676975, 4);
-INSERT INTO bot.user_interests VALUES (3749676975, 10);
-INSERT INTO bot.user_interests VALUES (6322212957, 14);
-INSERT INTO bot.user_interests VALUES (6322212957, 4);
-INSERT INTO bot.user_interests VALUES (6322212957, 5);
-INSERT INTO bot.user_interests VALUES (3224495322, 11);
-INSERT INTO bot.user_interests VALUES (3224495322, 6);
-INSERT INTO bot.user_interests VALUES (8720199702, 13);
-INSERT INTO bot.user_interests VALUES (8720199702, 1);
-INSERT INTO bot.user_interests VALUES (8720199702, 11);
-INSERT INTO bot.user_interests VALUES (8720199702, 15);
-INSERT INTO bot.user_interests VALUES (6114210880, 10);
-INSERT INTO bot.user_interests VALUES (6114210880, 14);
-INSERT INTO bot.user_interests VALUES (6114210880, 1);
-INSERT INTO bot.user_interests VALUES (6114210880, 4);
-INSERT INTO bot.user_interests VALUES (1142489116, 2);
-INSERT INTO bot.user_interests VALUES (1142489116, 10);
-INSERT INTO bot.user_interests VALUES (1142489116, 7);
-INSERT INTO bot.user_interests VALUES (1142489116, 14);
-INSERT INTO bot.user_interests VALUES (7726470519, 14);
-INSERT INTO bot.user_interests VALUES (9921254143, 3);
-INSERT INTO bot.user_interests VALUES (9921254143, 15);
-INSERT INTO bot.user_interests VALUES (9921254143, 8);
-INSERT INTO bot.user_interests VALUES (9921254143, 12);
-INSERT INTO bot.user_interests VALUES (8003667139, 11);
-INSERT INTO bot.user_interests VALUES (3067278643, 14);
-INSERT INTO bot.user_interests VALUES (3067278643, 5);
-INSERT INTO bot.user_interests VALUES (3067278643, 10);
-INSERT INTO bot.user_interests VALUES (3067278643, 11);
-INSERT INTO bot.user_interests VALUES (1892655952, 10);
-INSERT INTO bot.user_interests VALUES (1892655952, 13);
-INSERT INTO bot.user_interests VALUES (1892655952, 12);
-INSERT INTO bot.user_interests VALUES (1892655952, 6);
-INSERT INTO bot.user_interests VALUES (7140348124, 13);
-INSERT INTO bot.user_interests VALUES (7140348124, 8);
-INSERT INTO bot.user_interests VALUES (7140348124, 11);
-INSERT INTO bot.user_interests VALUES (7140348124, 4);
-INSERT INTO bot.user_interests VALUES (8819976865, 7);
-INSERT INTO bot.user_interests VALUES (8819976865, 8);
-INSERT INTO bot.user_interests VALUES (8819976865, 9);
-INSERT INTO bot.user_interests VALUES (2803645403, 11);
-INSERT INTO bot.user_interests VALUES (9261339063, 5);
-INSERT INTO bot.user_interests VALUES (9261339063, 1);
-INSERT INTO bot.user_interests VALUES (9261339063, 13);
-INSERT INTO bot.user_interests VALUES (9261339063, 15);
-INSERT INTO bot.user_interests VALUES (3565985660, 8);
-INSERT INTO bot.user_interests VALUES (3565985660, 12);
-INSERT INTO bot.user_interests VALUES (3392717871, 13);
-INSERT INTO bot.user_interests VALUES (8278550933, 8);
-INSERT INTO bot.user_interests VALUES (8278550933, 15);
-INSERT INTO bot.user_interests VALUES (8278550933, 10);
-INSERT INTO bot.user_interests VALUES (5684399720, 6);
-INSERT INTO bot.user_interests VALUES (5684399720, 8);
-INSERT INTO bot.user_interests VALUES (5684399720, 15);
-INSERT INTO bot.user_interests VALUES (3961899293, 8);
-INSERT INTO bot.user_interests VALUES (7757391605, 15);
-INSERT INTO bot.user_interests VALUES (7757391605, 6);
-INSERT INTO bot.user_interests VALUES (7757391605, 3);
-INSERT INTO bot.user_interests VALUES (2160476206, 2);
-INSERT INTO bot.user_interests VALUES (2160476206, 7);
-INSERT INTO bot.user_interests VALUES (2160476206, 14);
-INSERT INTO bot.user_interests VALUES (2160476206, 3);
-INSERT INTO bot.user_interests VALUES (3774610783, 9);
-INSERT INTO bot.user_interests VALUES (3774610783, 2);
-INSERT INTO bot.user_interests VALUES (3774610783, 12);
-INSERT INTO bot.user_interests VALUES (4556594179, 11);
-INSERT INTO bot.user_interests VALUES (1771370604, 3);
-INSERT INTO bot.user_interests VALUES (4785677777, 1);
-INSERT INTO bot.user_interests VALUES (4785677777, 9);
-INSERT INTO bot.user_interests VALUES (2143139896, 8);
-INSERT INTO bot.user_interests VALUES (2143139896, 14);
-INSERT INTO bot.user_interests VALUES (2143139896, 10);
-INSERT INTO bot.user_interests VALUES (4355760876, 3);
-INSERT INTO bot.user_interests VALUES (4355760876, 10);
-INSERT INTO bot.user_interests VALUES (4355760876, 9);
-INSERT INTO bot.user_interests VALUES (4355760876, 12);
-INSERT INTO bot.user_interests VALUES (8583197721, 14);
-INSERT INTO bot.user_interests VALUES (8583197721, 13);
-INSERT INTO bot.user_interests VALUES (8583197721, 5);
-INSERT INTO bot.user_interests VALUES (8583197721, 6);
-INSERT INTO bot.user_interests VALUES (1941290472, 7);
-INSERT INTO bot.user_interests VALUES (1941290472, 8);
-INSERT INTO bot.user_interests VALUES (1931748437, 1);
-INSERT INTO bot.user_interests VALUES (1845822674, 4);
-INSERT INTO bot.user_interests VALUES (2694852029, 4);
-INSERT INTO bot.user_interests VALUES (2694852029, 1);
-INSERT INTO bot.user_interests VALUES (2694852029, 3);
-INSERT INTO bot.user_interests VALUES (9990331479, 12);
-INSERT INTO bot.user_interests VALUES (9990331479, 14);
-INSERT INTO bot.user_interests VALUES (9990331479, 2);
-INSERT INTO bot.user_interests VALUES (9990331479, 11);
-INSERT INTO bot.user_interests VALUES (8849718499, 13);
-INSERT INTO bot.user_interests VALUES (4652611472, 14);
-INSERT INTO bot.user_interests VALUES (8849718499, 1);
-INSERT INTO bot.user_interests VALUES (4652611472, 13);
-INSERT INTO bot.user_interests VALUES (4652611472, 6);
-INSERT INTO bot.user_interests VALUES (4652611472, 12);
-INSERT INTO bot.user_interests VALUES (2018184010, 8);
-INSERT INTO bot.user_interests VALUES (2213403204, 14);
-INSERT INTO bot.user_interests VALUES (2018184010, 13);
-INSERT INTO bot.user_interests VALUES (2213403204, 1);
-INSERT INTO bot.user_interests VALUES (2018184010, 5);
-INSERT INTO bot.user_interests VALUES (2213403204, 3);
-INSERT INTO bot.user_interests VALUES (2090218618, 12);
-INSERT INTO bot.user_interests VALUES (6360695255, 7);
-INSERT INTO bot.user_interests VALUES (6360695255, 10);
-INSERT INTO bot.user_interests VALUES (2205929446, 15);
-INSERT INTO bot.user_interests VALUES (8361175487, 13);
-INSERT INTO bot.user_interests VALUES (8361175487, 15);
-INSERT INTO bot.user_interests VALUES (8361175487, 9);
-INSERT INTO bot.user_interests VALUES (8361175487, 5);
-INSERT INTO bot.user_interests VALUES (1565790754, 5);
-INSERT INTO bot.user_interests VALUES (1565790754, 11);
-INSERT INTO bot.user_interests VALUES (1565790754, 12);
-INSERT INTO bot.user_interests VALUES (1426718592, 8);
-INSERT INTO bot.user_interests VALUES (2690816779, 5);
-INSERT INTO bot.user_interests VALUES (2690816779, 12);
-INSERT INTO bot.user_interests VALUES (2690816779, 1);
-INSERT INTO bot.user_interests VALUES (2690816779, 4);
-INSERT INTO bot.user_interests VALUES (3251097316, 7);
-INSERT INTO bot.user_interests VALUES (7311119398, 3);
-INSERT INTO bot.user_interests VALUES (7311119398, 15);
-INSERT INTO bot.user_interests VALUES (7311119398, 9);
-INSERT INTO bot.user_interests VALUES (7311119398, 4);
-INSERT INTO bot.user_interests VALUES (5166486015, 10);
-INSERT INTO bot.user_interests VALUES (5166486015, 11);
-INSERT INTO bot.user_interests VALUES (5875733614, 10);
-INSERT INTO bot.user_interests VALUES (1425114095, 7);
-INSERT INTO bot.user_interests VALUES (1425114095, 5);
-INSERT INTO bot.user_interests VALUES (5569669450, 7);
-INSERT INTO bot.user_interests VALUES (5569669450, 3);
-INSERT INTO bot.user_interests VALUES (5569669450, 5);
-INSERT INTO bot.user_interests VALUES (5569669450, 1);
-INSERT INTO bot.user_interests VALUES (6282305798, 5);
-INSERT INTO bot.user_interests VALUES (7298568051, 4);
-INSERT INTO bot.user_interests VALUES (7298568051, 9);
-INSERT INTO bot.user_interests VALUES (7298568051, 15);
-INSERT INTO bot.user_interests VALUES (7298568051, 13);
-INSERT INTO bot.user_interests VALUES (7477420334, 6);
-INSERT INTO bot.user_interests VALUES (7477420334, 11);
-INSERT INTO bot.user_interests VALUES (7477420334, 7);
-INSERT INTO bot.user_interests VALUES (7477420334, 2);
-INSERT INTO bot.user_interests VALUES (2208428167, 2);
-INSERT INTO bot.user_interests VALUES (2208428167, 15);
-INSERT INTO bot.user_interests VALUES (2208428167, 9);
-INSERT INTO bot.user_interests VALUES (2208428167, 10);
-INSERT INTO bot.user_interests VALUES (6780546501, 7);
-INSERT INTO bot.user_interests VALUES (6780546501, 2);
-INSERT INTO bot.user_interests VALUES (6780546501, 8);
-INSERT INTO bot.user_interests VALUES (6780546501, 15);
-INSERT INTO bot.user_interests VALUES (6978243231, 14);
-INSERT INTO bot.user_interests VALUES (7537212724, 4);
-INSERT INTO bot.user_interests VALUES (7537212724, 3);
-INSERT INTO bot.user_interests VALUES (7537212724, 13);
-INSERT INTO bot.user_interests VALUES (9823319700, 8);
-INSERT INTO bot.user_interests VALUES (9823319700, 6);
-INSERT INTO bot.user_interests VALUES (9823319700, 1);
-INSERT INTO bot.user_interests VALUES (9823319700, 9);
-INSERT INTO bot.user_interests VALUES (6100737979, 4);
-INSERT INTO bot.user_interests VALUES (6100737979, 10);
-INSERT INTO bot.user_interests VALUES (6100737979, 2);
-INSERT INTO bot.user_interests VALUES (7919662467, 11);
-INSERT INTO bot.user_interests VALUES (7919662467, 8);
-INSERT INTO bot.user_interests VALUES (6422162579, 9);
-INSERT INTO bot.user_interests VALUES (6422162579, 2);
-INSERT INTO bot.user_interests VALUES (5638808866, 2);
-INSERT INTO bot.user_interests VALUES (5638808866, 6);
-INSERT INTO bot.user_interests VALUES (4416097241, 11);
-INSERT INTO bot.user_interests VALUES (4160774379, 3);
-INSERT INTO bot.user_interests VALUES (4160774379, 2);
-INSERT INTO bot.user_interests VALUES (4160774379, 9);
-INSERT INTO bot.user_interests VALUES (4160774379, 1);
-INSERT INTO bot.user_interests VALUES (9229008240, 13);
-INSERT INTO bot.user_interests VALUES (9229008240, 3);
-INSERT INTO bot.user_interests VALUES (9229008240, 12);
-INSERT INTO bot.user_interests VALUES (9229008240, 10);
-INSERT INTO bot.user_interests VALUES (3520743843, 4);
-INSERT INTO bot.user_interests VALUES (3520743843, 11);
-INSERT INTO bot.user_interests VALUES (5863662877, 5);
-INSERT INTO bot.user_interests VALUES (1880428979, 12);
-INSERT INTO bot.user_interests VALUES (1880428979, 14);
-INSERT INTO bot.user_interests VALUES (1880428979, 5);
-INSERT INTO bot.user_interests VALUES (1920938511, 11);
-INSERT INTO bot.user_interests VALUES (1920938511, 5);
-INSERT INTO bot.user_interests VALUES (1920938511, 1);
-INSERT INTO bot.user_interests VALUES (1920938511, 2);
-INSERT INTO bot.user_interests VALUES (8155460895, 7);
-INSERT INTO bot.user_interests VALUES (8155460895, 14);
-INSERT INTO bot.user_interests VALUES (8155460895, 6);
-INSERT INTO bot.user_interests VALUES (8184386755, 14);
-INSERT INTO bot.user_interests VALUES (8184386755, 8);
-INSERT INTO bot.user_interests VALUES (4281720484, 1);
-INSERT INTO bot.user_interests VALUES (4281720484, 4);
-INSERT INTO bot.user_interests VALUES (2324977606, 15);
-INSERT INTO bot.user_interests VALUES (2324977606, 5);
-INSERT INTO bot.user_interests VALUES (2324977606, 8);
-INSERT INTO bot.user_interests VALUES (2324977606, 13);
-INSERT INTO bot.user_interests VALUES (3011468275, 15);
-INSERT INTO bot.user_interests VALUES (3011468275, 1);
-INSERT INTO bot.user_interests VALUES (5463053968, 1);
-INSERT INTO bot.user_interests VALUES (5463053968, 9);
-INSERT INTO bot.user_interests VALUES (5463053968, 14);
-INSERT INTO bot.user_interests VALUES (8402041515, 12);
-INSERT INTO bot.user_interests VALUES (8402041515, 15);
-INSERT INTO bot.user_interests VALUES (8402041515, 3);
-INSERT INTO bot.user_interests VALUES (8402041515, 14);
-INSERT INTO bot.user_interests VALUES (7341265213, 14);
-INSERT INTO bot.user_interests VALUES (7341265213, 2);
-INSERT INTO bot.user_interests VALUES (7341265213, 1);
-INSERT INTO bot.user_interests VALUES (9623126293, 7);
-INSERT INTO bot.user_interests VALUES (9623126293, 8);
-INSERT INTO bot.user_interests VALUES (9623126293, 1);
-INSERT INTO bot.user_interests VALUES (6472177396, 2);
-INSERT INTO bot.user_interests VALUES (6472177396, 9);
-INSERT INTO bot.user_interests VALUES (6472177396, 12);
-INSERT INTO bot.user_interests VALUES (9134050345, 13);
-INSERT INTO bot.user_interests VALUES (1041295807, 2);
-INSERT INTO bot.user_interests VALUES (1041295807, 1);
-INSERT INTO bot.user_interests VALUES (1041295807, 4);
-INSERT INTO bot.user_interests VALUES (1041295807, 7);
-INSERT INTO bot.user_interests VALUES (5201761765, 12);
-INSERT INTO bot.user_interests VALUES (5201761765, 1);
-INSERT INTO bot.user_interests VALUES (4643972053, 6);
-INSERT INTO bot.user_interests VALUES (4643972053, 1);
-INSERT INTO bot.user_interests VALUES (3962391243, 13);
-INSERT INTO bot.user_interests VALUES (3962391243, 9);
-INSERT INTO bot.user_interests VALUES (3962391243, 4);
-INSERT INTO bot.user_interests VALUES (9289462091, 8);
-INSERT INTO bot.user_interests VALUES (9289462091, 2);
-INSERT INTO bot.user_interests VALUES (9289462091, 15);
-INSERT INTO bot.user_interests VALUES (9289462091, 12);
-INSERT INTO bot.user_interests VALUES (3078429716, 8);
-INSERT INTO bot.user_interests VALUES (3078429716, 13);
-INSERT INTO bot.user_interests VALUES (3078429716, 5);
-INSERT INTO bot.user_interests VALUES (3290416244, 6);
-INSERT INTO bot.user_interests VALUES (7190767296, 8);
-INSERT INTO bot.user_interests VALUES (5261512448, 8);
-INSERT INTO bot.user_interests VALUES (2467705539, 14);
-INSERT INTO bot.user_interests VALUES (7089184639, 4);
-INSERT INTO bot.user_interests VALUES (7190767296, 11);
-INSERT INTO bot.user_interests VALUES (7089184639, 15);
-INSERT INTO bot.user_interests VALUES (7190767296, 13);
-INSERT INTO bot.user_interests VALUES (7089184639, 10);
-INSERT INTO bot.user_interests VALUES (7190767296, 9);
-INSERT INTO bot.user_interests VALUES (7089184639, 8);
-INSERT INTO bot.user_interests VALUES (6335864367, 2);
-INSERT INTO bot.user_interests VALUES (6335864367, 8);
-INSERT INTO bot.user_interests VALUES (5245364590, 6);
-INSERT INTO bot.user_interests VALUES (5245364590, 9);
-INSERT INTO bot.user_interests VALUES (5245364590, 8);
-INSERT INTO bot.user_interests VALUES (5245364590, 10);
-INSERT INTO bot.user_interests VALUES (3438579042, 1);
-INSERT INTO bot.user_interests VALUES (3438579042, 15);
-INSERT INTO bot.user_interests VALUES (7993326805, 13);
-INSERT INTO bot.user_interests VALUES (7993326805, 9);
-INSERT INTO bot.user_interests VALUES (7993326805, 14);
-INSERT INTO bot.user_interests VALUES (7993326805, 15);
-INSERT INTO bot.user_interests VALUES (3389182767, 13);
-INSERT INTO bot.user_interests VALUES (5866961261, 3);
-INSERT INTO bot.user_interests VALUES (5866961261, 4);
-INSERT INTO bot.user_interests VALUES (3389182767, 2);
-INSERT INTO bot.user_interests VALUES (5866961261, 5);
-INSERT INTO bot.user_interests VALUES (3389182767, 5);
-INSERT INTO bot.user_interests VALUES (5866961261, 7);
-INSERT INTO bot.user_interests VALUES (3389182767, 7);
-INSERT INTO bot.user_interests VALUES (9622945031, 4);
-INSERT INTO bot.user_interests VALUES (9622945031, 7);
-INSERT INTO bot.user_interests VALUES (9622945031, 8);
-INSERT INTO bot.user_interests VALUES (9622945031, 5);
-INSERT INTO bot.user_interests VALUES (9411983061, 3);
-INSERT INTO bot.user_interests VALUES (2899691393, 7);
-INSERT INTO bot.user_interests VALUES (2899691393, 12);
-INSERT INTO bot.user_interests VALUES (3203550308, 7);
-INSERT INTO bot.user_interests VALUES (3203550308, 8);
-INSERT INTO bot.user_interests VALUES (3203550308, 13);
-INSERT INTO bot.user_interests VALUES (3924921180, 6);
-INSERT INTO bot.user_interests VALUES (3924921180, 4);
-INSERT INTO bot.user_interests VALUES (3924921180, 10);
-INSERT INTO bot.user_interests VALUES (2677955437, 15);
-INSERT INTO bot.user_interests VALUES (2677955437, 6);
-INSERT INTO bot.user_interests VALUES (2101210279, 11);
-INSERT INTO bot.user_interests VALUES (2101210279, 8);
-INSERT INTO bot.user_interests VALUES (6515755479, 11);
-INSERT INTO bot.user_interests VALUES (6515755479, 4);
-INSERT INTO bot.user_interests VALUES (6515755479, 6);
-INSERT INTO bot.user_interests VALUES (6515755479, 5);
-INSERT INTO bot.user_interests VALUES (4310732003, 13);
-INSERT INTO bot.user_interests VALUES (4310732003, 4);
-INSERT INTO bot.user_interests VALUES (4310732003, 1);
-INSERT INTO bot.user_interests VALUES (4310732003, 11);
-INSERT INTO bot.user_interests VALUES (4367500247, 2);
-INSERT INTO bot.user_interests VALUES (4367500247, 8);
-INSERT INTO bot.user_interests VALUES (2442892538, 5);
-INSERT INTO bot.user_interests VALUES (2442892538, 15);
-INSERT INTO bot.user_interests VALUES (2442892538, 1);
-INSERT INTO bot.user_interests VALUES (2442892538, 11);
-INSERT INTO bot.user_interests VALUES (1577072931, 10);
-INSERT INTO bot.user_interests VALUES (1577072931, 13);
-INSERT INTO bot.user_interests VALUES (2856196110, 5);
-INSERT INTO bot.user_interests VALUES (2856196110, 12);
-INSERT INTO bot.user_interests VALUES (2856196110, 13);
-INSERT INTO bot.user_interests VALUES (2856196110, 2);
-INSERT INTO bot.user_interests VALUES (4481150717, 2);
-INSERT INTO bot.user_interests VALUES (4481150717, 11);
-INSERT INTO bot.user_interests VALUES (4481150717, 15);
-INSERT INTO bot.user_interests VALUES (4481150717, 13);
-INSERT INTO bot.user_interests VALUES (1406164816, 8);
-INSERT INTO bot.user_interests VALUES (1406164816, 15);
-INSERT INTO bot.user_interests VALUES (1406164816, 14);
-INSERT INTO bot.user_interests VALUES (1406164816, 4);
-INSERT INTO bot.user_interests VALUES (3762693890, 6);
-INSERT INTO bot.user_interests VALUES (2179433053, 12);
-INSERT INTO bot.user_interests VALUES (2179433053, 5);
-INSERT INTO bot.user_interests VALUES (2179433053, 2);
-INSERT INTO bot.user_interests VALUES (1024914377, 5);
-INSERT INTO bot.user_interests VALUES (1024914377, 2);
-INSERT INTO bot.user_interests VALUES (1024914377, 9);
-INSERT INTO bot.user_interests VALUES (1024914377, 8);
-INSERT INTO bot.user_interests VALUES (1163347546, 12);
-INSERT INTO bot.user_interests VALUES (1979897243, 7);
-INSERT INTO bot.user_interests VALUES (9566663191, 6);
-INSERT INTO bot.user_interests VALUES (9566663191, 4);
-INSERT INTO bot.user_interests VALUES (9513541181, 11);
-INSERT INTO bot.user_interests VALUES (9513541181, 4);
-INSERT INTO bot.user_interests VALUES (9513541181, 8);
-INSERT INTO bot.user_interests VALUES (9513541181, 12);
-INSERT INTO bot.user_interests VALUES (7736682842, 2);
-INSERT INTO bot.user_interests VALUES (9893229316, 3);
-INSERT INTO bot.user_interests VALUES (9893229316, 4);
-INSERT INTO bot.user_interests VALUES (9893229316, 12);
-INSERT INTO bot.user_interests VALUES (9893229316, 5);
-INSERT INTO bot.user_interests VALUES (6268059078, 9);
-INSERT INTO bot.user_interests VALUES (6268059078, 6);
-INSERT INTO bot.user_interests VALUES (6268059078, 15);
-INSERT INTO bot.user_interests VALUES (8419819919, 7);
-INSERT INTO bot.user_interests VALUES (8419819919, 9);
-INSERT INTO bot.user_interests VALUES (8419819919, 2);
-INSERT INTO bot.user_interests VALUES (8419819919, 15);
-INSERT INTO bot.user_interests VALUES (9731828771, 15);
-INSERT INTO bot.user_interests VALUES (9333329600, 3);
-INSERT INTO bot.user_interests VALUES (8175043390, 3);
-INSERT INTO bot.user_interests VALUES (8288900381, 6);
-INSERT INTO bot.user_interests VALUES (8288900381, 15);
-INSERT INTO bot.user_interests VALUES (1690715558, 4);
-INSERT INTO bot.user_interests VALUES (1690715558, 2);
-INSERT INTO bot.user_interests VALUES (1690715558, 7);
-INSERT INTO bot.user_interests VALUES (8587704560, 4);
-INSERT INTO bot.user_interests VALUES (8587704560, 1);
-INSERT INTO bot.user_interests VALUES (2346399051, 1);
-INSERT INTO bot.user_interests VALUES (2346399051, 14);
-INSERT INTO bot.user_interests VALUES (2346399051, 11);
-INSERT INTO bot.user_interests VALUES (2346399051, 8);
-INSERT INTO bot.user_interests VALUES (9543154171, 5);
-INSERT INTO bot.user_interests VALUES (9543154171, 9);
-INSERT INTO bot.user_interests VALUES (9543154171, 3);
-INSERT INTO bot.user_interests VALUES (9543154171, 1);
-INSERT INTO bot.user_interests VALUES (7727985825, 2);
-INSERT INTO bot.user_interests VALUES (7727985825, 5);
-INSERT INTO bot.user_interests VALUES (7727985825, 8);
-INSERT INTO bot.user_interests VALUES (8034889991, 11);
-INSERT INTO bot.user_interests VALUES (8034889991, 5);
-INSERT INTO bot.user_interests VALUES (8040842967, 1);
-INSERT INTO bot.user_interests VALUES (8040842967, 12);
-INSERT INTO bot.user_interests VALUES (8040842967, 5);
-INSERT INTO bot.user_interests VALUES (1095866093, 6);
-INSERT INTO bot.user_interests VALUES (1095866093, 15);
-INSERT INTO bot.user_interests VALUES (1095866093, 7);
-INSERT INTO bot.user_interests VALUES (2365971673, 8);
-INSERT INTO bot.user_interests VALUES (2365971673, 5);
-INSERT INTO bot.user_interests VALUES (2365971673, 2);
-INSERT INTO bot.user_interests VALUES (9997038850, 2);
-INSERT INTO bot.user_interests VALUES (9997038850, 4);
-INSERT INTO bot.user_interests VALUES (8600668414, 15);
-INSERT INTO bot.user_interests VALUES (8600668414, 4);
-INSERT INTO bot.user_interests VALUES (8600668414, 3);
-INSERT INTO bot.user_interests VALUES (2774028584, 4);
-INSERT INTO bot.user_interests VALUES (5689503524, 15);
-INSERT INTO bot.user_interests VALUES (5689503524, 2);
-INSERT INTO bot.user_interests VALUES (7072165757, 12);
-INSERT INTO bot.user_interests VALUES (7072165757, 13);
-INSERT INTO bot.user_interests VALUES (7072165757, 7);
-INSERT INTO bot.user_interests VALUES (7072165757, 6);
-INSERT INTO bot.user_interests VALUES (4157792600, 8);
-INSERT INTO bot.user_interests VALUES (8420335559, 2);
-INSERT INTO bot.user_interests VALUES (8420335559, 6);
-INSERT INTO bot.user_interests VALUES (8420335559, 1);
-INSERT INTO bot.user_interests VALUES (3700990954, 11);
-INSERT INTO bot.user_interests VALUES (2656372717, 8);
-INSERT INTO bot.user_interests VALUES (2656372717, 10);
-INSERT INTO bot.user_interests VALUES (6756597306, 2);
-INSERT INTO bot.user_interests VALUES (7488808596, 3);
-INSERT INTO bot.user_interests VALUES (7488808596, 12);
-INSERT INTO bot.user_interests VALUES (4040985418, 13);
-INSERT INTO bot.user_interests VALUES (4040985418, 10);
-INSERT INTO bot.user_interests VALUES (4040985418, 5);
-INSERT INTO bot.user_interests VALUES (4040985418, 7);
-INSERT INTO bot.user_interests VALUES (2560108687, 10);
-INSERT INTO bot.user_interests VALUES (2560108687, 5);
-INSERT INTO bot.user_interests VALUES (6374515360, 1);
-INSERT INTO bot.user_interests VALUES (5481616906, 12);
-INSERT INTO bot.user_interests VALUES (5481616906, 11);
-INSERT INTO bot.user_interests VALUES (5481616906, 10);
-INSERT INTO bot.user_interests VALUES (5481616906, 2);
-INSERT INTO bot.user_interests VALUES (1967274849, 15);
-INSERT INTO bot.user_interests VALUES (1967274849, 14);
-INSERT INTO bot.user_interests VALUES (4830781938, 15);
-INSERT INTO bot.user_interests VALUES (7159857128, 7);
-INSERT INTO bot.user_interests VALUES (4830781938, 11);
-INSERT INTO bot.user_interests VALUES (4830781938, 2);
-INSERT INTO bot.user_interests VALUES (3984944917, 14);
-INSERT INTO bot.user_interests VALUES (3984944917, 9);
-INSERT INTO bot.user_interests VALUES (3984944917, 2);
-INSERT INTO bot.user_interests VALUES (3984944917, 13);
-INSERT INTO bot.user_interests VALUES (7934305031, 6);
-INSERT INTO bot.user_interests VALUES (8696478984, 4);
-INSERT INTO bot.user_interests VALUES (8696478984, 6);
-INSERT INTO bot.user_interests VALUES (8696478984, 9);
-INSERT INTO bot.user_interests VALUES (2900527769, 14);
-INSERT INTO bot.user_interests VALUES (2900527769, 7);
-INSERT INTO bot.user_interests VALUES (2900527769, 4);
-INSERT INTO bot.user_interests VALUES (2900527769, 13);
-INSERT INTO bot.user_interests VALUES (8219489120, 4);
-INSERT INTO bot.user_interests VALUES (4171012193, 14);
-INSERT INTO bot.user_interests VALUES (8472022282, 13);
-INSERT INTO bot.user_interests VALUES (8472022282, 4);
-INSERT INTO bot.user_interests VALUES (8472022282, 12);
-INSERT INTO bot.user_interests VALUES (9677806447, 1);
-INSERT INTO bot.user_interests VALUES (9677806447, 12);
-INSERT INTO bot.user_interests VALUES (9677806447, 6);
-INSERT INTO bot.user_interests VALUES (9677806447, 15);
-INSERT INTO bot.user_interests VALUES (4354625737, 3);
-INSERT INTO bot.user_interests VALUES (4354625737, 8);
-INSERT INTO bot.user_interests VALUES (4354625737, 6);
-INSERT INTO bot.user_interests VALUES (4831199292, 4);
-INSERT INTO bot.user_interests VALUES (4831199292, 6);
-INSERT INTO bot.user_interests VALUES (4831199292, 7);
-INSERT INTO bot.user_interests VALUES (4831199292, 14);
-INSERT INTO bot.user_interests VALUES (7407012232, 14);
-INSERT INTO bot.user_interests VALUES (7407012232, 13);
-INSERT INTO bot.user_interests VALUES (7407012232, 15);
-INSERT INTO bot.user_interests VALUES (7407012232, 8);
-INSERT INTO bot.user_interests VALUES (2247989869, 3);
-INSERT INTO bot.user_interests VALUES (2247989869, 15);
-INSERT INTO bot.user_interests VALUES (3989840818, 5);
-INSERT INTO bot.user_interests VALUES (3989840818, 7);
-INSERT INTO bot.user_interests VALUES (7571916509, 5);
-INSERT INTO bot.user_interests VALUES (7571916509, 8);
-INSERT INTO bot.user_interests VALUES (7571916509, 7);
-INSERT INTO bot.user_interests VALUES (7571916509, 3);
-INSERT INTO bot.user_interests VALUES (7550854085, 2);
-INSERT INTO bot.user_interests VALUES (1843658119, 8);
-INSERT INTO bot.user_interests VALUES (1843658119, 2);
-INSERT INTO bot.user_interests VALUES (1843658119, 11);
-INSERT INTO bot.user_interests VALUES (1843658119, 5);
-INSERT INTO bot.user_interests VALUES (6130981789, 15);
-INSERT INTO bot.user_interests VALUES (6130981789, 4);
-INSERT INTO bot.user_interests VALUES (6130981789, 14);
-INSERT INTO bot.user_interests VALUES (6130981789, 12);
-INSERT INTO bot.user_interests VALUES (6218720706, 7);
-INSERT INTO bot.user_interests VALUES (6218720706, 1);
-INSERT INTO bot.user_interests VALUES (6218720706, 14);
-INSERT INTO bot.user_interests VALUES (6218720706, 9);
-INSERT INTO bot.user_interests VALUES (7548615249, 12);
-INSERT INTO bot.user_interests VALUES (7548615249, 3);
-INSERT INTO bot.user_interests VALUES (7643634165, 1);
-INSERT INTO bot.user_interests VALUES (3361483993, 11);
-INSERT INTO bot.user_interests VALUES (3361483993, 13);
-INSERT INTO bot.user_interests VALUES (3361483993, 12);
-INSERT INTO bot.user_interests VALUES (4794747198, 2);
-INSERT INTO bot.user_interests VALUES (4794747198, 6);
-INSERT INTO bot.user_interests VALUES (2859213084, 7);
-INSERT INTO bot.user_interests VALUES (2859213084, 4);
-INSERT INTO bot.user_interests VALUES (9702328068, 5);
-INSERT INTO bot.user_interests VALUES (5195224308, 3);
-INSERT INTO bot.user_interests VALUES (5195224308, 6);
-INSERT INTO bot.user_interests VALUES (5195224308, 15);
-INSERT INTO bot.user_interests VALUES (5195224308, 9);
-INSERT INTO bot.user_interests VALUES (5696314914, 15);
-INSERT INTO bot.user_interests VALUES (5696314914, 13);
-INSERT INTO bot.user_interests VALUES (5696314914, 5);
-INSERT INTO bot.user_interests VALUES (9410127635, 11);
-INSERT INTO bot.user_interests VALUES (9410127635, 14);
-INSERT INTO bot.user_interests VALUES (9410127635, 13);
-INSERT INTO bot.user_interests VALUES (4154034685, 14);
-INSERT INTO bot.user_interests VALUES (4154034685, 2);
-INSERT INTO bot.user_interests VALUES (4154034685, 9);
-INSERT INTO bot.user_interests VALUES (4154034685, 12);
-INSERT INTO bot.user_interests VALUES (6990622671, 10);
-INSERT INTO bot.user_interests VALUES (6990622671, 3);
-INSERT INTO bot.user_interests VALUES (6990622671, 7);
-INSERT INTO bot.user_interests VALUES (6990622671, 13);
-INSERT INTO bot.user_interests VALUES (8555190308, 1);
-INSERT INTO bot.user_interests VALUES (8555190308, 14);
-INSERT INTO bot.user_interests VALUES (8555190308, 12);
-INSERT INTO bot.user_interests VALUES (8323575565, 1);
-INSERT INTO bot.user_interests VALUES (8323575565, 4);
-INSERT INTO bot.user_interests VALUES (2745214926, 8);
-INSERT INTO bot.user_interests VALUES (2745214926, 4);
-INSERT INTO bot.user_interests VALUES (2745214926, 1);
-INSERT INTO bot.user_interests VALUES (2745214926, 10);
-INSERT INTO bot.user_interests VALUES (8970159661, 14);
-INSERT INTO bot.user_interests VALUES (8970159661, 4);
-INSERT INTO bot.user_interests VALUES (8970159661, 1);
-INSERT INTO bot.user_interests VALUES (9656816665, 2);
-INSERT INTO bot.user_interests VALUES (9656816665, 7);
-INSERT INTO bot.user_interests VALUES (9656816665, 10);
-INSERT INTO bot.user_interests VALUES (9656816665, 11);
-INSERT INTO bot.user_interests VALUES (8331056257, 1);
-INSERT INTO bot.user_interests VALUES (8331056257, 14);
-INSERT INTO bot.user_interests VALUES (3700760756, 13);
-INSERT INTO bot.user_interests VALUES (3700760756, 9);
-INSERT INTO bot.user_interests VALUES (1828527530, 10);
-INSERT INTO bot.user_interests VALUES (1895428181, 3);
-INSERT INTO bot.user_interests VALUES (1895428181, 15);
-INSERT INTO bot.user_interests VALUES (1895428181, 1);
-INSERT INTO bot.user_interests VALUES (1895428181, 8);
-INSERT INTO bot.user_interests VALUES (7602148302, 10);
-INSERT INTO bot.user_interests VALUES (7602148302, 7);
-INSERT INTO bot.user_interests VALUES (9379169708, 15);
-INSERT INTO bot.user_interests VALUES (9379169708, 8);
-INSERT INTO bot.user_interests VALUES (2514907004, 6);
-INSERT INTO bot.user_interests VALUES (2514907004, 4);
-INSERT INTO bot.user_interests VALUES (7513250911, 7);
-INSERT INTO bot.user_interests VALUES (7513250911, 13);
-INSERT INTO bot.user_interests VALUES (9210034055, 1);
-INSERT INTO bot.user_interests VALUES (9210034055, 11);
-INSERT INTO bot.user_interests VALUES (9210034055, 10);
-INSERT INTO bot.user_interests VALUES (9210034055, 5);
-INSERT INTO bot.user_interests VALUES (7081764069, 1);
-INSERT INTO bot.user_interests VALUES (4713566775, 4);
-INSERT INTO bot.user_interests VALUES (7081764069, 3);
-INSERT INTO bot.user_interests VALUES (4713566775, 5);
-INSERT INTO bot.user_interests VALUES (7081764069, 6);
-INSERT INTO bot.user_interests VALUES (4713566775, 1);
-INSERT INTO bot.user_interests VALUES (7081764069, 4);
-INSERT INTO bot.user_interests VALUES (4513334618, 8);
-INSERT INTO bot.user_interests VALUES (8329621411, 11);
-INSERT INTO bot.user_interests VALUES (3924014737, 11);
-INSERT INTO bot.user_interests VALUES (3924014737, 2);
-INSERT INTO bot.user_interests VALUES (3924014737, 3);
-INSERT INTO bot.user_interests VALUES (3924014737, 14);
-INSERT INTO bot.user_interests VALUES (7272082869, 15);
-INSERT INTO bot.user_interests VALUES (7272082869, 7);
-INSERT INTO bot.user_interests VALUES (7272082869, 3);
-INSERT INTO bot.user_interests VALUES (7272082869, 14);
-INSERT INTO bot.user_interests VALUES (1432050401, 1);
-INSERT INTO bot.user_interests VALUES (1432050401, 10);
-INSERT INTO bot.user_interests VALUES (8545225471, 5);
-INSERT INTO bot.user_interests VALUES (8545225471, 1);
-INSERT INTO bot.user_interests VALUES (8545225471, 13);
-INSERT INTO bot.user_interests VALUES (8545225471, 14);
-INSERT INTO bot.user_interests VALUES (3388598633, 7);
-INSERT INTO bot.user_interests VALUES (3388598633, 14);
-INSERT INTO bot.user_interests VALUES (3388598633, 9);
-INSERT INTO bot.user_interests VALUES (3388598633, 5);
-INSERT INTO bot.user_interests VALUES (1825070840, 7);
-INSERT INTO bot.user_interests VALUES (1825070840, 10);
-INSERT INTO bot.user_interests VALUES (8247953527, 2);
-INSERT INTO bot.user_interests VALUES (8247953527, 6);
-INSERT INTO bot.user_interests VALUES (8247953527, 3);
-INSERT INTO bot.user_interests VALUES (8247953527, 9);
-INSERT INTO bot.user_interests VALUES (3245383218, 2);
-INSERT INTO bot.user_interests VALUES (8614952320, 11);
-INSERT INTO bot.user_interests VALUES (8614952320, 14);
-INSERT INTO bot.user_interests VALUES (8547234210, 9);
-INSERT INTO bot.user_interests VALUES (8547234210, 8);
-INSERT INTO bot.user_interests VALUES (8547234210, 15);
-INSERT INTO bot.user_interests VALUES (8547234210, 2);
-INSERT INTO bot.user_interests VALUES (6987983606, 4);
-INSERT INTO bot.user_interests VALUES (6987983606, 3);
-INSERT INTO bot.user_interests VALUES (7364021277, 7);
-INSERT INTO bot.user_interests VALUES (7364021277, 11);
-INSERT INTO bot.user_interests VALUES (7364021277, 2);
-INSERT INTO bot.user_interests VALUES (7364021277, 9);
-INSERT INTO bot.user_interests VALUES (7142855629, 14);
-INSERT INTO bot.user_interests VALUES (7142855629, 5);
-INSERT INTO bot.user_interests VALUES (7142855629, 13);
-INSERT INTO bot.user_interests VALUES (7142855629, 1);
-INSERT INTO bot.user_interests VALUES (3962404430, 12);
-INSERT INTO bot.user_interests VALUES (3962404430, 11);
-INSERT INTO bot.user_interests VALUES (6973894472, 13);
-INSERT INTO bot.user_interests VALUES (6973894472, 5);
-INSERT INTO bot.user_interests VALUES (6973894472, 8);
-INSERT INTO bot.user_interests VALUES (6973894472, 6);
-INSERT INTO bot.user_interests VALUES (4257632707, 12);
-INSERT INTO bot.user_interests VALUES (4333603369, 3);
-INSERT INTO bot.user_interests VALUES (4333603369, 6);
-INSERT INTO bot.user_interests VALUES (4333603369, 9);
-INSERT INTO bot.user_interests VALUES (4333603369, 7);
-INSERT INTO bot.user_interests VALUES (3737546135, 12);
-INSERT INTO bot.user_interests VALUES (3737546135, 2);
-INSERT INTO bot.user_interests VALUES (3737546135, 11);
-INSERT INTO bot.user_interests VALUES (3737546135, 14);
-INSERT INTO bot.user_interests VALUES (9883719404, 3);
-INSERT INTO bot.user_interests VALUES (9883719404, 12);
-INSERT INTO bot.user_interests VALUES (9883719404, 2);
-INSERT INTO bot.user_interests VALUES (4739840408, 4);
-INSERT INTO bot.user_interests VALUES (2560342950, 11);
-INSERT INTO bot.user_interests VALUES (2560342950, 3);
-INSERT INTO bot.user_interests VALUES (3011346768, 5);
-INSERT INTO bot.user_interests VALUES (3011346768, 4);
-INSERT INTO bot.user_interests VALUES (3011346768, 8);
-INSERT INTO bot.user_interests VALUES (3690240720, 1);
-INSERT INTO bot.user_interests VALUES (3690240720, 15);
-INSERT INTO bot.user_interests VALUES (3690240720, 2);
-INSERT INTO bot.user_interests VALUES (3690240720, 6);
-INSERT INTO bot.user_interests VALUES (3465353885, 11);
-INSERT INTO bot.user_interests VALUES (5271171186, 9);
-INSERT INTO bot.user_interests VALUES (5360516253, 14);
-INSERT INTO bot.user_interests VALUES (7703019876, 10);
-INSERT INTO bot.user_interests VALUES (7703019876, 4);
-INSERT INTO bot.user_interests VALUES (7582906195, 10);
-INSERT INTO bot.user_interests VALUES (7582906195, 7);
-INSERT INTO bot.user_interests VALUES (7582906195, 1);
-INSERT INTO bot.user_interests VALUES (1623203866, 8);
-INSERT INTO bot.user_interests VALUES (1623203866, 15);
-INSERT INTO bot.user_interests VALUES (1623203866, 12);
-INSERT INTO bot.user_interests VALUES (1623203866, 11);
-INSERT INTO bot.user_interests VALUES (8477952480, 12);
-INSERT INTO bot.user_interests VALUES (8477952480, 4);
-INSERT INTO bot.user_interests VALUES (8477952480, 9);
-INSERT INTO bot.user_interests VALUES (8477952480, 7);
-
-
---
--- PostgreSQL database dump complete
---
+INSERT INTO bot.user_interests VALUES
+    (1369549308, 7),
+    (1369549308, 15),
+    (1369549308, 8),
+    (1369549308, 12),
+    (4936774336, 3),
+    (4936774336, 6),
+    (4936774336, 5),
+    (2626802877, 3),
+    (7621332780, 8),
+    (9260406384, 2),
+    (9260406384, 8),
+    (9260406384, 5),
+    (9280371169, 9),
+    (9280371169, 7),
+    (7403234810, 7),
+    (7403234810, 4),
+    (3093948027, 9),
+    (3093948027, 15),
+    (7616235328, 10),
+    (7616235328, 14),
+    (4469036397, 3),
+    (4469036397, 2),
+    (8030907648, 7),
+    (8030907648, 14),
+    (8030907648, 6),
+    (8030907648, 15),
+    (5093472206, 14),
+    (5093472206, 2),
+    (5093472206, 3),
+    (3330024028, 9),
+    (3330024028, 15),
+    (2281765150, 15),
+    (2281765150, 13),
+    (2259132307, 2),
+    (1388985119, 9),
+    (1388985119, 10),
+    (1388985119, 11),
+    (1388985119, 14),
+    (1263007192, 3),
+    (1263007192, 7),
+    (9882932850, 3),
+    (9882932850, 8),
+    (9650408206, 4),
+    (5071181711, 14),
+    (5071181711, 4),
+    (5071181711, 7),
+    (5071181711, 3),
+    (4681786413, 5),
+    (4681786413, 12),
+    (4681786413, 14),
+    (4681786413, 3),
+    (7213524247, 6),
+    (7213524247, 15),
+    (7213524247, 7),
+    (7213524247, 1),
+    (6146960085, 6),
+    (7093590506, 10),
+    (7093590506, 3),
+    (7093590506, 4),
+    (7093590506, 7),
+    (6970910606, 9),
+    (6970910606, 12),
+    (6970910606, 13),
+    (6970910606, 6),
+    (2872558100, 3),
+    (8157897742, 12),
+    (8157897742, 6),
+    (2872558100, 11),
+    (2872558100, 10),
+    (2872558100, 9),
+    (3642398996, 8),
+    (4244621254, 14),
+    (4244621254, 3),
+    (4244621254, 15),
+    (8868098007, 3),
+    (8868098007, 14),
+    (8868098007, 9),
+    (8878519034, 13),
+    (8878519034, 12),
+    (8878519034, 8),
+    (6005716433, 15),
+    (6005716433, 7),
+    (4057876490, 14),
+    (4057876490, 12),
+    (4057876490, 11),
+    (4282737898, 2),
+    (4282737898, 3),
+    (4282737898, 7),
+    (2937336703, 13),
+    (5808668224, 12),
+    (2937336703, 10),
+    (2937336703, 9),
+    (7244130409, 10),
+    (7244130409, 2),
+    (3629238939, 8),
+    (8927291458, 1),
+    (8927291458, 8),
+    (5173575472, 11),
+    (5173575472, 10),
+    (5173575472, 13),
+    (4982563399, 7),
+    (4982563399, 9),
+    (2295092171, 3),
+    (2295092171, 6),
+    (2295092171, 7),
+    (6593689816, 14),
+    (6593689816, 11),
+    (9532182905, 11),
+    (9532182905, 2),
+    (9532182905, 14),
+    (9532182905, 13),
+    (1477294101, 4),
+    (1477294101, 6),
+    (1477294101, 11),
+    (1477294101, 9),
+    (8075513254, 1),
+    (9910196736, 4),
+    (9910196736, 1),
+    (8913954593, 3),
+    (2548124444, 4),
+    (2548124444, 10),
+    (2548124444, 3),
+    (6003153741, 14),
+    (6003153741, 1),
+    (2985998846, 15),
+    (7361679535, 2),
+    (7361679535, 9),
+    (1400481944, 6),
+    (1400481944, 1),
+    (1400481944, 10),
+    (4577335855, 3),
+    (4577335855, 6),
+    (4577335855, 9),
+    (9687721250, 4),
+    (9687721250, 14),
+    (9687721250, 15),
+    (5304060038, 15),
+    (5304060038, 7),
+    (5304060038, 11),
+    (5304060038, 12),
+    (4727686681, 14),
+    (4727686681, 7),
+    (4727686681, 4),
+    (4727686681, 11),
+    (7858182002, 14),
+    (7858182002, 2),
+    (7988522015, 8),
+    (7988522015, 2),
+    (6767106805, 2),
+    (6767106805, 6),
+    (6767106805, 1),
+    (2273970933, 1),
+    (2273970933, 3),
+    (2273970933, 2),
+    (2273970933, 8),
+    (5107453279, 11),
+    (5107453279, 5),
+    (5107453279, 3),
+    (8030079252, 1),
+    (8023297802, 10),
+    (8023297802, 5),
+    (8023297802, 4),
+    (8023297802, 8),
+    (1177752456, 13),
+    (1177752456, 5),
+    (1177752456, 11),
+    (1177752456, 14),
+    (1236493036, 2),
+    (1236493036, 5),
+    (1236493036, 7),
+    (8032151043, 10),
+    (8032151043, 14),
+    (8032151043, 2),
+    (8032151043, 7),
+    (5342461202, 7),
+    (6814441672, 1),
+    (6814441672, 11),
+    (7276991182, 12),
+    (7276991182, 2),
+    (7276991182, 8),
+    (7276991182, 13),
+    (3344261962, 7),
+    (4070108166, 11),
+    (8492091970, 13),
+    (1004313255, 10),
+    (1004313255, 14),
+    (1004313255, 9),
+    (1004313255, 11),
+    (4448066543, 9),
+    (4448066543, 11),
+    (4448066543, 13),
+    (4448066543, 12),
+    (9655681941, 4),
+    (9655681941, 11),
+    (9655681941, 8),
+    (9054199639, 15),
+    (9054199639, 9),
+    (5415284367, 9),
+    (5415284367, 15),
+    (9534896712, 15),
+    (9534896712, 5),
+    (6425881586, 11),
+    (6425881586, 9),
+    (6425881586, 1),
+    (6425881586, 10),
+    (4223072503, 14),
+    (4223072503, 4),
+    (4223072503, 3),
+    (4223072503, 6),
+    (1782397443, 15),
+    (1782397443, 10),
+    (9040599665, 1),
+    (5221322684, 11),
+    (5221322684, 7),
+    (1497153094, 12),
+    (6097182805, 10),
+    (6097182805, 13),
+    (6097182805, 1),
+    (2857685350, 11),
+    (2857685350, 1),
+    (2857685350, 4),
+    (2857685350, 14),
+    (6743327849, 9),
+    (6743327849, 2),
+    (6743327849, 3),
+    (1175327524, 13),
+    (1175327524, 1),
+    (1175327524, 7),
+    (1175327524, 4),
+    (7663221112, 8),
+    (7663221112, 3),
+    (7663221112, 5),
+    (7663221112, 10),
+    (5935547685, 9),
+    (5935547685, 13),
+    (5935547685, 5),
+    (8216480566, 6),
+    (8216480566, 14),
+    (8216480566, 2),
+    (8216480566, 3),
+    (5308091117, 14),
+    (5308091117, 4),
+    (6618115967, 8),
+    (6618115967, 2),
+    (6618115967, 15),
+    (6618115967, 13),
+    (6691107529, 8),
+    (4511131935, 7),
+    (4511131935, 8),
+    (4511131935, 4),
+    (4511131935, 10),
+    (8930022840, 14),
+    (1932907778, 8),
+    (4554219460, 2),
+    (5278117735, 13),
+    (1932907778, 3),
+    (8930022840, 13),
+    (5278117735, 2),
+    (8930022840, 6),
+    (8930022840, 12),
+    (7752680503, 13),
+    (2861189320, 8),
+    (4515015439, 1),
+    (4515015439, 7),
+    (2861189320, 14),
+    (2861189320, 13),
+    (4148890554, 13),
+    (4148890554, 5),
+    (4148890554, 11),
+    (6564276753, 12),
+    (7710109967, 14),
+    (7710109967, 6),
+    (7710109967, 12),
+    (1669360283, 13),
+    (1669360283, 12),
+    (1669360283, 7),
+    (1669360283, 1),
+    (1830190085, 14),
+    (1830190085, 7),
+    (5777512180, 2),
+    (8332318827, 5),
+    (8332318827, 15),
+    (5777512180, 6),
+    (8332318827, 9),
+    (5777512180, 4),
+    (8332318827, 1),
+    (5777512180, 5),
+    (6004185793, 1),
+    (6004185793, 7),
+    (2554872748, 10),
+    (2554872748, 6),
+    (2554872748, 11),
+    (2554872748, 1),
+    (5086175609, 15),
+    (6760410591, 7),
+    (6760410591, 13),
+    (3204006708, 8),
+    (3204006708, 3),
+    (3204006708, 12),
+    (1409110017, 9),
+    (4729296278, 4),
+    (5153593406, 9),
+    (9248891743, 8),
+    (4098427029, 15),
+    (4172865830, 5),
+    (4172865830, 9),
+    (4172865830, 2),
+    (4172865830, 3),
+    (2040739814, 2),
+    (2040739814, 1),
+    (2040739814, 6),
+    (5496405226, 7),
+    (5496405226, 6),
+    (5496405226, 3),
+    (5496405226, 11),
+    (5953512340, 3),
+    (5953512340, 4),
+    (5953512340, 15),
+    (5953512340, 2),
+    (7751921629, 6),
+    (6425435009, 12),
+    (7751921629, 5),
+    (6425435009, 7),
+    (7751921629, 14),
+    (6425435009, 3),
+    (7751921629, 15),
+    (6425435009, 14),
+    (6377893809, 4),
+    (6377893809, 1),
+    (6377893809, 7),
+    (6377893809, 10),
+    (9266690152, 1),
+    (7421501808, 14),
+    (7421501808, 13),
+    (8130181489, 2),
+    (9346990760, 1),
+    (9346990760, 14),
+    (9346990760, 11),
+    (4819471073, 7),
+    (3751014200, 9),
+    (9551111053, 5),
+    (9551111053, 4),
+    (1913673781, 13),
+    (1244541951, 11),
+    (2245713719, 3),
+    (2245713719, 14),
+    (7922936021, 3),
+    (2574636155, 2),
+    (2574636155, 1),
+    (3932003363, 7),
+    (3932003363, 1),
+    (3932003363, 8),
+    (2883588122, 12),
+    (2883588122, 14),
+    (2883588122, 3),
+    (6327598152, 9),
+    (6364389413, 1),
+    (6364389413, 15),
+    (6364389413, 4),
+    (6364389413, 7),
+    (6989582658, 4),
+    (6989582658, 14),
+    (6989582658, 8),
+    (6989582658, 6),
+    (8995425717, 11),
+    (5358903837, 10),
+    (5358903837, 9),
+    (5358903837, 2),
+    (5358903837, 8),
+    (9410015393, 4),
+    (9410015393, 11),
+    (9410015393, 1),
+    (6862598476, 11),
+    (6862598476, 8),
+    (6862598476, 2),
+    (7465729496, 15),
+    (7465729496, 6),
+    (7465729496, 8),
+    (8492481661, 10),
+    (8381569562, 4),
+    (8381569562, 5),
+    (8381569562, 3),
+    (8987455646, 1),
+    (8987455646, 8),
+    (5026916727, 9),
+    (5026916727, 4),
+    (5026916727, 6),
+    (2667475900, 4),
+    (2667475900, 2),
+    (5698476834, 14),
+    (5698476834, 5),
+    (5698476834, 10),
+    (3891494303, 10),
+    (3891494303, 4),
+    (3891494303, 1),
+    (5038500391, 12),
+    (3189345505, 8),
+    (3189345505, 15),
+    (3189345505, 4),
+    (3189345505, 12),
+    (7685505595, 5),
+    (7685505595, 4),
+    (9182802958, 15),
+    (9182802958, 1),
+    (9182802958, 14),
+    (9182802958, 9),
+    (6425234034, 13),
+    (6425234034, 2),
+    (6425234034, 11),
+    (4655361624, 5),
+    (4655361624, 2),
+    (4655361624, 10),
+    (4655361624, 4),
+    (7548992554, 15),
+    (7548992554, 5),
+    (1001152900, 12),
+    (1001152900, 6),
+    (1001152900, 10),
+    (1001152900, 2),
+    (5000892866, 5),
+    (7678612595, 15),
+    (7678612595, 6),
+    (7678612595, 9),
+    (6232323411, 8),
+    (6232323411, 1),
+    (6232323411, 10),
+    (7670539728, 8),
+    (7670539728, 3),
+    (3749676975, 2),
+    (3749676975, 4),
+    (3749676975, 10),
+    (6322212957, 14),
+    (6322212957, 4),
+    (6322212957, 5),
+    (3224495322, 11),
+    (3224495322, 6),
+    (8720199702, 13),
+    (8720199702, 1),
+    (8720199702, 11),
+    (8720199702, 15),
+    (6114210880, 10),
+    (6114210880, 14),
+    (6114210880, 1),
+    (6114210880, 4),
+    (1142489116, 2),
+    (1142489116, 10),
+    (1142489116, 7),
+    (1142489116, 14),
+    (7726470519, 14),
+    (9921254143, 3),
+    (9921254143, 15),
+    (9921254143, 8),
+    (9921254143, 12),
+    (8003667139, 11),
+    (3067278643, 14),
+    (3067278643, 5),
+    (3067278643, 10),
+    (3067278643, 11),
+    (1892655952, 10),
+    (1892655952, 13),
+    (1892655952, 12),
+    (1892655952, 6),
+    (7140348124, 13),
+    (7140348124, 8),
+    (7140348124, 11),
+    (7140348124, 4),
+    (8819976865, 7),
+    (8819976865, 8),
+    (8819976865, 9),
+    (2803645403, 11),
+    (9261339063, 5),
+    (9261339063, 1),
+    (9261339063, 13),
+    (9261339063, 15),
+    (3565985660, 8),
+    (3565985660, 12),
+    (3392717871, 13),
+    (8278550933, 8),
+    (8278550933, 15),
+    (8278550933, 10),
+    (5684399720, 6),
+    (5684399720, 8),
+    (5684399720, 15),
+    (3961899293, 8),
+    (7757391605, 15),
+    (7757391605, 6),
+    (7757391605, 3),
+    (2160476206, 2),
+    (2160476206, 7),
+    (2160476206, 14),
+    (2160476206, 3),
+    (3774610783, 9),
+    (3774610783, 2),
+    (3774610783, 12),
+    (4556594179, 11),
+    (1771370604, 3),
+    (4785677777, 1),
+    (4785677777, 9),
+    (2143139896, 8),
+    (2143139896, 14),
+    (2143139896, 10),
+    (4355760876, 3),
+    (4355760876, 10),
+    (4355760876, 9),
+    (4355760876, 12),
+    (8583197721, 14),
+    (8583197721, 13),
+    (8583197721, 5),
+    (8583197721, 6),
+    (1941290472, 7),
+    (1941290472, 8),
+    (1931748437, 1),
+    (1845822674, 4),
+    (2694852029, 4),
+    (2694852029, 1),
+    (2694852029, 3),
+    (9990331479, 12),
+    (9990331479, 14),
+    (9990331479, 2),
+    (9990331479, 11),
+    (8849718499, 13),
+    (4652611472, 14),
+    (8849718499, 1),
+    (4652611472, 13),
+    (4652611472, 6),
+    (4652611472, 12),
+    (2018184010, 8),
+    (2213403204, 14),
+    (2018184010, 13),
+    (2213403204, 1),
+    (2018184010, 5),
+    (2213403204, 3),
+    (2090218618, 12),
+    (6360695255, 7),
+    (6360695255, 10),
+    (2205929446, 15),
+    (8361175487, 13),
+    (8361175487, 15),
+    (8361175487, 9),
+    (8361175487, 5),
+    (1565790754, 5),
+    (1565790754, 11),
+    (1565790754, 12),
+    (1426718592, 8),
+    (2690816779, 5),
+    (2690816779, 12),
+    (2690816779, 1),
+    (2690816779, 4),
+    (3251097316, 7),
+    (7311119398, 3),
+    (7311119398, 15),
+    (7311119398, 9),
+    (7311119398, 4),
+    (5166486015, 10),
+    (5166486015, 11),
+    (5875733614, 10),
+    (1425114095, 7),
+    (1425114095, 5),
+    (5569669450, 7),
+    (5569669450, 3),
+    (5569669450, 5),
+    (5569669450, 1),
+    (6282305798, 5),
+    (7298568051, 4),
+    (7298568051, 9),
+    (7298568051, 15),
+    (7298568051, 13),
+    (7477420334, 6),
+    (7477420334, 11),
+    (7477420334, 7),
+    (7477420334, 2),
+    (2208428167, 2),
+    (2208428167, 15),
+    (2208428167, 9),
+    (2208428167, 10),
+    (6780546501, 7),
+    (6780546501, 2),
+    (6780546501, 8),
+    (6780546501, 15),
+    (6978243231, 14),
+    (7537212724, 4),
+    (7537212724, 3),
+    (7537212724, 13),
+    (9823319700, 8),
+    (9823319700, 6),
+    (9823319700, 1),
+    (9823319700, 9),
+    (6100737979, 4),
+    (6100737979, 10),
+    (6100737979, 2),
+    (7919662467, 11),
+    (7919662467, 8),
+    (6422162579, 9),
+    (6422162579, 2),
+    (5638808866, 2),
+    (5638808866, 6),
+    (4416097241, 11),
+    (4160774379, 3),
+    (4160774379, 2),
+    (4160774379, 9),
+    (4160774379, 1),
+    (9229008240, 13),
+    (9229008240, 3),
+    (9229008240, 12),
+    (9229008240, 10),
+    (3520743843, 4),
+    (3520743843, 11),
+    (5863662877, 5),
+    (1880428979, 12),
+    (1880428979, 14),
+    (1880428979, 5),
+    (1920938511, 11),
+    (1920938511, 5),
+    (1920938511, 1),
+    (1920938511, 2),
+    (8155460895, 7),
+    (8155460895, 14),
+    (8155460895, 6),
+    (8184386755, 14),
+    (8184386755, 8),
+    (4281720484, 1),
+    (4281720484, 4),
+    (2324977606, 15),
+    (2324977606, 5),
+    (2324977606, 8),
+    (2324977606, 13),
+    (3011468275, 15),
+    (3011468275, 1),
+    (5463053968, 1),
+    (5463053968, 9),
+    (5463053968, 14),
+    (8402041515, 12),
+    (8402041515, 15),
+    (8402041515, 3),
+    (8402041515, 14),
+    (7341265213, 14),
+    (7341265213, 2),
+    (7341265213, 1),
+    (9623126293, 7),
+    (9623126293, 8),
+    (9623126293, 1),
+    (6472177396, 2),
+    (6472177396, 9),
+    (6472177396, 12),
+    (9134050345, 13),
+    (1041295807, 2),
+    (1041295807, 1),
+    (1041295807, 4),
+    (1041295807, 7),
+    (5201761765, 12),
+    (5201761765, 1),
+    (4643972053, 6),
+    (4643972053, 1),
+    (3962391243, 13),
+    (3962391243, 9),
+    (3962391243, 4),
+    (9289462091, 8),
+    (9289462091, 2),
+    (9289462091, 15),
+    (9289462091, 12),
+    (3078429716, 8),
+    (3078429716, 13),
+    (3078429716, 5),
+    (3290416244, 6),
+    (7190767296, 8),
+    (5261512448, 8),
+    (2467705539, 14),
+    (7089184639, 4),
+    (7190767296, 11),
+    (7089184639, 15),
+    (7190767296, 13),
+    (7089184639, 10),
+    (7190767296, 9),
+    (7089184639, 8),
+    (6335864367, 2),
+    (6335864367, 8),
+    (5245364590, 6),
+    (5245364590, 9),
+    (5245364590, 8),
+    (5245364590, 10),
+    (3438579042, 1),
+    (3438579042, 15),
+    (7993326805, 13),
+    (7993326805, 9),
+    (7993326805, 14),
+    (7993326805, 15),
+    (3389182767, 13),
+    (5866961261, 3),
+    (5866961261, 4),
+    (3389182767, 2),
+    (5866961261, 5),
+    (3389182767, 5),
+    (5866961261, 7),
+    (3389182767, 7),
+    (9622945031, 4),
+    (9622945031, 7),
+    (9622945031, 8),
+    (9622945031, 5),
+    (9411983061, 3),
+    (2899691393, 7),
+    (2899691393, 12),
+    (3203550308, 7),
+    (3203550308, 8),
+    (3203550308, 13),
+    (3924921180, 6),
+    (3924921180, 4),
+    (3924921180, 10),
+    (2677955437, 15),
+    (2677955437, 6),
+    (2101210279, 11),
+    (2101210279, 8),
+    (6515755479, 11),
+    (6515755479, 4),
+    (6515755479, 6),
+    (6515755479, 5),
+    (4310732003, 13),
+    (4310732003, 4),
+    (4310732003, 1),
+    (4310732003, 11),
+    (4367500247, 2),
+    (4367500247, 8),
+    (2442892538, 5),
+    (2442892538, 15),
+    (2442892538, 1),
+    (2442892538, 11),
+    (1577072931, 10),
+    (1577072931, 13),
+    (2856196110, 5),
+    (2856196110, 12),
+    (2856196110, 13),
+    (2856196110, 2),
+    (4481150717, 2),
+    (4481150717, 11),
+    (4481150717, 15),
+    (4481150717, 13),
+    (1406164816, 8),
+    (1406164816, 15),
+    (1406164816, 14),
+    (1406164816, 4),
+    (3762693890, 6),
+    (2179433053, 12),
+    (2179433053, 5),
+    (2179433053, 2),
+    (1024914377, 5),
+    (1024914377, 2),
+    (1024914377, 9),
+    (1024914377, 8),
+    (1163347546, 12),
+    (1979897243, 7),
+    (9566663191, 6),
+    (9566663191, 4),
+    (9513541181, 11),
+    (9513541181, 4),
+    (9513541181, 8),
+    (9513541181, 12),
+    (7736682842, 2),
+    (9893229316, 3),
+    (9893229316, 4),
+    (9893229316, 12),
+    (9893229316, 5),
+    (6268059078, 9),
+    (6268059078, 6),
+    (6268059078, 15),
+    (8419819919, 7),
+    (8419819919, 9),
+    (8419819919, 2),
+    (8419819919, 15),
+    (9731828771, 15),
+    (9333329600, 3),
+    (8175043390, 3),
+    (8288900381, 6),
+    (8288900381, 15),
+    (1690715558, 4),
+    (1690715558, 2),
+    (1690715558, 7),
+    (8587704560, 4),
+    (8587704560, 1),
+    (2346399051, 1),
+    (2346399051, 14),
+    (2346399051, 11),
+    (2346399051, 8),
+    (9543154171, 5),
+    (9543154171, 9),
+    (9543154171, 3),
+    (9543154171, 1),
+    (7727985825, 2),
+    (7727985825, 5),
+    (7727985825, 8),
+    (8034889991, 11),
+    (8034889991, 5),
+    (8040842967, 1),
+    (8040842967, 12),
+    (8040842967, 5),
+    (1095866093, 6),
+    (1095866093, 15),
+    (1095866093, 7),
+    (2365971673, 8),
+    (2365971673, 5),
+    (2365971673, 2),
+    (9997038850, 2),
+    (9997038850, 4),
+    (8600668414, 15),
+    (8600668414, 4),
+    (8600668414, 3),
+    (2774028584, 4),
+    (5689503524, 15),
+    (5689503524, 2),
+    (7072165757, 12),
+    (7072165757, 13),
+    (7072165757, 7),
+    (7072165757, 6),
+    (4157792600, 8),
+    (8420335559, 2),
+    (8420335559, 6),
+    (8420335559, 1),
+    (3700990954, 11),
+    (2656372717, 8),
+    (2656372717, 10),
+    (6756597306, 2),
+    (7488808596, 3),
+    (7488808596, 12),
+    (4040985418, 13),
+    (4040985418, 10),
+    (4040985418, 5),
+    (4040985418, 7),
+    (2560108687, 10),
+    (2560108687, 5),
+    (6374515360, 1),
+    (5481616906, 12),
+    (5481616906, 11),
+    (5481616906, 10),
+    (5481616906, 2),
+    (1967274849, 15),
+    (1967274849, 14),
+    (4830781938, 15),
+    (7159857128, 7),
+    (4830781938, 11),
+    (4830781938, 2),
+    (3984944917, 14),
+    (3984944917, 9),
+    (3984944917, 2),
+    (3984944917, 13),
+    (7934305031, 6),
+    (8696478984, 4),
+    (8696478984, 6),
+    (8696478984, 9),
+    (2900527769, 14),
+    (2900527769, 7),
+    (2900527769, 4),
+    (2900527769, 13),
+    (8219489120, 4),
+    (4171012193, 14),
+    (8472022282, 13),
+    (8472022282, 4),
+    (8472022282, 12),
+    (9677806447, 1),
+    (9677806447, 12),
+    (9677806447, 6),
+    (9677806447, 15),
+    (4354625737, 3),
+    (4354625737, 8),
+    (4354625737, 6),
+    (4831199292, 4),
+    (4831199292, 6),
+    (4831199292, 7),
+    (4831199292, 14),
+    (7407012232, 14),
+    (7407012232, 13),
+    (7407012232, 15),
+    (7407012232, 8),
+    (2247989869, 3),
+    (2247989869, 15),
+    (3989840818, 5),
+    (3989840818, 7),
+    (7571916509, 5),
+    (7571916509, 8),
+    (7571916509, 7),
+    (7571916509, 3),
+    (7550854085, 2),
+    (1843658119, 8),
+    (1843658119, 2),
+    (1843658119, 11),
+    (1843658119, 5),
+    (6130981789, 15),
+    (6130981789, 4),
+    (6130981789, 14),
+    (6130981789, 12),
+    (6218720706, 7),
+    (6218720706, 1),
+    (6218720706, 14),
+    (6218720706, 9),
+    (7548615249, 12),
+    (7548615249, 3),
+    (7643634165, 1),
+    (3361483993, 11),
+    (3361483993, 13),
+    (3361483993, 12),
+    (4794747198, 2),
+    (4794747198, 6),
+    (2859213084, 7),
+    (2859213084, 4),
+    (9702328068, 5),
+    (5195224308, 3),
+    (5195224308, 6),
+    (5195224308, 15),
+    (5195224308, 9),
+    (5696314914, 15),
+    (5696314914, 13),
+    (5696314914, 5),
+    (9410127635, 11),
+    (9410127635, 14),
+    (9410127635, 13),
+    (4154034685, 14),
+    (4154034685, 2),
+    (4154034685, 9),
+    (4154034685, 12),
+    (6990622671, 10),
+    (6990622671, 3),
+    (6990622671, 7),
+    (6990622671, 13),
+    (8555190308, 1),
+    (8555190308, 14),
+    (8555190308, 12),
+    (8323575565, 1),
+    (8323575565, 4),
+    (2745214926, 8),
+    (2745214926, 4),
+    (2745214926, 1),
+    (2745214926, 10),
+    (8970159661, 14),
+    (8970159661, 4),
+    (8970159661, 1),
+    (9656816665, 2),
+    (9656816665, 7),
+    (9656816665, 10),
+    (9656816665, 11),
+    (8331056257, 1),
+    (8331056257, 14),
+    (3700760756, 13),
+    (3700760756, 9),
+    (1828527530, 10),
+    (1895428181, 3),
+    (1895428181, 15),
+    (1895428181, 1),
+    (1895428181, 8),
+    (7602148302, 10),
+    (7602148302, 7),
+    (9379169708, 15),
+    (9379169708, 8),
+    (2514907004, 6),
+    (2514907004, 4),
+    (7513250911, 7),
+    (7513250911, 13),
+    (9210034055, 1),
+    (9210034055, 11),
+    (9210034055, 10),
+    (9210034055, 5),
+    (7081764069, 1),
+    (4713566775, 4),
+    (7081764069, 3),
+    (4713566775, 5),
+    (7081764069, 6),
+    (4713566775, 1),
+    (7081764069, 4),
+    (4513334618, 8),
+    (8329621411, 11),
+    (3924014737, 11),
+    (3924014737, 2),
+    (3924014737, 3),
+    (3924014737, 14),
+    (7272082869, 15),
+    (7272082869, 7),
+    (7272082869, 3),
+    (7272082869, 14),
+    (1432050401, 1),
+    (1432050401, 10),
+    (8545225471, 5),
+    (8545225471, 1),
+    (8545225471, 13),
+    (8545225471, 14),
+    (3388598633, 7),
+    (3388598633, 14),
+    (3388598633, 9),
+    (3388598633, 5),
+    (1825070840, 7),
+    (1825070840, 10),
+    (8247953527, 2),
+    (8247953527, 6),
+    (8247953527, 3),
+    (8247953527, 9),
+    (3245383218, 2),
+    (8614952320, 11),
+    (8614952320, 14),
+    (8547234210, 9),
+    (8547234210, 8),
+    (8547234210, 15),
+    (8547234210, 2),
+    (6987983606, 4),
+    (6987983606, 3),
+    (7364021277, 7),
+    (7364021277, 11),
+    (7364021277, 2),
+    (7364021277, 9),
+    (7142855629, 14),
+    (7142855629, 5),
+    (7142855629, 13),
+    (7142855629, 1),
+    (3962404430, 12),
+    (3962404430, 11),
+    (6973894472, 13),
+    (6973894472, 5),
+    (6973894472, 8),
+    (6973894472, 6),
+    (4257632707, 12),
+    (4333603369, 3),
+    (4333603369, 6),
+    (4333603369, 9),
+    (4333603369, 7),
+    (3737546135, 12),
+    (3737546135, 2),
+    (3737546135, 11),
+    (3737546135, 14),
+    (9883719404, 3),
+    (9883719404, 12),
+    (9883719404, 2),
+    (4739840408, 4),
+    (2560342950, 11),
+    (2560342950, 3),
+    (3011346768, 5),
+    (3011346768, 4),
+    (3011346768, 8),
+    (3690240720, 1),
+    (3690240720, 15),
+    (3690240720, 2),
+    (3690240720, 6),
+    (3465353885, 11),
+    (5271171186, 9),
+    (5360516253, 14),
+    (7703019876, 10),
+    (7703019876, 4),
+    (7582906195, 10),
+    (7582906195, 7),
+    (7582906195, 1),
+    (1623203866, 8),
+    (1623203866, 15),
+    (1623203866, 12),
+    (1623203866, 11),
+    (8477952480, 12),
+    (8477952480, 4),
+    (8477952480, 9),
+    (8477952480, 7);
 
