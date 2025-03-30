@@ -1,7 +1,13 @@
 #!/bin/bash
 set -e
 
-export $(grep -v '^#' .env | xargs)
+if [ -f .env ]; then
+    export $(grep -v '^#' .env | xargs)
+else
+    echo "Файл .env не найден"
+    exit 1
+fi
+
 export PGPASSWORD=$DB_PASSWORD
 
 execute_sql() {
