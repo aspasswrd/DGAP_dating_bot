@@ -20,7 +20,7 @@ for TABLE in $TABLES; do
     echo "Экспорт таблицы: bot.$TABLE"
 
     psql -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME -c \
-        "\COPY (SELECT * FROM bot.$TABLE) TO 'csv/${TABLE}.csv' WITH (FORMAT CSV, HEADER, DELIMITER ',', ENCODING 'UTF8')"
+      "\COPY (SELECT * FROM bot.$TABLE) TO 'csv/${TABLE}.csv' WITH (FORMAT CSV, HEADER, DELIMITER ',', ENCODING 'UTF8')" >/dev/null
 done
 
 echo "Все таблицы из схемы bot экспортированы в папку csv/"
