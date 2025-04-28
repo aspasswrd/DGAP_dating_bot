@@ -1,4 +1,4 @@
-aiogram~=3.18.0
+aiogram~=3.20.0
 python-dotenv~=1.0.1
 asyncpg~=0.30.0
 faker~=36.1.1
