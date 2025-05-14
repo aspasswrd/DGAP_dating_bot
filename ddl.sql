@@ -57,16 +57,3 @@ CREATE TABLE IF NOT EXISTS bot.user_interests (
     interest_id INT NOT NULL REFERENCES bot.interests(interest_id) ON DELETE CASCADE,
     PRIMARY KEY (user_id, interest_id)
 );
-
-CREATE INDEX users_location_gix ON bot.users USING GIST (location);
-CREATE INDEX idx_preferences_user_id ON bot.preferences(user_id);
-CREATE INDEX idx_photos_user_id ON bot.photos(user_id);
-CREATE INDEX idx_match_user_ids ON bot.match(user_id_1, user_id_2);
-CREATE INDEX idx_done_match_user_id ON bot.done_match(user_id);
-CREATE INDEX idx_users_age_gender ON bot.users(age, is_male);
-CREATE INDEX idx_match_user1 ON bot.match(user_id_1);
-CREATE INDEX idx_match_user2 ON bot.match(user_id_2);
-CREATE INDEX idx_done_match_pairs ON bot.done_match(user_id, user_id_with);
-CREATE INDEX idx_interests_name ON bot.interests(name);
-CREATE INDEX idx_user_interests_interest_id ON bot.user_interests(interest_id);
-CREATE UNIQUE INDEX idx_photos_user_current ON bot.photos(user_id) WHERE valid_to IS NULL;

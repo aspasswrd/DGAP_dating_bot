@@ -18,6 +18,7 @@ execute_sql() {
 }
 
 execute_sql "ddl.sql"
+execute_sql "ddl_extensions.sql"
 execute_sql "dml/users_dml.sql"
 execute_sql "dml/interests_dml.sql"
 execute_sql "dml/user_interests_dml.sql"
