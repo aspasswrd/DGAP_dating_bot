@@ -2,7 +2,6 @@ import asyncio
 import matplotlib.pyplot as plt
 from src.config import get_db_connection
 
-
 async def fetch_age_data():
     conn = await get_db_connection()
     query = """

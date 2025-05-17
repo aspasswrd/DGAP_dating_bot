@@ -19,4 +19,5 @@ execute_sql() {
 
 execute_sql "ddl.sql"
 execute_sql "ddl_extensions.sql"
+execute_sql "dml/interests_dml.sql"
 execute_sql "dml/my_profile_dml.sql"

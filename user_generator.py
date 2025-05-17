@@ -35,7 +35,7 @@ async def get_random_user():
                         user['login']['username']
                     )
                 return None, None, None, None
-        except (aiohttp.ClientError, KeyError, json.JSONDecodeError) as e:
+        except (aiohttp.ClientError, KeyError) as e:
             print(f"Ошибка при запросе к randomuser.me: {e}")
             return None, None, None, None
 
@@ -158,7 +158,7 @@ async def main():
     all_user_ids = []
 
     # Генерация всех пользователей
-    for _ in range(200):
+    for _ in range(400):
         batch_ids = await generate_and_insert_users(2)
         all_user_ids.extend(batch_ids)
 
