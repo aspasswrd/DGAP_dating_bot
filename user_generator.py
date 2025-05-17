@@ -20,16 +20,23 @@ def generate_random_preferences():
 
 async def get_random_user():
     async with aiohttp.ClientSession() as session:
-        async with session.get('https://randomuser.me/api/') as response:
-            if response.status == 200:
-                data = await response.json()
-                user = data['results'][0]
-                return (
-                    user['name']['first'],
-                    user['picture']['large'],
-                    user['gender'] == "male",
-                    user['login']['username']
-                )
+        try:
+            async with session.get('https://randomuser.me/api/') as response:
+                if response.status == 200:
+                    data = await response.json()
+                    results = data.get('results', [])
+                    if not results:  # Проверка на пустой список
+                        return None, None, None, None
+                    user = results[0]
+                    return (
+                        user['name']['first'],
+                        user['picture']['large'],
+                        user['gender'].lower() == "male",  # Унификация проверки пола
+                        user['login']['username']
+                    )
+                return None, None, None, None
+        except (aiohttp.ClientError, KeyError, json.JSONDecodeError) as e:
+            print(f"Ошибка при запросе к randomuser.me: {e}")
             return None, None, None, None
 
 
@@ -48,18 +55,47 @@ async def insert_user_interests(conn, user_id, interest_ids):
 
 
 async def generate_matches(conn, user_ids):
-    for _ in range(len(user_ids) * 2):
-        user1, user2 = sorted(random.sample(user_ids, 2))
-        first_to_second = random.choice([True, False, None])
-        second_to_first = random.choice([True, False, None]) if first_to_second else None
+    # Получаем возраст всех пользователей одним запросом
+    user_ages = {}
+    query = 'SELECT user_id, age FROM bot.users WHERE user_id = ANY($1::bigint[])'
+    records = await conn.fetch(query, user_ids)
+    for record in records:
+        user_ages[record['user_id']] = record['age']
 
-        await conn.execute('''
-            INSERT INTO bot.match(user_id_1, user_id_2, first_to_second, second_to_first)
-            VALUES($1, $2, $3, $4)
-            ON CONFLICT (user_id_1, user_id_2) DO UPDATE
-            SET first_to_second = EXCLUDED.first_to_second,
-                second_to_first = EXCLUDED.second_to_first
-        ''', user1, user2, first_to_second, second_to_first)
+    # Гиперболическая зависимость вероятности лайка
+    def get_like_probability(age_diff):
+        return 1 / (1 + 0.1 * age_diff ** 1.5)
+
+    # Сортируем ID для гарантии порядка user1 < user2
+    sorted_ids = sorted(user_ids)
+
+    # Перебираем все уникальные пары (user1 < user2)
+    for i in range(len(sorted_ids)):
+        user1 = sorted_ids[i]
+        for j in range(i + 1, len(sorted_ids)):
+            user2 = sorted_ids[j]
+
+            # Получаем возрасты
+            age1 = user_ages.get(user1)
+            age2 = user_ages.get(user2)
+            if age1 is None or age2 is None:
+                continue
+
+            age_diff = abs(age1 - age2)
+            prob = get_like_probability(age_diff)
+
+            # Генерация лайков для обоих направлений
+            first_to_second = True if random.random() < prob else None
+            second_to_first = True if random.random() < prob else None
+
+            # Вставка/обновление записи
+            await conn.execute('''
+                INSERT INTO bot.match(user_id_1, user_id_2, first_to_second, second_to_first)
+                VALUES($1, $2, $3, $4)
+                ON CONFLICT (user_id_1, user_id_2) DO UPDATE
+                SET first_to_second = EXCLUDED.first_to_second,
+                    second_to_first = EXCLUDED.second_to_first
+            ''', user1, user2, first_to_second, second_to_first)
 
 
 # Генерация и вставка пользователя
@@ -105,27 +141,32 @@ async def generate_and_insert_user():
     return user_id
 
 
-# Пакетная генерация пользователей
+# Пакетная генерация пользователей (ИЗМЕНЕНО: убрана генерация мэтчей)
 async def generate_and_insert_users(n):
     user_ids = []
     tasks = [asyncio.create_task(generate_and_insert_user()) for _ in range(n)]
 
     for task in asyncio.as_completed(tasks):
         user_id = await task
-        if user_id: user_ids.append(user_id)
+        if user_id:
+            user_ids.append(user_id)
 
-    conn = await get_db_connection()
-    await generate_matches(conn, user_ids)
-    await conn.close()
+    return user_ids  # Возвращаем ID созданных пользователей
 
 
-# Основная функция
 async def main():
-    for i in range(50):
-        await generate_and_insert_users(4)
+    all_user_ids = []
 
+    # Генерация всех пользователей
+    for _ in range(200):
+        batch_ids = await generate_and_insert_users(2)
+        all_user_ids.extend(batch_ids)
+
+    # Генерация мэтчей для всех пользователей
     conn = await get_db_connection()
+    await generate_matches(conn, all_user_ids)
 
+    # Очистка и перенос мэтчей
     await conn.execute('''
         DELETE FROM bot.match
         WHERE first_to_second IS NULL AND second_to_first IS NULL;
