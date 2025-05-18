@@ -31,7 +31,7 @@ async def get_random_user():
                     return (
                         user['name']['first'],
                         user['picture']['large'],
-                        user['gender'].lower() == "male",  # Унификация проверки пола
+                        user['gender'].lower() == "male",
                         user['login']['username']
                     )
                 return None, None, None, None
@@ -55,40 +55,49 @@ async def insert_user_interests(conn, user_id, interest_ids):
 
 
 async def generate_matches(conn, user_ids):
-    # Получаем возраст всех пользователей одним запросом
-    user_ages = {}
-    query = 'SELECT user_id, age FROM bot.users WHERE user_id = ANY($1::bigint[])'
+    user_ids.append(701459202)
+
+    user_data = {}
+    query = '''
+        SELECT user_id, age, is_male 
+        FROM bot.users 
+        WHERE user_id = ANY($1::bigint[])
+    '''
     records = await conn.fetch(query, user_ids)
     for record in records:
-        user_ages[record['user_id']] = record['age']
+        user_data[record['user_id']] = {
+            'age': record['age'],
+            'is_male': record['is_male']
+        }
 
-    # Гиперболическая зависимость вероятности лайка
     def get_like_probability(age_diff):
         return 1 / (1 + 0.1 * age_diff ** 1.5)
 
-    # Сортируем ID для гарантии порядка user1 < user2
     sorted_ids = sorted(user_ids)
 
-    # Перебираем все уникальные пары (user1 < user2)
     for i in range(len(sorted_ids)):
         user1 = sorted_ids[i]
+        user1_data = user_data.get(user1)
+        if not user1_data:
+            continue
+
         for j in range(i + 1, len(sorted_ids)):
             user2 = sorted_ids[j]
-
-            # Получаем возрасты
-            age1 = user_ages.get(user1)
-            age2 = user_ages.get(user2)
-            if age1 is None or age2 is None:
+            user2_data = user_data.get(user2)
+            if not user2_data:
                 continue
 
-            age_diff = abs(age1 - age2)
+            # Проверяем противоположность полов
+            if user1_data['is_male'] == user2_data['is_male']:
+                continue  # Пропускаем пары одного пола
+
+            age_diff = abs(user1_data['age'] - user2_data['age'])
             prob = get_like_probability(age_diff)
 
-            # Генерация лайков для обоих направлений
+            # Генерация лайков только если пол противоположный
             first_to_second = True if random.random() < prob else None
             second_to_first = True if random.random() < prob else None
 
-            # Вставка/обновление записи
             await conn.execute('''
                 INSERT INTO bot.match(user_id_1, user_id_2, first_to_second, second_to_first)
                 VALUES($1, $2, $3, $4)
@@ -98,7 +107,6 @@ async def generate_matches(conn, user_ids):
             ''', user1, user2, first_to_second, second_to_first)
 
 
-# Генерация и вставка пользователя
 async def generate_and_insert_user():
     conn = await get_db_connection()
     user_id = random.randint(1000000000, 9999999999)
@@ -111,20 +119,17 @@ async def generate_and_insert_user():
     age = generate_random_age()
     location = generate_random_location()
 
-    # Вставка основных данных
     await conn.execute('''
         INSERT INTO bot.users(user_id, username, name, is_male, age, location)
         VALUES($1, $2, $3, $4, $5, ST_GeogFromText($6))
     ''', user_id, username, name, is_male, age, location)
 
-    # Вставка предпочтений
     min_age, max_age, sr = generate_random_preferences()
     await conn.execute('''
         INSERT INTO bot.preferences(user_id, min_age, max_age, search_radius)
         VALUES($1, $2, $3, $4)
     ''', user_id, min_age, max_age, sr)
 
-    # Вставка фото
     await conn.execute('''
         INSERT INTO bot.photos(user_id, photo)
         VALUES($1, $2)
@@ -141,7 +146,6 @@ async def generate_and_insert_user():
     return user_id
 
 
-# Пакетная генерация пользователей (ИЗМЕНЕНО: убрана генерация мэтчей)
 async def generate_and_insert_users(n):
     user_ids = []
     tasks = [asyncio.create_task(generate_and_insert_user()) for _ in range(n)]
@@ -151,22 +155,20 @@ async def generate_and_insert_users(n):
         if user_id:
             user_ids.append(user_id)
 
-    return user_ids  # Возвращаем ID созданных пользователей
+    return user_ids
 
 
 async def main():
     all_user_ids = []
 
     # Генерация всех пользователей
-    for _ in range(400):
+    for _ in range(200):
         batch_ids = await generate_and_insert_users(2)
         all_user_ids.extend(batch_ids)
 
-    # Генерация мэтчей для всех пользователей
     conn = await get_db_connection()
     await generate_matches(conn, all_user_ids)
 
-    # Очистка и перенос мэтчей
     await conn.execute('''
         DELETE FROM bot.match
         WHERE first_to_second IS NULL AND second_to_first IS NULL;
