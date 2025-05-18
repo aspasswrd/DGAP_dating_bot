@@ -144,12 +144,11 @@ LANGUAGE plpgsql
 AS $$
 BEGIN
     IF NEW.min_age > NEW.max_age THEN
-        RAISE EXCEPTION 'Минимальный возраст не может быть больше максимального';
+        NEW.min_age = NEW.max_age;
     END IF;
     RETURN NEW;
 END;
 $$;
-
 
 CREATE TRIGGER trg_check_preferences_age
 BEFORE INSERT OR UPDATE ON bot.preferences
