@@ -25,7 +25,7 @@ async def get_random_user():
                 if response.status == 200:
                     data = await response.json()
                     results = data.get('results', [])
-                    if not results:  # Проверка на пустой список
+                    if not results:
                         return None, None, None, None
                     user = results[0]
                     return (
@@ -87,14 +87,12 @@ async def generate_matches(conn, user_ids):
             if not user2_data:
                 continue
 
-            # Проверяем противоположность полов
             if user1_data['is_male'] == user2_data['is_male']:
                 continue  # Пропускаем пары одного пола
 
             age_diff = abs(user1_data['age'] - user2_data['age'])
             prob = get_like_probability(age_diff)
 
-            # Генерация лайков только если пол противоположный
             first_to_second = True if random.random() < prob else None
             second_to_first = True if random.random() < prob else None
 
@@ -135,7 +133,6 @@ async def generate_and_insert_user():
         VALUES($1, $2)
     ''', user_id, photo_url)
 
-    # Добавление интересов
     interests = await get_existing_interests(conn)
     if interests:
         selected = random.sample(interests, k=random.randint(1, 4))
@@ -161,7 +158,6 @@ async def generate_and_insert_users(n):
 async def main():
     all_user_ids = []
 
-    # Генерация всех пользователей
     for _ in range(200):
         batch_ids = await generate_and_insert_users(2)
         all_user_ids.extend(batch_ids)
